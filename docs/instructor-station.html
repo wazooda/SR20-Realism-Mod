@@ -1,0 +1,1666 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instructor Station - SR20 Realism Mod manual</title>
+<meta name="description" content="Instructor Station: user manual of the SR20 Realism Mod for Microsoft Flight Simulator 2024.">
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
+<nav class="side"><p class="brand">SR20 Realism Mod</p><p class="ver">User manual, version 1.0.0</p>
+<input id="q" type="search" placeholder="Filter sections..." aria-label="Filter sections">
+<ul><li class="page"><a href="index.html">SR20 Realism Mod: user manual</a><ul class="secs"><li><a href="index.html#how-to-use-this-manual">How to use this manual</a></li><li><a href="index.html#what-you-need">What you need</a></li><li><a href="index.html#the-two-parts-of-the-mod">The two parts of the mod</a></li><li><a href="index.html#quick-start">Quick start</a></li><li><a href="index.html#where-things-are">Where things are</a></li><li><a href="index.html#what-this-mod-is-not">What this mod is not</a></li><li><a href="index.html#credits-and-licence">Credits and licence</a></li></ul></li><li class="page"><a href="install.html">Installing and first flight</a><ul class="secs"><li><a href="install.html#requirements">Requirements</a></li><li><a href="install.html#the-two-downloads">The two downloads</a></li><li><a href="install.html#installing-with-the-installer">Installing with the installer</a></li><li><a href="install.html#installing-by-hand">Installing by hand</a></li><li><a href="install.html#finding-the-aircraft-in-the-sim">Finding the aircraft in the sim</a></li><li><a href="install.html#first-flight-check-list">First flight check list</a></li><li><a href="install.html#upgrading">Upgrading</a></li><li><a href="install.html#uninstalling">Uninstalling</a></li><li><a href="install.html#where-things-are-installed">Where things are installed</a></li><li><a href="install.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="aircraft-systems.html">Aircraft and systems</a><ul class="secs"><li><a href="aircraft-systems.html#flight-model-and-performance">Flight model and performance</a></li><li><a href="aircraft-systems.html#engine">Engine</a></li><li><a href="aircraft-systems.html#fuel">Fuel</a></li><li><a href="aircraft-systems.html#engine-and-system-displays">Engine and system displays</a></li><li><a href="aircraft-systems.html#cas-alerts-and-messages">CAS alerts and messages</a></li><li><a href="aircraft-systems.html#electrical-system">Electrical system</a></li><li><a href="aircraft-systems.html#circuit-breaker-panel">Circuit breaker panel</a></li><li><a href="aircraft-systems.html#equipment-removed-versus-the-sr22t">Equipment removed versus the SR22T</a></li><li><a href="aircraft-systems.html#checklists">Checklists</a></li><li><a href="aircraft-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="safety-systems.html">Terrain, surface and protection systems</a><ul class="secs"><li><a href="safety-systems.html#taws-b-terrain-and-obstacle-alerting">TAWS-B terrain and obstacle alerting</a></li><li><a href="safety-systems.html#obstacles">Obstacles</a></li><li><a href="safety-systems.html#surfacewatch">SurfaceWatch</a></li><li><a href="safety-systems.html#safetaxi-airport-maps">SafeTaxi airport maps</a></li><li><a href="safety-systems.html#glide-range-ring-and-fuel-range-ring">Glide range ring and fuel range ring</a></li><li><a href="safety-systems.html#electronic-stability-and-protection-esp">Electronic Stability and Protection (ESP)</a></li><li><a href="safety-systems.html#gfc-700-speed-protection">GFC 700 speed protection</a></li><li><a href="safety-systems.html#voice-alerts">Voice alerts</a></li><li><a href="safety-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="autopilot-fms.html">Autopilot, flight plan and connected devices</a><ul class="secs"><li><a href="autopilot-fms.html#autopilot-and-g1000-behaviour">Autopilot and G1000 behaviour</a></li><li><a href="autopilot-fms.html#autopilot-disconnect">Autopilot disconnect</a></li><li><a href="autopilot-fms.html#navigraph-charts">Navigraph charts</a></li><li><a href="autopilot-fms.html#ipad-and-foreflight-link">iPad and ForeFlight link</a></li><li><a href="autopilot-fms.html#realsimgear-cirrus-yoke-force-feel">RealSimGear Cirrus yoke force feel</a></li><li><a href="autopilot-fms.html#quick-reference">Quick reference</a></li></ul></li><li class="page cur"><a href="instructor-station.html">Instructor Station</a><ul class="secs"><li><a href="instructor-station.html#opening-the-panel">Opening the panel</a></li><li><a href="instructor-station.html#failures-tab">FAILURES tab</a></li><li><a href="instructor-station.html#approach-tab">APPROACH tab</a></li><li><a href="instructor-station.html#debrief-tab">DEBRIEF tab</a></li><li><a href="instructor-station.html#scores-tab">SCORES tab</a></li><li><a href="instructor-station.html#worked-example">Worked example</a></li><li><a href="instructor-station.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="companion-troubleshooting.html">The SR20 Companion and troubleshooting</a><ul class="secs"><li><a href="companion-troubleshooting.html#what-the-companion-is">What the Companion is</a></li><li><a href="companion-troubleshooting.html#the-tray-icon-needs-the-companion">The tray icon (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#start-with-windows-needs-the-companion">Start with Windows (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#what-the-companion-does-on-your-pc-and-network-needs-the-companion">What the Companion does on your PC and network (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#troubleshooting">Troubleshooting</a></li><li><a href="companion-troubleshooting.html#known-limitations">Known limitations</a></li><li><a href="companion-troubleshooting.html#quick-reference">Quick reference</a></li></ul></li></ul></nav>
+<main><h1>Instructor Station</h1>
+<p>The Instructor Station is the mod's training tool. It is a panel in the sim's toolbar that does the job of a flight instructor in the right seat: it fails things, puts you on an approach in the weather you ask for, and scores what you did afterwards. It has four tabs: <strong>FAILURES</strong>, <strong>APPROACH</strong>, <strong>DEBRIEF</strong> and <strong>SCORES</strong>.</p>
+<p>You can use the two sides together: arm a failure on the FAILURES tab, set up an approach on the APPROACH tab, press <strong>FLY</strong>, and the failure waits for its moment during the run.</p>
+<h2 id="opening-the-panel">Opening the panel</h2>
+<p><strong>Where to find it.</strong> With the SR20 loaded, move the mouse to the top of the screen to show the sim's toolbar and click the icon titled <strong>Instructor Station</strong>. The panel opens as a normal toolbar window: drag it, resize it or pop it out like any other. The face scales to the window, so it stays readable when small.</p>
+<p><strong>What you see.</strong> The panel looks like a small Garmin screen in a bezel.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Part</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header, left</td>
+<td>The title <strong>INSTRUCTOR</strong></td>
+</tr>
+<tr>
+<td>Header chip</td>
+<td><strong>ON GROUND</strong> or <strong>IN FLIGHT</strong></td>
+</tr>
+<tr>
+<td>Header chip (only when something is wrong)</td>
+<td><strong>NO PFD</strong> when the aircraft's PFD is not answering at all, <strong>PFD</strong> when only one of the two sides (failures, approach) is answering. Hidden when all is well</td>
+</tr>
+<tr>
+<td>Header, right</td>
+<td><strong>X</strong> closes the panel</td>
+</tr>
+<tr>
+<td>Softkey bar</td>
+<td><strong>FAILURES</strong>, <strong>APPROACH</strong>, <strong>DEBRIEF</strong>, <strong>SCORES</strong>. The panel reopens on the tab you used last</td>
+</tr>
+<tr>
+<td>Dot on <strong>FAILURES</strong></td>
+<td>Red: a failure is active. Amber: a failure is armed</td>
+</tr>
+<tr>
+<td>Dot on <strong>APPROACH</strong></td>
+<td>Green: an approach is READY. Amber: a run is being flown. Red: the last setup stopped with an error</td>
+</tr>
+<tr>
+<td>Footer line <strong>FAIL</strong></td>
+<td>The failure side at a glance (see below)</td>
+</tr>
+<tr>
+<td>Footer line <strong>APPR</strong></td>
+<td>The approach side at a glance (see below)</td>
+</tr>
+<tr>
+<td>Footer message line</td>
+<td>Short confirmations and errors, shown for 5 seconds</td>
+</tr>
+</tbody>
+</table></div>
+<p>The two footer lines are on every tab, so you always see both sides.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th><strong>FAIL</strong> line</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Nothing armed, nothing failed</code></td>
+<td>Idle</td>
+</tr>
+<tr>
+<td><code>&lt;what&gt;, &lt;when&gt; - ARMED</code> (amber)</td>
+<td>One failure is waiting for its trigger. A hidden one reads <code>Hidden failure - ARMED</code></td>
+</tr>
+<tr>
+<td><code>&lt;names&gt; - ACTIVE</code> (red)</td>
+<td>These failures are in effect now. Hidden ones read <code>Hidden failure - ACTIVE</code> or <code>2 hidden failures - ACTIVE</code></td>
+</tr>
+<tr>
+<td><code>PFD not answering</code> (red)</td>
+<td>The failure side of the aircraft is not running</td>
+</tr>
+</tbody>
+</table></div>
+<div class="tw"><table>
+<thead>
+<tr>
+<th><strong>APPR</strong> line</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>No approach set up</code></td>
+<td>Idle</td>
+</tr>
+<tr>
+<td><code>Working...</code></td>
+<td>The aircraft is answering a request (reading an airport, for example)</td>
+</tr>
+<tr>
+<td><code>Setting up &lt;approach&gt;: &lt;step&gt;</code></td>
+<td>A setup is running</td>
+</tr>
+<tr>
+<td><code>&lt;approach&gt; READY - PAUSED</code> (green)</td>
+<td>Positioned and paused, waiting for <strong>FLY</strong></td>
+</tr>
+<tr>
+<td><code>&lt;approach&gt;: flying in 3</code> (green)</td>
+<td>The <strong>FLY</strong> countdown</td>
+</tr>
+<tr>
+<td><code>&lt;approach&gt;: resuming</code> (green)</td>
+<td>The sim is being unpaused</td>
+</tr>
+<tr>
+<td><code>Flying &lt;approach&gt;</code> (amber)</td>
+<td>The run is on</td>
+</tr>
+<tr>
+<td><code>Setup refused: &lt;reason&gt;</code> or <code>Setup incomplete: &lt;reason&gt;</code> (red)</td>
+<td>The setup stopped. See <a href="#error-messages">Error messages</a></td>
+</tr>
+<tr>
+<td><code>PFD not answering</code> (red)</td>
+<td>The approach side of the aircraft is not running</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Messages in the footer you may see on any tab</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>What it means, what to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PFD not answering: is the SR20 loaded and powered?</code></td>
+<td>The panel talks to the PFD. Load the SR20 and power the avionics so the PFD is running</td>
+</tr>
+<tr>
+<td><code>Sending...</code></td>
+<td>A command is on its way to the PFD</td>
+</tr>
+<tr>
+<td><code>The PFD is busy</code></td>
+<td>The PFD did not become free within 4 seconds. Wait for the current action to end and try again</td>
+</tr>
+<tr>
+<td><code>The PFD did not take the command</code></td>
+<td>No answer within 3 seconds. Check that the PFD is on, then try again</td>
+</tr>
+<tr>
+<td><code>Noted</code>, <code>Revealed</code>, <code>Disarmed</code>, <code>Cancelled</code>, <code>Everything repaired</code>, <code>&lt;name&gt;: failed</code>, <code>&lt;name&gt;: armed</code>, <code>&lt;name&gt;: repaired</code>, <code>Live weather</code>, <code>Weather &lt;description&gt;</code></td>
+<td>Confirmations of what you just pressed</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Differences from the real aircraft / limits.</strong> There is no such panel in a real SR20. Everything it does runs inside the aircraft's PFD, so the PFD must be powered. A mid-flight restart of the flight clears armed and active failures.</p>
+<h2 id="failures-tab">FAILURES tab</h2>
+<p><strong>What it does.</strong> It fails aircraft systems for you: at once, in a chosen phase of flight, or at a time you do not know. A failure can be one you picked (practice) or one the panel keeps secret (hidden). Only one failure can be armed at a time. Arming another replaces it. Several failures can be active at the same time.</p>
+<h3 id="words-used-on-this-tab">Words used on this tab</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>State</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Armed</td>
+<td>The failure is chosen and waiting for its trigger (a phase of flight or a time). Nothing has failed yet</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>The failure has fired and is in effect</td>
+</tr>
+<tr>
+<td>Hidden</td>
+<td>The panel does not name the failure, armed or active, until you press <strong>REVEAL</strong> or the run ends</td>
+</tr>
+<tr>
+<td>Repaired</td>
+<td>The instructor (you, on the panel) removed the failure. This is not a pilot action and it ends any scoring of that failure</td>
+</tr>
+<tr>
+<td>Fixed</td>
+<td>The pilot's checklist action cured the failure</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="status-rows-top-of-the-tab">Status rows (top of the tab)</h3>
+<p>These rows appear only when there is something to show.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Row</th>
+<th>Controls</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ARMED</strong> <code>&lt;failure&gt;, &lt;when&gt;</code></td>
+<td><strong>DISARM</strong> cancels the armed failure. <strong>REVEAL</strong> (only for a hidden failure) makes the panel name it</td>
+</tr>
+<tr>
+<td><strong>ACTIVE</strong> <code>&lt;failure&gt;</code> (one row per failure, up to four, then <code>and n more</code>)</td>
+<td><strong>REPAIR</strong> removes that failure</td>
+</tr>
+<tr>
+<td>(below the active rows)</td>
+<td><strong>REPAIR ALL</strong> removes every active failure</td>
+</tr>
+</tbody>
+</table></div>
+<p>An armed "In the air" failure shows its clock: <code>ALT 1 failure, in the air (clock starts after 1 min above 1000 ft AGL)</code>, then <code>(1.5 of 6.2 min)</code>. A hidden failure never shows its clock: the row just reads <code>Hidden failure</code>.</p>
+<p>When a hidden failure is active, the <strong>ACTIVE</strong> row reads <code>Hidden failure</code> and has no <strong>REPAIR</strong> button of its own. Use <strong>REPAIR ALL</strong>, or <strong>REVEAL</strong> first.</p>
+<h3 id="practice-section">PRACTICE section</h3>
+<p>Open <strong>PRACTICE</strong> to pick a failure yourself. It has three choices, a summary sentence and one button.</p>
+<p><strong>WHAT.</strong> Six category chips, then the failures of that category:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Chip</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Electrical</strong></td>
+<td>Alternators, bus feeds, fuel pump, flap motor, pitot heat, landing light</td>
+</tr>
+<tr>
+<td><strong>Avionics</strong></td>
+<td>AHRS and air data, displays, GIA units, COM 1, transponder, audio panel, autopilot servos</td>
+</tr>
+<tr>
+<td><strong>Breakers</strong></td>
+<td>Nine breakers that trip</td>
+</tr>
+<tr>
+<td><strong>Engine</strong></td>
+<td>One item, <strong>Engine failure</strong>. The WHEN choice decides which engine scenario you get</td>
+</tr>
+<tr>
+<td><strong>Run-up</strong></td>
+<td>Two items you should catch at the run-up or the takeoff power check</td>
+</tr>
+<tr>
+<td><strong>Random</strong></td>
+<td>The panel draws one failure from a group and hides it: <strong>Any (no engine)</strong>, <strong>Any, engine too</strong>, <strong>Electrical</strong>, <strong>Avionics</strong>, <strong>Breakers</strong>, <strong>Run-up</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>A failure that is already active is shown in red in the list.</p>
+<p><strong>WHEN.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Chip</th>
+<th>The failure fires</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Now</strong></td>
+<td>At once</td>
+</tr>
+<tr>
+<td><strong>In the air</strong></td>
+<td>At a random time 2 to 10 minutes after the aircraft has been above 1,000 ft AGL for 1 minute. Only time above 1,000 ft AGL counts. Paused time does not count</td>
+</tr>
+<tr>
+<td><strong>Takeoff roll</strong></td>
+<td>On the ground at full throttle, at a random speed between 30 and 55 KIAS</td>
+</tr>
+<tr>
+<td><strong>After takeoff</strong></td>
+<td>Climbing through a random height between 100 and 800 ft AGL</td>
+</tr>
+<tr>
+<td><strong>In the climb</strong></td>
+<td>Climbing through a random height between 1,000 and 3,000 ft AGL</td>
+</tr>
+<tr>
+<td><strong>On approach</strong></td>
+<td>Descending (more than 300 ft/min) through a random height between 500 and 1,500 ft AGL. The aircraft must first have been at least 500 ft above that height after the failure was armed</td>
+</tr>
+</tbody>
+</table></div>
+<p>Chips that do not apply to your choice are dimmed. Run-up items can only be failed <strong>Now</strong>; the sentence then reads <code>&lt;name&gt;: "Now" only (it shows at the run-up).</code> and the button reads <strong>PICK "NOW"</strong>.</p>
+<p>With <strong>Engine failure</strong>, the WHEN choice picks the scenario: <strong>Now</strong>, <strong>In the air</strong> and <strong>On approach</strong> give "Engine failure in flight", <strong>Takeoff roll</strong> gives "Engine failure on the takeoff roll", <strong>After takeoff</strong> gives "Engine failure after takeoff, low altitude", and <strong>In the climb</strong> gives "Engine failure in the climb".</p>
+<p><strong>CHECKLIST.</strong> What the POH checklist action will do. See <a href="#remedies-what-the-checklist-does">Remedies</a>. The chips are dimmed for a failure that has no checklist fix.</p>
+<p><strong>The summary sentence and the button.</strong> The sentence says in plain words what will happen, for example <code>ALT 1 failure, descending through 500-1500 ft AGL. Checklist (ALT 1 switch cycled): the checklist may fix it, fix it for a while, or not.</code> The button below it says what it will do:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Button</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PICK A FAILURE</strong> (greyed)</td>
+<td>Nothing chosen yet</td>
+</tr>
+<tr>
+<td><strong>FAIL IT NOW</strong></td>
+<td>WHEN is <strong>Now</strong></td>
+</tr>
+<tr>
+<td><strong>ARM: <code>&lt;FAILURE NAME&gt;</code></strong></td>
+<td>Any other WHEN, nothing armed</td>
+</tr>
+<tr>
+<td><strong>REPLACE THE ARMED FAILURE</strong></td>
+<td>Any other WHEN, and a failure is already armed</td>
+</tr>
+<tr>
+<td><strong>FAIL A RANDOM ONE NOW</strong> / <strong>ARM A RANDOM FAILURE</strong></td>
+<td>A Random choice</td>
+</tr>
+<tr>
+<td><strong>TAP AGAIN: THE ENGINE STOPS</strong> (amber)</td>
+<td>You asked for an engine failure <strong>Now</strong> while on the ground. Press again within 4 seconds to confirm</td>
+</tr>
+<tr>
+<td><strong>TAP AGAIN: IT MAY STOP THE ENGINE</strong> (amber)</td>
+<td>The same, for a Random draw that could be the engine</td>
+</tr>
+</tbody>
+</table></div>
+<p>After a <strong>Random</strong> choice the panel says <code>One hidden failure armed. Fly the airplane.</code> or <code>Random failure: failed. Fly the airplane.</code> and the tab switches to the hidden-run view described below. A Random draw is scored as a surprise.</p>
+<h3 id="surprise-me-section">SURPRISE ME section</h3>
+<p><strong>What it does.</strong> The panel picks one failure at random from the categories you tick, and does not say what or when.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FROM</strong> tick boxes</td>
+<td><strong>Electrical</strong>, <strong>Avionics</strong>, <strong>Breakers</strong>, <strong>Engine in flight</strong>, <strong>Engine, also takeoff / climb</strong>, <strong>Run-up (fires at once)</strong>. The first three are ticked the first time</td>
+</tr>
+<tr>
+<td><strong>WHEN, MINUTES IN THE AIR</strong>: <strong>Not before</strong>, <strong>Not after</strong></td>
+<td>The time window, 5 to 30 minutes at first. Steps of 1 minute up to 10, then 5 minutes, from 1 to 120</td>
+</tr>
+<tr>
+<td><strong>CHECKLIST</strong></td>
+<td><strong>Random</strong>, <strong>Fixes it</strong>, <strong>For a while</strong>, <strong>Won't fix</strong></td>
+</tr>
+<tr>
+<td><strong>START HIDDEN FAILURE</strong></td>
+<td>Arms it. Reads <strong>TICK AT LEAST ONE</strong> when nothing is ticked</td>
+</tr>
+</tbody>
+</table></div>
+<p>The window counts the same way as "In the air": minutes of flight above 1,000 ft AGL, starting 1 minute after you climb through it. If the draw is a takeoff, climb or run-up item, it fires in its own phase instead (a run-up item fires at once).</p>
+<p>Two failures are never drawn as a surprise or by Random, because nothing in the cockpit announces them: <strong>ESS BUS 1 feed failure</strong> and <strong>Fuel pump inoperative</strong>. You can still pick them in PRACTICE.</p>
+<p>Your ticks, the window and the checklist choice are remembered for the next session.</p>
+<h3 id="during-a-hidden-run">During a hidden run</h3>
+<p>While a hidden failure is armed or active, the PRACTICE and SURPRISE ME sections are replaced by a red box: <code>A hidden failure is in play. Say it when you see it:</code></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I HAVE A FAILURE</strong></td>
+<td>Press it the moment you notice something wrong. It stops the recognition clock used for scoring. The panel only ever answers <strong>NOTED</strong>, whether you were right or early. Pressing it before anything has failed counts as a false alarm</td>
+</tr>
+<tr>
+<td><strong>WHAT IS IT? (BONUS)</strong></td>
+<td>Opens the full list of failures by category. Tap what you think failed, or <strong>NOT SURE</strong>. The panel does not say whether you are right until the run is over. <strong>HIDE THE LIST</strong> closes it</td>
+</tr>
+<tr>
+<td><strong>REVEAL</strong> (status row)</td>
+<td>Names the failure. Use it when you give up or when the exercise is over</td>
+</tr>
+<tr>
+<td><strong>DISARM</strong> (status row)</td>
+<td>Cancels a hidden failure that has not fired yet</td>
+</tr>
+<tr>
+<td><strong>REPAIR ALL</strong> (status row)</td>
+<td>Removes the failure</td>
+</tr>
+</tbody>
+</table></div>
+<p>The DEBRIEF and SCORES tabs show nothing about the run until it is over.</p>
+<h3 id="the-failure-scenarios">The failure scenarios</h3>
+<p>"Internal failure" in the table means the unit is dead but its breaker stays in. Pulling and resetting the breaker does nothing.</p>
+<p><strong>Electrical</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>What fails</th>
+<th>What you see</th>
+<th>Expected response (POH)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ALT 1 failure</td>
+<td>Alternator 1 stops charging</td>
+<td>ALT 1 caution after about 20 seconds, M BUS 1 on battery 1, BATT 1 caution later</td>
+<td>POH §3A ALT 1 Caution: ALT 1 breaker check and set, ALT 1 switch cycle. If not restored: ALT 1 switch off, reduce non-essential loads. Scored</td>
+</tr>
+<tr>
+<td>ALT 2 failure</td>
+<td>Alternator 2 stops charging</td>
+<td>ALT 2 caution. ALT 1 carries everything</td>
+<td>POH §3A ALT 2 Caution: ALT 2 breaker check and set, ALT 2 switch cycle. If not restored: ALT 2 switch off. Scored</td>
+</tr>
+<tr>
+<td>Dual alternator failure</td>
+<td>Both alternators</td>
+<td>ALT 1 and ALT 2 cautions, all buses on the batteries, voltage falling</td>
+<td>POH §3A M BUS 2 Caution. Each ALT switch has its own chance of a fix</td>
+</tr>
+<tr>
+<td>Avionics bus feed failure</td>
+<td>The AVIONICS bus is dead with the switch on</td>
+<td>AVIONICS OFF caution. Transponder, audio panel and datalink off</td>
+<td>POH §3A AVIONICS OFF Caution: AVIONICS switch off, then on</td>
+</tr>
+<tr>
+<td>ESS BUS 1 feed failure</td>
+<td>ESS BUS 1 is fed by battery 2 only</td>
+<td>No message at first</td>
+<td>No checklist. Systems knowledge</td>
+</tr>
+<tr>
+<td>Fuel pump inoperative</td>
+<td>Internal failure of the fuel pump</td>
+<td>No annunciation. The only cue is the missing sound of the pump (POH §7 Fuel Pump Operation)</td>
+<td>No checklist fix</td>
+</tr>
+<tr>
+<td>Flap motor failure</td>
+<td>Internal failure of the flap motor</td>
+<td>The flap switch moves, the flaps stay where they are</td>
+<td>No checklist fix. Land with the flaps you have</td>
+</tr>
+<tr>
+<td>Pitot heat failure</td>
+<td>Internal failure of the pitot heater</td>
+<td>Pitot heat does not work</td>
+<td>No checklist fix</td>
+</tr>
+<tr>
+<td>Landing light failure</td>
+<td>Internal failure of the landing light</td>
+<td>No landing light</td>
+<td>No checklist fix</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Avionics</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>What fails</th>
+<th>What you see</th>
+<th>Expected response (POH)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AHRS and air data failure</td>
+<td>Attitude, heading and air data</td>
+<td>Red X on attitude, heading, airspeed and altitude</td>
+<td>POH §3 AHRS / ADC Failure. Fly the standby instruments</td>
+</tr>
+<tr>
+<td>PFD display failure</td>
+<td>The PFD</td>
+<td>The PFD goes dark, its breakers stay in</td>
+<td>POH §3 PFD Display Failure: DISPLAY BACKUP</td>
+</tr>
+<tr>
+<td>MFD display failure</td>
+<td>The MFD</td>
+<td>The MFD goes dark. The PFD goes to reversionary mode by itself</td>
+<td>No checklist fix</td>
+</tr>
+<tr>
+<td>GIA 1 failure (COM 1, NAV 1, GPS 1)</td>
+<td>Integrated avionics unit 1</td>
+<td>COM 1, NAV 1 and GPS 1 lost</td>
+<td>No checklist fix. Use the number 2 side</td>
+</tr>
+<tr>
+<td>GIA 2 failure (COM 2, NAV 2, GPS 2)</td>
+<td>Integrated avionics unit 2</td>
+<td>COM 2, NAV 2 and GPS 2 lost</td>
+<td>No checklist fix. Use the number 1 side</td>
+</tr>
+<tr>
+<td>COM 1 failure</td>
+<td>COM 1 radio</td>
+<td>COM 1 dead</td>
+<td>No checklist fix. Use COM 2</td>
+</tr>
+<tr>
+<td>Transponder failure</td>
+<td>Transponder</td>
+<td>Transponder off</td>
+<td>No checklist fix</td>
+</tr>
+<tr>
+<td>Audio panel failure</td>
+<td>Audio panel</td>
+<td>Audio panel off</td>
+<td>No checklist fix</td>
+</tr>
+<tr>
+<td>Autopilot servo failure</td>
+<td>Autopilot servos</td>
+<td>The autopilot cannot fly the aircraft</td>
+<td>No checklist fix. Hand-fly</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Breakers.</strong> The breaker pops. You see it out on the <strong>SR20 Breakers</strong> panel and the system it feeds stops.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Expected response (POH)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FUEL PUMP breaker trips, FLAPS breaker trips, PITOT HEAT breaker trips, LANDING LIGHT breaker trips, COM 1 breaker trips, AP SERVOS breaker trips, XPONDER breaker trips, STROBE breaker trips, NAV LIGHTS breaker trips</td>
+<td>POH §3 Circuit Breakers: reset a tripped breaker once only. The reset may hold, hold for a while, or the breaker trips again 2 seconds later (a short). A shorted breaker trips again at most three times</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Engine</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>When it fires</th>
+<th>What you see</th>
+<th>Expected response (POH)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Engine failure in flight</td>
+<td>Now, in the air, or on approach</td>
+<td>The engine stops, OIL PRESS</td>
+<td>POH §3 Engine Failure In Flight: best glide, mixture as required, switch tanks, fuel pump on, alternate induction air on, ignition both. If no restart: Engine Airstart. Scored</td>
+</tr>
+<tr>
+<td>Engine failure on the takeoff roll</td>
+<td>30 to 55 KIAS at full throttle on the ground</td>
+<td>The engine stops before rotation</td>
+<td>POH §3 Engine Failure On Takeoff: abort on the runway. No fix</td>
+</tr>
+<tr>
+<td>Engine failure after takeoff, low altitude</td>
+<td>Climbing through 100 to 800 ft AGL</td>
+<td>The engine stops in the initial climb</td>
+<td>POH §3 Engine Failure On Takeoff, Low Altitude. No fix</td>
+</tr>
+<tr>
+<td>Engine failure in the climb</td>
+<td>Climbing through 1,000 to 3,000 ft AGL</td>
+<td>The engine stops, the propeller windmills</td>
+<td>POH §3 Engine Failure In Flight, as above. Scored</td>
+</tr>
+</tbody>
+</table></div>
+<p>An engine failure in flight or in the climb has one hidden cause, drawn when it fires: fuel in one tank only (cure: switch tanks), fuel vapour (cure: fuel pump on; only drawn if the pump was off), or mixture (cure: lean, then enrich). Only the action that matches the cause can restart the engine, and only if the CHECKLIST outcome allows it.</p>
+<p>"Fuel pump on" means the fuel pump switch forward at <strong>BOOST</strong>. The centre position is off, and the aft PRIME position springs back to BOOST.</p>
+<p><strong>Run-up</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>What fails</th>
+<th>What you see</th>
+<th>Expected response (POH)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low full-throttle RPM (2600)</td>
+<td>The governor is capped at 2,600 RPM</td>
+<td>2,600 RPM at full throttle instead of about 2,700</td>
+<td>POH §4 Takeoff Power Check: reject the takeoff</td>
+</tr>
+<tr>
+<td>Low full-throttle fuel flow</td>
+<td>The engine runs leaned to 80 % with the mixture lever full forward</td>
+<td>Fuel flow below the top of the green arc at full power</td>
+<td>POH §4 Takeoff: reject the takeoff</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="remedies-what-the-checklist-does">Remedies: what the checklist does</h3>
+<p>When a failure with a checklist fix fires, the outcome of the fix is decided at that moment and kept secret.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>CHECKLIST chip</th>
+<th>What the checklist action does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fixes it</strong></td>
+<td>The action cures the failure</td>
+</tr>
+<tr>
+<td><strong>For a while</strong></td>
+<td>The action cures it for 1 to 3 minutes, then the failure comes back for good</td>
+</tr>
+<tr>
+<td><strong>Won't fix</strong></td>
+<td>The action has no effect. For a breaker: it trips again 2 seconds after each reset</td>
+</tr>
+<tr>
+<td><strong>Random</strong></td>
+<td>One of the three, drawn when the failure fires: about half the time it fixes it, a quarter for a while, a quarter not at all</td>
+</tr>
+</tbody>
+</table></div>
+<p>Trying the action again does not draw again. The actions the aircraft recognises:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Failure</th>
+<th>The action that may fix it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ALT 1 failure, ALT 2 failure</td>
+<td>That ALT switch off for at least 1 second, then on</td>
+</tr>
+<tr>
+<td>Dual alternator failure</td>
+<td>Each ALT switch, each with its own outcome</td>
+</tr>
+<tr>
+<td>Avionics bus feed failure</td>
+<td>AVIONICS switch off for at least 1 second, then on</td>
+</tr>
+<tr>
+<td>Any breaker trip</td>
+<td>Reset the breaker</td>
+</tr>
+<tr>
+<td>Engine failure in flight, Engine failure in the climb</td>
+<td>The action that matches the hidden cause: switch tanks, fuel pump on, or mixture leaned below half and then back to rich</td>
+</tr>
+</tbody>
+</table></div>
+<p>All other failures have no checklist fix: only <strong>REPAIR</strong> on the panel removes them.</p>
+<h3 id="clearing-and-resetting">Clearing and resetting</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>You want to</th>
+<th>Do this</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cancel a failure that has not fired</td>
+<td><strong>DISARM</strong></td>
+</tr>
+<tr>
+<td>Remove one active failure</td>
+<td><strong>REPAIR</strong> on its row. A popped breaker goes back in</td>
+</tr>
+<tr>
+<td>Remove everything</td>
+<td><strong>REPAIR ALL</strong></td>
+</tr>
+<tr>
+<td>See what a hidden failure is</td>
+<td><strong>REVEAL</strong></td>
+</tr>
+<tr>
+<td>Start clean</td>
+<td>Restart the flight. Armed and active failures are cleared</td>
+</tr>
+</tbody>
+</table></div>
+<p>After you repair an engine failure the engine does not start by itself: restart it.</p>
+<p>A <strong>REPAIR</strong> or <strong>DISARM</strong> during a scored failure ends the scoring of it as "aborted". It does not go on the leaderboard.</p>
+<p><strong>Differences from the real aircraft / limits.</strong> Not modelled: pitot or static blockage, brake failures, single-ADAHRS failures, oil pressure or temperature indications, rough running and magneto faults. Steps the sim cannot see are not checked.</p>
+<h2 id="approach-tab">APPROACH tab</h2>
+<p><strong>What it does.</strong> It sets up one instrument approach for you: you choose the airport, the approach, where to start and the weather. The aircraft is then placed in the air at that spot, on speed, with the avionics set, and the sim is paused until you press <strong>FLY</strong>. It works in flight and from the ramp.</p>
+<p><img loading="lazy" alt="Instructor Station approach setup" src="img/instructor-approach.jpg" /></p>
+<p>The tab has four sections that open one at a time: <strong>AIRPORT</strong>, <strong>APPROACH</strong>, <strong>POSITION</strong>, <strong>WEATHER</strong>. Each header shows what is chosen. Below them are the summary sentence and the buttons <strong>SET UP</strong> and <strong>SET WEATHER NOW</strong>. Nothing happens to the aircraft until you press <strong>SET UP</strong>.</p>
+<p>Your choices under POSITION and WEATHER are remembered between sessions. The airport and the approach are not.</p>
+<h3 id="step-1-airport">Step 1: AIRPORT</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Part</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>YOUR FLIGHT PLAN</strong>: <strong>Use my flight plan</strong></td>
+<td>Uses the approach you loaded on the PROC page. Nothing in the G1000 is changed. See <a href="#use-my-flight-plan">Use my flight plan</a></td>
+</tr>
+<tr>
+<td><strong>YOURS</strong></td>
+<td>Up to six airports: KSNA, KCNO and KSQL to begin with, then the last four airports you set up an approach at</td>
+</tr>
+<tr>
+<td><strong>OTHER...</strong></td>
+<td>A keypad for any airport: four slots, <strong>A</strong> to <strong>Z</strong> and <strong>0</strong> to <strong>9</strong>, <strong>DELETE</strong>, <strong>BACK</strong>, and <strong>LIST APPROACHES</strong> (needs at least three characters)</td>
+</tr>
+<tr>
+<td><strong>NEAREST WITH AN APPROACH</strong></td>
+<td>Up to six airports within 60 NM of the aircraft that have an instrument approach, closest first. Each tile shows the identifier, the number of approaches, and the distance and magnetic bearing, for example <code>12 NM 045</code>. Shows <code>searching...</code> while it looks and <code>none within 60 NM</code> when there is none</td>
+</tr>
+</tbody>
+</table></div>
+<p>Tap an airport. The panel reads its approaches and opens the APPROACH section.</p>
+<h3 id="step-2-approach">Step 2: APPROACH</h3>
+<p>The header reads <code>&lt;ICAO&gt;, ELEVATION &lt;n&gt; FT</code>. There is one tile per approach (up to 24), named as on the PROC page, for example <code>ILS 20R</code> or <code>RNAV 20R Z</code>.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Under the name</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FAF 2,400 ft, final 196</code></td>
+<td>Supported. The numbers are the FAF altitude and the final approach course (magnetic) that the setup will use</td>
+</tr>
+<tr>
+<td><code>procedure only: final leg type</code></td>
+<td>The final segment is not a plain straight leg. Not available with Quick intercept. Available with "A fix of the approach"</td>
+</tr>
+<tr>
+<td><code>not supported: no positioned FAF</code></td>
+<td>The nav data has no usable final approach fix. Available only from a fix</td>
+</tr>
+<tr>
+<td><code>not supported: no positioned MAP</code></td>
+<td>No usable missed approach point, or it is less than 0.5 NM from the FAF. Available only from a fix</td>
+</tr>
+<tr>
+<td><code>not supported: no FAF altitude</code></td>
+<td>The FAF has no altitude in the nav data. Available only from a fix</td>
+</tr>
+<tr>
+<td><code>circling: no runway</code></td>
+<td>A circling-only approach (VOR A, for example). Not available</td>
+</tr>
+<tr>
+<td><code>not supported: approach type</code></td>
+<td>NDB, NDB/DME, SDF, LDA and localizer back course approaches. Not available</td>
+</tr>
+</tbody>
+</table></div>
+<p>The supported types are ILS, LOC, RNAV, GPS, VOR and VOR/DME to a runway.</p>
+<p>Tiles you cannot use with the current START FROM choice are dimmed. If you pick one anyway, the summary reads <code>&lt;approach&gt; cannot be placed: &lt;reason&gt;.</code> and the button reads <strong>PICK A SUPPORTED APPROACH</strong>.</p>
+<p>Other messages in this section: <code>Pick an airport first.</code>, <code>Reading the approaches of &lt;ICAO&gt;...</code>, <code>No approach found at &lt;ICAO&gt;.</code> (the airport has no instrument approach, or the identifier does not exist).</p>
+<p>Tap an approach. The POSITION section opens.</p>
+<h3 id="step-3-position">Step 3: POSITION</h3>
+<p><strong>START FROM</strong> has two modes.</p>
+<h4 id="quick-intercept">Quick intercept</h4>
+<p>"Straight-in or 45 to the final". This is the vectors-to-final start.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Choices</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>INTERCEPT</strong></td>
+<td><strong>Straight-in</strong>: on the final approach course, heading inbound. <strong>45 left</strong> or <strong>45 right</strong>: on a 45 degree intercept heading from that side. The intercept point is 2 NM before the FAF</td>
+</tr>
+<tr>
+<td>Distance</td>
+<td>3 to 15 NM in 1 NM steps. Labelled <strong>Distance before the FAF</strong> for straight-in, <strong>Intercept leg (ends 2 NM before the FAF)</strong> for a 45 degree intercept</td>
+</tr>
+<tr>
+<td><strong>ALTITUDE</strong></td>
+<td><strong>FAF altitude</strong> (rounded up to 100 ft), or <strong>Set</strong> with a stepper in 100 ft steps. Allowed: from the airport elevation plus 1,500 ft up to the FAF altitude plus 3,000 ft, and not below the FAF altitude</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="a-fix-of-the-approach">A fix of the approach</h4>
+<p>"IAF, IF, FAF: bearing, distance". Starting from a fix needs the Companion (for the terrain check). Use it to appear anywhere around the procedure, as if you were arriving and about to be cleared for the approach.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Choices</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TRANSITION</strong></td>
+<td>Shown when the approach has more than one. Each is named by its first fix</td>
+</tr>
+<tr>
+<td><strong>FIX</strong></td>
+<td>Every fix of the transition and the final, up to the missed approach point. Each tile shows the role (<strong>IAF</strong>, <strong>IF</strong>, <strong>FAF</strong>, <strong>MAP</strong> or <code>fix</code>), the published altitude if there is one, and <code>hold</code> for a hold or procedure turn</td>
+</tr>
+<tr>
+<td>Sketch</td>
+<td>A small north-up drawing of the fixes, your start point (<code>you</code>) and your heading. It is schematic: straight lines between fixes</td>
+</tr>
+<tr>
+<td><strong>WHERE</strong>: <strong>Bearing from the fix</strong></td>
+<td>Magnetic, in 10 degree steps. This is the bearing from the fix to you</td>
+</tr>
+<tr>
+<td><strong>WHERE</strong>: <strong>Distance from the fix</strong></td>
+<td>0 to 30 NM. 0 puts you over the fix</td>
+</tr>
+<tr>
+<td><strong>HEADING</strong></td>
+<td><strong>Toward the fix</strong> (the tile shows the heading), or <strong>Set</strong> with a stepper in 10 degree steps</td>
+</tr>
+<tr>
+<td><strong>ALTITUDE</strong></td>
+<td><strong>Fix altitude</strong> (the published altitude; <code>Fix altitude: none published</code> means you must set one), or <strong>Set</strong> with a stepper in 100 ft steps, from the airport elevation plus 1,000 ft up to 12,500 ft</td>
+</tr>
+<tr>
+<td><strong>CLEARANCE</strong></td>
+<td><strong>Loaded</strong> ("you activate it"): the approach with this transition is put in the flight plan, and you activate it as you would after a clearance. <strong>Direct to <code>&lt;fix&gt;</code></strong> ("active Direct-To"): a Direct-To to the fix is made from your new position. <strong>Vectors to final</strong> ("VTF active"): only for approaches with a supported straight final</td>
+</tr>
+</tbody>
+</table></div>
+<p>When you pick a fix, the panel proposes a start on the extended inbound course to that fix, heading toward it, at its published altitude. The line under the sketch reads, for example, <code>12 NM northeast of KRAIN (bearing 050), heading 230 toward KRAIN, 5,000 ft, 110 kt, Direct-To KRAIN</code>.</p>
+<h4 id="speed">SPEED</h4>
+<p><strong>Speed</strong>: 90 to 130 KIAS in 5 kt steps.</p>
+<h4 id="hand-over">HAND-OVER</h4>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Choice</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Autopilot on</strong> ("HDG + ALT, you couple it")</td>
+<td>You get the aircraft with the autopilot flying heading and altitude. Press <strong>APR</strong> or <strong>NAV</strong> yourself when you want it coupled</td>
+</tr>
+<tr>
+<td><strong>Autopilot off</strong> ("hand-flown from the start")</td>
+<td>The setup steadies the aircraft on the autopilot, then switches it off silently before handing over</td>
+</tr>
+<tr>
+<td><strong>Paused until FLY</strong> ("look around first")</td>
+<td>The sim is paused at the end of the setup. You brief, then press <strong>FLY</strong></td>
+</tr>
+<tr>
+<td><strong>Go at once</strong> ("no pause")</td>
+<td>The run starts as soon as the aircraft is steady</td>
+</tr>
+<tr>
+<td><strong>Engine as it is</strong> ("from the ramp: start it yourself")</td>
+<td>A ramp start needs a running engine</td>
+</tr>
+<tr>
+<td><strong>Auto-start</strong> ("from the ramp, engine off")</td>
+<td>A ramp start uses the sim's engine auto-start first (it waits up to 30 seconds)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="use-my-flight-plan">Use my flight plan</h3>
+<p>Enter your flight plan in the G1000, load the approach and its transition on the <strong>PROC</strong> page, then press <strong>Use my flight plan</strong> in the AIRPORT section. The panel reads the airport, the approach and the transition from your flight plan and opens POSITION with the fixes of what you loaded. If you loaded vectors-to-final, you get the fixes of the final.</p>
+<ul>
+<li><strong>Quick intercept</strong> is dimmed (<code>not with your flight plan: start from a fix</code>), and there is no TRANSITION or CLEARANCE choice.</li>
+<li>The note reads <code>From your flight plan: the approach and transition you loaded. The flight plan, the radios and the CDI stay as you set them.</code></li>
+<li><strong>SET UP</strong> moves the aircraft and sets the weather, the altimeters, the heading bug, the altitude selector and the autopilot. It does not insert, activate or change anything in the flight plan, and it leaves NAV1 and the CDI alone.</li>
+<li>With no approach in the flight plan the note turns amber: <code>No approach is loaded in your flight plan. Load one on the MFD (PROC), then press Use my flight plan again.</code></li>
+</ul>
+<p>Picking an airport or an approach tile on the panel leaves this mode.</p>
+<h3 id="step-4-weather">Step 4: WEATHER</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Choice</th>
+<th>What you get</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Keep as it is</strong></td>
+<td>The weather is not touched. The altimeters are not touched either</td>
+</tr>
+<tr>
+<td><strong>Live weather</strong></td>
+<td>The sim's live weather. The altimeters are set to the live pressure</td>
+</tr>
+<tr>
+<td><strong>Overcast, base at</strong></td>
+<td>One solid cloud layer, 2,500 ft thick, with its base where you set <strong>Cloud base</strong> (100 to 3,000 ft AGL, 100 ft steps). Altimeter 29.92</td>
+</tr>
+<tr>
+<td><strong>Random, around</strong></td>
+<td>The same solid layer, with its base drawn at random between 300 ft below and 700 ft above the <strong>Around</strong> value you set (100 to 1,500 ft AGL, 50 ft steps), never below 100 ft. Altimeter drawn between 29.70 and 30.20</td>
+</tr>
+</tbody>
+</table></div>
+<p>The note under <strong>Random, around</strong> says: <code>The ceiling lands somewhere around the reference: sometimes you break out early, sometimes not at all. The reference is a training number, never a published minimum.</code> Set it to the DA or MDA height you are training for.</p>
+<p><strong>SECRECY</strong> (Overcast and Random only)</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Choice</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Show the numbers</strong></td>
+<td>Base, wind and altimeter are shown on the READY banner</td>
+</tr>
+<tr>
+<td><strong>Hidden</strong> ("until the debrief: fly it like real IMC")</td>
+<td>The numbers are withheld until the run ends. The altimeters are still set to the right pressure for you</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>WIND</strong> (Overcast and Random only)</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Choice</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Light, from the manager</strong></td>
+<td>A random direction at 2 to 8 kt</td>
+</tr>
+<tr>
+<td><strong>Set it</strong></td>
+<td><strong>From</strong> (10 degree steps) and <strong>Speed</strong>. Set 20 kt or less: the stepper goes to 25, but a setup with more than 20 kt is refused with <code>bad weather request</code></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="the-summary-sentence-and-set-up">The summary sentence and SET UP</h3>
+<p>Above the button, one sentence says exactly what will happen, for example:</p>
+<p><code>RNAV 20R Z at KSNA, 45 left, 8 NM, FAF altitude (2,400 ft), 110 kt, AP on. Weather overcast, base 300 ft AGL, shown. Paused until you press FLY.</code></p>
+<p>From a fix, the sentence ends with <code>Refused if terrain within 3 NM, or 5 NM ahead, is less than 1,000 ft below.</code> On the ground it adds <code>From the ramp: lifts you off and places you; CANCEL before FLY puts you back here.</code></p>
+<p>The button names what it will do: <strong>SET UP <code>&lt;APPROACH&gt;</code></strong> (for example <strong>SET UP RNAV 20R Z</strong>), or <strong>SET UP AT <code>&lt;FIX&gt;</code></strong> when starting from a fix. While something is missing it is greyed and tells you what:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Button text</th>
+<th>The sentence says</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PICK AN AIRPORT</strong></td>
+<td><code>Pick an airport.</code></td>
+</tr>
+<tr>
+<td><strong>PICK AN APPROACH</strong></td>
+<td><code>Pick an approach at &lt;ICAO&gt;.</code></td>
+</tr>
+<tr>
+<td><strong>PICK A SUPPORTED APPROACH</strong></td>
+<td><code>&lt;approach&gt; cannot be placed: &lt;reason&gt;.</code></td>
+</tr>
+<tr>
+<td><strong>PICK ANOTHER APPROACH</strong></td>
+<td><code>&lt;approach&gt; cannot be set up: &lt;reason&gt;.</code> (from a fix: circling or an unsupported type)</td>
+</tr>
+<tr>
+<td><strong>READING THE FIXES</strong></td>
+<td><code>Reading the fixes of &lt;approach&gt;...</code></td>
+</tr>
+<tr>
+<td><strong>PICK A FIX</strong></td>
+<td><code>Pick the fix to start from.</code></td>
+</tr>
+<tr>
+<td><strong>SET AN ALTITUDE</strong></td>
+<td><code>&lt;fix&gt; has no published altitude: set one under ALTITUDE.</code></td>
+</tr>
+<tr>
+<td><strong>PICK ANOTHER CLEARANCE</strong></td>
+<td><code>Vectors to final needs a straight-in final; &lt;approach&gt; is &lt;reason&gt;.</code></td>
+</tr>
+<tr>
+<td><strong>START THE ENGINE FIRST</strong></td>
+<td><code>From the ramp: the engine is not running. Start it, or pick Auto-start under HAND-OVER.</code></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="set-weather-now">SET WEATHER NOW</h3>
+<p>This button (shown unless the weather choice is <strong>Keep as it is</strong>) applies the weather of the WEATHER section without moving the aircraft. It does not set the altimeters: set the baro yourself.</p>
+<h3 id="what-the-setup-does-to-the-aircraft">What the setup does to the aircraft</h3>
+<p>After <strong>SET UP</strong>, in this order:</p>
+<ol>
+<li><strong>Checks.</strong> The airport, the approach, the geometry, the altitude, the speed and the weather request are checked. From a fix, the terrain is checked too. If anything is wrong the setup is refused and nothing has changed.</li>
+<li><strong>Engine</strong> (ramp start only). The engine must be running steadily for 3 seconds. With <strong>Auto-start</strong>, the sim's auto-start is used first.</li>
+<li><strong>Flight plan.</strong> With Quick intercept, or the <strong>Vectors to final</strong> clearance, the approach is loaded at the airport and vectors-to-final is activated. With <strong>Loaded</strong> or <strong>Direct to</strong>, the approach is loaded with the transition you chose. With <strong>Use my flight plan</strong>, nothing is touched.</li>
+<li><strong>Nav source.</strong> For a vectors-to-final setup: on an ILS, LOC, VOR or VOR/DME approach, NAV1 is tuned to the approach's facility and the CDI is set to NAV1. On an RNAV or GPS approach the CDI is set to GPS. For a setup on a transition (<strong>Loaded</strong> or <strong>Direct to</strong>) the CDI is set to GPS, and a localizer or VOR frequency is put in NAV1 for later without switching the CDI. With <strong>Use my flight plan</strong>, nothing is touched.</li>
+<li><strong>Weather and altimeters.</strong> The weather is applied. Unless you chose <strong>Keep as it is</strong>, both altimeters are set to the new sea level pressure, also when the weather is hidden.</li>
+<li><strong>Position.</strong> The aircraft is placed at the chosen point: flaps up, power for level flight at the chosen speed, heading bug on the start heading, altitude selector on the start altitude. From the ramp the parking brake is released and the mixture is set rich first.</li>
+<li><strong>Stabilise.</strong> The autopilot is engaged in HDG and ALT for 4 seconds to settle the aircraft. If you chose <strong>Autopilot off</strong>, it is then disconnected without the disconnect tone.</li>
+<li><strong>Direct-To</strong> (that clearance only). The Direct-To to your fix is made from the new position.</li>
+<li><strong>Pause.</strong> With <strong>Paused until FLY</strong> the sim is paused and the banner turns green.</li>
+</ol>
+<p>The power setting is approximate and is set once. Take over the throttle as soon as you fly.</p>
+<h4 id="the-terrain-check-needs-the-companion">The terrain check (needs the Companion)</h4>
+<p>When you start from a fix, the setup asks the SR20 Companion for the highest terrain within 3 NM of the start point and in a corridor 5 NM ahead of it. The setup is refused if that terrain is less than 1,000 ft below your start altitude, or if the terrain is not known. The Companion must be running. At an airport you have not visited, the terrain data is downloaded when you pick the airport, which takes a few seconds the first time; the setup waits up to 8 seconds for it.</p>
+<p>Quick intercept does not use the terrain check. Its safety floor is the altitude rule: at least the airport elevation plus 1,500 ft, and never below the FAF altitude.</p>
+<h3 id="the-run-banner">The run banner</h3>
+<p>After <strong>SET UP</strong> a box appears at the top of the APPROACH tab and follows the run from start to finish.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Banner title</th>
+<th>What it shows</th>
+<th>Buttons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SETTING UP <code>&lt;APPROACH&gt;</code></strong></td>
+<td><code>Step n of 11: &lt;step&gt;</code> and a progress bar. The steps are: resolving, validating, engine, weather snapshot, loading the plan, nav source, weather, placing, stabilising, pausing, done</td>
+<td><strong>CANCEL</strong></td>
+</tr>
+<tr>
+<td><strong>READY - PAUSED</strong> (green)</td>
+<td>The approach and start position (<code>, from the ramp</code> if so). <code>Positioned and paused. Look around, then press FLY.</code> Then <code>Handed over at 2,400 ft, 110 KIAS, heading bug 151, autopilot on (HDG + ALT), NAV1 111.75.</code> and the weather line. If it has waited more than 90 seconds: <code>Set up n min ago and waiting.</code></td>
+<td><strong>FLY</strong>, <strong>CANCEL</strong>, <strong>?</strong></td>
+</tr>
+<tr>
+<td><strong>FLYING IN 3</strong> (then 2, 1)</td>
+<td><code>Hands on: the sim unpauses at zero.</code></td>
+<td>The <strong>FLY</strong> button shows the count. <strong>CANCEL</strong> still works</td>
+</tr>
+<tr>
+<td><strong>RESUMING</strong></td>
+<td>The sim is being unpaused</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>FLYING <code>&lt;APPROACH&gt;</code></strong> (amber)</td>
+<td>The weather line, only when the setup made the weather</td>
+<td><strong>END THE RUN</strong>, <strong>?</strong>, and, when the setup made the weather, <strong>WEATHER LIVE</strong> and <strong>DEBRIEF</strong></td>
+</tr>
+<tr>
+<td><strong>SETUP REFUSED - NOTHING CHANGED</strong> (red)</td>
+<td><code>Stopped at &lt;step&gt;: &lt;reason&gt;.</code></td>
+<td><strong>OK</strong>, <strong>?</strong></td>
+</tr>
+<tr>
+<td><strong>SETUP INCOMPLETE - REMAIN PAUSED</strong> (red)</td>
+<td><code>Stopped at &lt;step&gt;: &lt;reason&gt;.</code> and <code>Weather restored if it had been changed. Fix the form and try again.</code> (<code>Back on the ramp.</code> first, after a ramp start)</td>
+<td><strong>OK</strong>, <strong>?</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The weather line reads one of: <code>Weather as it was</code>, <code>Live weather</code>, <code>Weather made up for this run: base 300 ft AGL, wind 240/6, altimeter 29.92</code>, or <code>Weather made up for this run, hidden until it ends</code>.</p>
+<p>If a failure is armed or active, an amber line is added: <code>With a failure: ALT 1 failure, descending through 500-1500 ft AGL</code>, <code>With a failure: Hidden failure armed</code> or <code>With a failure: Failure active</code>.</p>
+<p><strong>The buttons</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Button</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FLY</strong></td>
+<td>Starts the run. The button reads <strong>STARTING...</strong>, then the banner counts <strong>FLYING IN 3</strong>, 2, 1 and the sim unpauses. One press is enough: a second press is ignored. Armed failures and the scoring start counting here, not before</td>
+</tr>
+<tr>
+<td><strong>CANCEL</strong> (while setting up or at READY)</td>
+<td>Stops the setup. In the air you stay where you are, paused, and nothing is started: unpause with the sim's pause key. After a ramp start the aircraft is put back on its ramp spot with the parking brake set, the engine at idle and the autopilot off. The hint under the buttons says which: <code>CANCEL: back to the ramp.</code> or <code>CANCEL: stay paused here, nothing started.</code></td>
+</tr>
+<tr>
+<td><strong>END THE RUN</strong> (while flying)</td>
+<td>Ends the run without a landing. If the setup made the weather, hidden weather is revealed and live weather comes back. The aircraft is not moved. The hint reads <code>END THE RUN: done without landing (hidden weather revealed, live weather back). Landing ends it too.</code></td>
+</tr>
+<tr>
+<td><strong>WEATHER LIVE</strong></td>
+<td>Gives the sim's live weather back at any time and sets the altimeters to it. It also lifts the secrecy</td>
+</tr>
+<tr>
+<td><strong>DEBRIEF</strong></td>
+<td>Opens the DEBRIEF tab</td>
+</tr>
+<tr>
+<td><strong>OK</strong> (after an error)</td>
+<td>Clears the error. If the setup had changed the weather, live weather is restored</td>
+</tr>
+<tr>
+<td><strong>?</strong></td>
+<td>Shows or hides this help text in the banner: <code>This box follows one approach run, from SET UP to the landing. FLY starts it: the countdown, then the sim unpauses; failures armed for the approach and the scoring start there. Weather the setup made up (Overcast / Random) can be hidden until the run ends: land, or press END THE RUN, then DEBRIEF shows what it was. WEATHER LIVE gives the real weather back at any time.</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>A landing (on the ground below 40 KIAS) ends the run for the debrief, so hidden weather can then be read on the DEBRIEF tab. The banner stays up and the weather stays as it is until you press <strong>END THE RUN</strong> or set up another approach.</p>
+<p>A new <strong>SET UP</strong> while a run is on replaces it.</p>
+<h3 id="from-the-ramp-or-in-flight">From the ramp or in flight</h3>
+<p><strong>In flight.</strong> Press <strong>SET UP</strong> at any time. The aircraft is moved from where it is to the start point. <strong>CANCEL</strong> before <strong>FLY</strong> leaves you at the start point, paused.</p>
+<p><strong>From the ramp.</strong> You can press <strong>SET UP</strong> while parked: the setup lifts the aircraft off the ramp and places it. The conditions:</p>
+<ul>
+<li>The engine must be running, or <strong>Auto-start</strong> must be chosen.</li>
+<li>The aircraft must be standing still (3 kt or less).</li>
+<li><strong>CANCEL</strong> before <strong>FLY</strong>, or a setup that fails after the aircraft has moved, puts the aircraft back on the ramp spot where it stood. After <strong>FLY</strong> nothing moves it back.</li>
+</ul>
+<h3 id="error-messages">Error messages</h3>
+<p>A setup that is refused during the checks changes nothing (<strong>SETUP REFUSED - NOTHING CHANGED</strong>). One that stops later may already have loaded the flight plan, changed the weather or moved the aircraft (<strong>SETUP INCOMPLETE - REMAIN PAUSED</strong>). In the air, after a failed placement the sim is left paused where the aircraft is. Press <strong>OK</strong>, then unpause with the sim's pause key if you need to.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Reason shown</th>
+<th>What it means, what to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>the PFD is busy</code></td>
+<td>Another request is still running. Wait and try again</td>
+</tr>
+<tr>
+<td><code>airport not found</code></td>
+<td>The identifier is not in the sim's nav data. Check it</td>
+</tr>
+<tr>
+<td><code>list the airport first</code> / <code>stale list (pick the airport again)</code> / <code>bad approach index</code></td>
+<td>The panel's approach list is out of date. Pick the airport again, then the approach</td>
+</tr>
+<tr>
+<td><code>approach not supported for this setup</code></td>
+<td>The approach cannot be used with this START FROM or clearance. Pick another approach, or start from a fix</td>
+</tr>
+<tr>
+<td><code>intercept must be straight-in, 45 left or 45 right</code></td>
+<td>Pick one of the three under INTERCEPT</td>
+</tr>
+<tr>
+<td><code>distance 3-15 NM</code></td>
+<td>Quick intercept distance out of range (from a fix: 0 to 30 NM)</td>
+</tr>
+<tr>
+<td><code>altitude outside the envelope</code></td>
+<td>The start altitude is too low or too high. Quick intercept: between the airport elevation plus 1,500 ft and the FAF altitude plus 3,000 ft, and not below the FAF altitude. From a fix: between the airport elevation plus 1,000 ft and 12,500 ft</td>
+</tr>
+<tr>
+<td><code>speed 90-130 KIAS</code></td>
+<td>Speed out of range</td>
+</tr>
+<tr>
+<td><code>flight plan load failed</code></td>
+<td>The G1000 did not accept the approach. Try again; if it repeats, load the approach yourself and use <strong>Use my flight plan</strong></td>
+</tr>
+<tr>
+<td><code>weather failed</code></td>
+<td>The sim did not accept the weather. Try again, or choose <strong>Keep as it is</strong></td>
+</tr>
+<tr>
+<td><code>placement failed</code></td>
+<td>The aircraft could not be placed within 20 seconds. Press <strong>OK</strong> and try again</td>
+</tr>
+<tr>
+<td><code>unstable after placement</code></td>
+<td>The aircraft was not flying steadily after the 4 seconds on the autopilot. Press <strong>OK</strong> and try again</td>
+</tr>
+<tr>
+<td><code>cancelled</code></td>
+<td>You pressed <strong>CANCEL</strong></td>
+</tr>
+<tr>
+<td><code>no FMS</code></td>
+<td>The avionics are not ready. Power the PFD and wait for it to finish starting</td>
+</tr>
+<tr>
+<td><code>bad weather request</code></td>
+<td>A weather value is out of range. Wind speed must be 20 kt or less</td>
+</tr>
+<tr>
+<td><code>not ready</code></td>
+<td><strong>FLY</strong> was pressed when nothing was READY</td>
+</tr>
+<tr>
+<td><code>hidden until the run ends</code></td>
+<td>Shown on the DEBRIEF tab while a hidden run is on</td>
+</tr>
+<tr>
+<td><code>nav source / NAV1 not set</code></td>
+<td>The CDI or NAV1 could not be set for the approach. Try again</td>
+</tr>
+<tr>
+<td><code>the engine is not running: start it, or pick Auto-start</code></td>
+<td>Ramp start with the engine off</td>
+</tr>
+<tr>
+<td><code>auto-start did not get the engine running</code></td>
+<td>The auto-start did not produce a running engine within 30 seconds. Start the engine yourself</td>
+</tr>
+<tr>
+<td><code>rolling: stop first</code></td>
+<td>Ramp start while moving. Stop the aircraft</td>
+</tr>
+<tr>
+<td><code>no such fix (describe again)</code> / <code>the fix list changed: pick again</code></td>
+<td>The fix list is out of date. Pick the approach again, then the fix</td>
+</tr>
+<tr>
+<td><code>this fix has no altitude: set one</code></td>
+<td>Choose <strong>Set</strong> under ALTITUDE</td>
+</tr>
+<tr>
+<td><code>terrain less than 1,000 ft below: climb or move</code></td>
+<td>The terrain check refused the start point. Set a higher altitude, or move the start point</td>
+</tr>
+<tr>
+<td><code>terrain unknown (is the SR20 Companion running?)</code></td>
+<td>The Companion did not answer, or the terrain is still downloading. Start the Companion, wait a few seconds, try again</td>
+</tr>
+<tr>
+<td><code>no approach loaded in your flight plan</code></td>
+<td><strong>Use my flight plan</strong> found no approach. Load one on the PROC page</td>
+</tr>
+<tr>
+<td><code>your flight plan changed: press YOUR FLIGHT PLAN again</code></td>
+<td>You changed the PROC page after the panel read it. Press <strong>Use my flight plan</strong> again</td>
+</tr>
+</tbody>
+</table></div>
+<p>Two more messages can appear in the footer: <code>The PFD has not taken FLY yet: is the PFD on?</code> (no answer 2.5 seconds after <strong>FLY</strong>: check that the PFD is powered, then press <strong>FLY</strong> again) and <code>The PFD did not take the command</code>.</p>
+<p><strong>Differences from the real aircraft / limits.</strong> The setup is an instructor's reposition, as in a simulator. Arrivals, time of day and circling approaches are not part of it. Start points are not checked against airspace or obstacles. Favourite airports cannot be edited on the panel.</p>
+<h2 id="debrief-tab">DEBRIEF tab</h2>
+<p><strong>What it does.</strong> It tells you what the instructor did to you: the weather of the approach run and the list of failure events.</p>
+<h3 id="approach">APPROACH</h3>
+<p>When you open the tab it asks the aircraft (<code>Asking the PFD...</code>) and then shows:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>No approach set up this flight.</code></td>
+<td>Nothing to report</td>
+</tr>
+<tr>
+<td><code>Weather was kept or live.</code></td>
+<td>The setup did not make the weather</td>
+</tr>
+<tr>
+<td><code>Overcast, base 300 ft AGL, tops 2,800 ft.</code> or <code>Random ceiling, base 420 ft AGL, tops 2,920 ft.</code></td>
+<td>The cloud layer the setup made</td>
+</tr>
+<tr>
+<td><code>Wind 240 at 6, altimeter 29.92, training reference 200 ft AGL.</code></td>
+<td>Wind and altimeter. The reference is shown for Random weather only</td>
+</tr>
+<tr>
+<td><code>Run: ready.</code> / <code>started.</code> / <code>landed.</code> / <code>aborted.</code> / <code>replaced.</code></td>
+<td>How the run ended. <code>aborted</code> means <strong>CANCEL</strong> or <strong>END THE RUN</strong>; <code>replaced</code> means a new setup took its place</td>
+</tr>
+<tr>
+<td><code>Weather hidden until the run ends (land, cancel, or set up again).</code> (amber)</td>
+<td>A hidden run is still on. Hidden weather is revealed when you land, press <strong>END THE RUN</strong> or <strong>CANCEL</strong>, press <strong>WEATHER LIVE</strong>, or set up another approach</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>REFRESH</strong> asks again. <strong>WEATHER LIVE</strong> gives the live weather back.</p>
+<h3 id="failures">FAILURES</h3>
+<p>A list of what happened, newest first (the last 12 events). Each row has a time counted from the first event in the list, what happened, the failure name, and for most events the height and speed at that moment.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Armed</strong> / <strong>Disarmed</strong></td>
+<td>The instructor armed or cancelled it</td>
+</tr>
+<tr>
+<td><strong>Failed</strong></td>
+<td>The failure fired, for example <code>Failed  ALT 1 failure  1,240 ft AGL, 108 KIAS</code></td>
+</tr>
+<tr>
+<td><strong>Fixed</strong></td>
+<td>Your checklist action cured it, for example <code>Fixed  ALT 1 failure  ALT 1 switch cycled. 1,180 ft AGL, 106 KIAS</code>. A fix that will only last a while also reads Fixed</td>
+</tr>
+<tr>
+<td><strong>No effect</strong></td>
+<td>Your checklist action did nothing</td>
+</tr>
+<tr>
+<td><strong>Failed again</strong></td>
+<td>A fix that held for a while has given up</td>
+</tr>
+<tr>
+<td><strong>Tripped again</strong></td>
+<td>A reset breaker popped again</td>
+</tr>
+<tr>
+<td><strong>Repaired</strong></td>
+<td>The instructor removed it with <strong>REPAIR</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The actions are named <code>ALT 1 switch cycled</code>, <code>ALT 2 switch cycled</code>, <code>AVIONICS switch cycled</code>, <code>breaker reset</code>, <code>fuel tanks switched</code>, <code>fuel pump on</code> and <code>mixture leaned, then enriched</code>.</p>
+<p>While a hidden failure is armed or active the list is replaced by <code>A hidden failure is still armed or active. Reveal it to see the debrief.</code> and the button <strong>REVEAL THE HIDDEN FAILURE</strong>. With no events the list reads <code>No failure events this flight.</code></p>
+<h2 id="scores-tab">SCORES tab</h2>
+<p><strong>What it does.</strong> It grades how you handled a failure against the POH procedure. Four failures are scored: <strong>ALT 1 failure</strong>, <strong>ALT 2 failure</strong>, <strong>Engine failure in flight</strong> and <strong>Engine failure in the climb</strong>. All other failures are for practice only and leave no score.</p>
+<h3 id="what-is-scored">What is scored</h3>
+<p>A score is out of 100, with a grade: A from 90, B from 80, C from 70, D from 60, F below.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Surprise (hidden)</th>
+<th>Practice</th>
+<th>How it is measured</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Recognition</strong></td>
+<td>25</td>
+<td>not scored</td>
+<td>Time from the moment the failure shows (the CAS caution for an alternator, the failure itself for the engine) to your <strong>I HAVE A FAILURE</strong> or your first checklist action. Alternator: full marks within 15 seconds, none after 90. Engine: full marks within 5 seconds, none after 30</td>
+</tr>
+<tr>
+<td><strong>Procedure</strong></td>
+<td>40</td>
+<td>53.3</td>
+<td>The POH steps, done or missed. The list follows what really happened: if cycling the ALT switch restored the alternator, the "not restored" steps are not required. A step done out of order costs 5 points. A wrong action costs 5 points (cycling the healthy alternator, resetting a breaker a second time after it tripped again, engaging the starter with the propeller windmilling)</td>
+</tr>
+<tr>
+<td><strong>Timeliness</strong></td>
+<td>15</td>
+<td>20</td>
+<td>Time from recognition to milestones. Alternator: switch cycled within 30 seconds, the "not restored" steps within 90. Engine: best glide within 10 seconds, tanks and pump within 30, the checklist within 60. Full marks within the target, none at three times the target</td>
+</tr>
+<tr>
+<td><strong>Control</strong></td>
+<td>20</td>
+<td>26.7</td>
+<td>How well you flew meanwhile. Level with the autopilot off: within 100 ft and 10 degrees of where you were. Autopilot on: within 100 ft and 10 degrees of its targets. Climbing: within 10 KIAS and 30 degrees of bank. Engine out: within 5 KIAS of best glide (92 KIAS at 2,600 lb to 100 KIAS at 3,150 lb, POH §3), until you extend flaps or pass 1,000 ft AGL. Each stall, overspeed, bank beyond 60 degrees or G beyond -0.5 / +3.0 costs 8 points</td>
+</tr>
+<tr>
+<td><strong>Diagnosis</strong></td>
+<td>+5 bonus</td>
+<td>none</td>
+<td>You named the right failure under <strong>WHAT IS IT? (BONUS)</strong></td>
+</tr>
+<tr>
+<td><strong>False alarm</strong></td>
+<td>-2 each</td>
+<td>-2 each</td>
+<td><strong>I HAVE A FAILURE</strong> pressed before anything had failed</td>
+</tr>
+</tbody>
+</table></div>
+<p>A run is a <strong>Surprise</strong> when the failure was hidden (SURPRISE ME, or a Random draw in PRACTICE) and a <strong>Practice</strong> when you picked it yourself.</p>
+<p>The record is closed 60 seconds after the last required step, at landing, or on a timeout (10 minutes after recognition, 15 minutes after the failure showed). A crash scores 0.</p>
+<p>Steps the sim cannot observe are listed without points.</p>
+<h3 id="reading-the-page">Reading the page</h3>
+<p><strong>BEST.</strong> One block per scored failure, with a line for <strong>Surprise</strong> and a line for <strong>Practice</strong>:</p>
+<p><code>Surprise: best 92.5, recognised in 8 s, avg 85.0, streak 3 (7)</code></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>best</code></td>
+<td>Your best score</td>
+</tr>
+<tr>
+<td><code>recognised in</code></td>
+<td>Your fastest recognition</td>
+</tr>
+<tr>
+<td><code>avg</code></td>
+<td>The average of your last 10 scores</td>
+</tr>
+<tr>
+<td><code>streak</code></td>
+<td>Scores of 80 or more in a row (shown from 2)</td>
+</tr>
+<tr>
+<td><code>(7)</code></td>
+<td>The number of events</td>
+</tr>
+<tr>
+<td><code>no events</code></td>
+<td>Nothing yet</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>RECENT.</strong> The last five records, newest first. Each shows the failure and mode, the score and grade on the right, the parts (<code>Recognition 21.5 (18 s) / Procedure 40 / Timeliness 12.3 / Control 20</code>, with <code>Diagnosis +5</code> and <code>False alarm -2</code> when they apply), and a note line: how the event ended (<code>completed</code>, <code>landed</code>, <code>timed out</code>, <code>flight ended</code>, <code>aborted</code>, <code>crashed</code>) and any flags (<code>2 wrong actions</code>, <code>1 out of order</code>, <code>1 safety</code>, <code>not on the leaderboard</code>).</p>
+<p>Tap a record to see its POH steps, tap it again to go back. Each step carries one word:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>done</code></td>
+<td>You did it</td>
+</tr>
+<tr>
+<td><code>MISSED</code> (red)</td>
+<td>Required and not done</td>
+</tr>
+<tr>
+<td><code>already set</code></td>
+<td>It was already in the right position when the failure fired. No points either way</td>
+</tr>
+<tr>
+<td><code>not required</code></td>
+<td>Not needed for what happened (for example the "not restored" steps after a successful reset)</td>
+</tr>
+<tr>
+<td><code>not checked</code></td>
+<td>The sim cannot see this control</td>
+</tr>
+<tr>
+<td><code>not scored</code></td>
+<td>Listed for completeness, no points</td>
+</tr>
+</tbody>
+</table></div>
+<p>With no records the page reads <code>No scored events yet. Scored: ALT 1, ALT 2, engine failure in flight or in the climb.</code></p>
+<p>During a hidden run the page shows only <code>A hidden failure is still armed or active. Scores after the run (Reveal or Repair ends it).</code></p>
+<h3 id="not-on-the-leaderboard">Not on the leaderboard</h3>
+<p>A record is kept but does not count for <strong>BEST</strong> when the event was not a fair test: the instructor pressed <strong>REPAIR</strong> or <strong>DISARM</strong>, the flight was restarted, the sim rate was not 1x, slew or replay was used, or a second failure fired while the event was open.</p>
+<h3 id="how-history-is-kept">How history is kept</h3>
+<p>The last 50 records are stored with the sim's saved data, so they are there the next time you fly. The page shows the newest five, and the <strong>BEST</strong> lines cover all 50. Older records drop off the end. There is no button to clear the history in this version.</p>
+<h2 id="worked-example">Worked example</h2>
+<p><strong>Task: fly the RNAV 20R at KSNA from vectors, with a 300 ft ceiling and an alternator failure you are not expecting.</strong></p>
+<p>Start anywhere: in flight, or parked with the engine running. The SR20 Companion is not needed for this one.</p>
+<ol>
+<li>Open the toolbar and click <strong>Instructor Station</strong>.</li>
+<li>Press the <strong>FAILURES</strong> softkey. Open <strong>PRACTICE</strong>.</li>
+<li>Under <strong>WHAT</strong>, press <strong>Electrical</strong>, then <strong>ALT 1 failure</strong>.</li>
+<li>Under <strong>WHEN</strong>, press <strong>On approach</strong>.</li>
+<li>Under <strong>CHECKLIST</strong>, press <strong>Random</strong>. The sentence now reads <code>ALT 1 failure, descending through 500-1500 ft AGL. Checklist (ALT 1 switch cycled): the checklist may fix it, fix it for a while, or not.</code></li>
+<li>Press <strong>ARM: ALT 1 FAILURE</strong>. The footer shows <code>FAIL  ALT 1 failure, descending through 500-1500 ft AGL - ARMED</code>.</li>
+<li>Press the <strong>APPROACH</strong> softkey. Open <strong>AIRPORT</strong> and press <strong>KSNA</strong>. The APPROACH section opens with <code>KSNA, ELEVATION ... FT</code>.</li>
+<li>Press the RNAV 20R tile. It is named as on the PROC page, with its letter if it has one (for example <strong>RNAV 20R Z</strong>). The POSITION section opens.</li>
+<li>Under <strong>START FROM</strong>, press <strong>Quick intercept</strong>. Under <strong>INTERCEPT</strong>, press <strong>45 left</strong> or <strong>45 right</strong>. Set the <strong>Intercept leg</strong> to <strong>8</strong> NM with <strong>-</strong> and <strong>+</strong>.</li>
+<li>Under <strong>ALTITUDE</strong>, press <strong>FAF altitude</strong>. Set <strong>Speed</strong> to <strong>110</strong> KIAS.</li>
+<li>Under <strong>HAND-OVER</strong>, press <strong>Autopilot on</strong> and <strong>Paused until FLY</strong>. If you are parked with the engine off, press <strong>Auto-start</strong> too.</li>
+<li>Open <strong>WEATHER</strong>. Press <strong>Overcast, base at</strong> and set <strong>Cloud base</strong> to <strong>300</strong> ft AGL. Under <strong>SECRECY</strong>, press <strong>Show the numbers</strong>. Under <strong>WIND</strong>, press <strong>Light, from the manager</strong>.</li>
+<li>Read the summary sentence. It should read like <code>RNAV 20R Z at KSNA, 45 left, 8 NM, FAF altitude (...), 110 kt, AP on. Weather overcast, base 300 ft AGL, shown. Paused until you press FLY.</code></li>
+<li>Press <strong>SET UP RNAV 20R Z</strong>. The banner shows <strong>SETTING UP</strong> with the steps and the progress bar.</li>
+<li>When the banner turns green and reads <strong>READY - PAUSED</strong>, look around: the approach is loaded with vectors-to-final active, the CDI is on GPS, the altimeters are set, the heading bug is on the intercept heading and the autopilot is in HDG and ALT. The amber line reads <code>With a failure: ALT 1 failure, descending through 500-1500 ft AGL</code>.</li>
+<li>Brief the approach, then press <strong>FLY</strong>. The banner counts <strong>FLYING IN 3</strong>, 2, 1 and the sim unpauses.</li>
+<li>Press <strong>APR</strong> on the autopilot to capture the final, and fly the approach. Take over the throttle.</li>
+<li>Somewhere between 1,500 and 500 ft AGL in the descent, the ALT 1 caution appears. Run the POH procedure: ALT 1 breaker check and set, ALT 1 switch cycle, and if it does not come back, ALT 1 switch off and loads reduced.</li>
+<li>Land, or go missed. Press <strong>END THE RUN</strong> to close the run and get live weather back.</li>
+<li>Press <strong>DEBRIEF</strong> to see the weather and the failure events, then <strong>SCORES</strong> to see your Practice score for ALT 1. Tap the record for the step list.</li>
+</ol>
+<p>To make it a real surprise, replace steps 3 to 6: under <strong>WHAT</strong> press <strong>Random</strong>, then <strong>Electrical</strong>, keep <strong>On approach</strong>, and press <strong>ARM A RANDOM FAILURE</strong>. The panel then draws one electrical failure (an alternator, or another electrical item) and does not name it. Press <strong>I HAVE A FAILURE</strong> when you see it. It is scored as a Surprise if it turns out to be ALT 1 or ALT 2.</p>
+<h2 id="quick-reference">Quick reference</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Where</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Instructor Station icon</td>
+<td>Sim toolbar</td>
+<td>Opens the panel</td>
+</tr>
+<tr>
+<td><strong>FAILURES</strong> / <strong>APPROACH</strong> / <strong>DEBRIEF</strong> / <strong>SCORES</strong></td>
+<td>Softkey bar</td>
+<td>Switches tab. Dots show armed (amber), active (red), READY (green), flying (amber), error (red)</td>
+</tr>
+<tr>
+<td><strong>FAIL</strong> / <strong>APPR</strong> lines</td>
+<td>Footer, every tab</td>
+<td>What is armed or active, and the state of the approach run</td>
+</tr>
+<tr>
+<td><strong>PRACTICE</strong></td>
+<td>FAILURES</td>
+<td>Pick WHAT, WHEN and CHECKLIST, then <strong>FAIL IT NOW</strong> or <strong>ARM: ...</strong></td>
+</tr>
+<tr>
+<td><strong>Random</strong></td>
+<td>FAILURES, PRACTICE, WHAT</td>
+<td>One hidden failure drawn from a group</td>
+</tr>
+<tr>
+<td><strong>SURPRISE ME</strong></td>
+<td>FAILURES</td>
+<td>Tick categories, set the minutes window, <strong>START HIDDEN FAILURE</strong></td>
+</tr>
+<tr>
+<td><strong>I HAVE A FAILURE</strong></td>
+<td>FAILURES, during a hidden run</td>
+<td>Stops the recognition clock. Answer is always <strong>NOTED</strong></td>
+</tr>
+<tr>
+<td><strong>WHAT IS IT? (BONUS)</strong></td>
+<td>FAILURES, during a hidden run</td>
+<td>Your diagnosis, or <strong>NOT SURE</strong></td>
+</tr>
+<tr>
+<td><strong>REVEAL</strong></td>
+<td>FAILURES status row, DEBRIEF</td>
+<td>Names a hidden failure</td>
+</tr>
+<tr>
+<td><strong>DISARM</strong></td>
+<td>FAILURES status row</td>
+<td>Cancels the armed failure</td>
+</tr>
+<tr>
+<td><strong>REPAIR</strong> / <strong>REPAIR ALL</strong></td>
+<td>FAILURES status rows</td>
+<td>Removes one active failure, or all</td>
+</tr>
+<tr>
+<td><strong>Use my flight plan</strong></td>
+<td>APPROACH, AIRPORT</td>
+<td>Sets up the approach loaded on the PROC page without changing the G1000</td>
+</tr>
+<tr>
+<td><strong>YOURS</strong>, <strong>OTHER...</strong>, <strong>NEAREST WITH AN APPROACH</strong></td>
+<td>APPROACH, AIRPORT</td>
+<td>Pick the airport</td>
+</tr>
+<tr>
+<td>Approach tiles</td>
+<td>APPROACH, APPROACH</td>
+<td>Pick the approach. Dimmed tiles give the reason</td>
+</tr>
+<tr>
+<td><strong>Quick intercept</strong></td>
+<td>APPROACH, POSITION</td>
+<td>Straight-in or 45 degree intercept, 3 to 15 NM, vectors-to-final active</td>
+</tr>
+<tr>
+<td><strong>A fix of the approach</strong></td>
+<td>APPROACH, POSITION</td>
+<td>Start by bearing and distance from any fix (needs the Companion)</td>
+</tr>
+<tr>
+<td><strong>HAND-OVER</strong></td>
+<td>APPROACH, POSITION</td>
+<td>Autopilot on or off, paused or at once, engine as is or auto-start</td>
+</tr>
+<tr>
+<td><strong>WEATHER</strong></td>
+<td>APPROACH</td>
+<td>Keep, live, overcast with a base, random around a reference, hidden or shown, wind</td>
+</tr>
+<tr>
+<td><strong>SET UP ...</strong></td>
+<td>APPROACH</td>
+<td>Runs the setup</td>
+</tr>
+<tr>
+<td><strong>SET WEATHER NOW</strong></td>
+<td>APPROACH</td>
+<td>Applies the weather only, no move</td>
+</tr>
+<tr>
+<td><strong>FLY</strong></td>
+<td>Run banner</td>
+<td>3, 2, 1, unpause. Failures and scoring start here</td>
+</tr>
+<tr>
+<td><strong>CANCEL</strong></td>
+<td>Run banner, before FLY</td>
+<td>Stops the setup. A ramp start goes back to the ramp</td>
+</tr>
+<tr>
+<td><strong>END THE RUN</strong></td>
+<td>Run banner, flying</td>
+<td>Ends the run, reveals hidden weather, live weather back</td>
+</tr>
+<tr>
+<td><strong>WEATHER LIVE</strong></td>
+<td>Run banner, DEBRIEF</td>
+<td>Live weather back, altimeters set to it</td>
+</tr>
+<tr>
+<td><strong>OK</strong></td>
+<td>Run banner, after an error</td>
+<td>Clears the error</td>
+</tr>
+<tr>
+<td><strong>?</strong></td>
+<td>Run banner</td>
+<td>Help text for the banner</td>
+</tr>
+<tr>
+<td><strong>REFRESH</strong></td>
+<td>DEBRIEF</td>
+<td>Reads the approach debrief again</td>
+</tr>
+<tr>
+<td>Record rows</td>
+<td>SCORES, RECENT</td>
+<td>Tap for the POH step list</td>
+</tr>
+</tbody>
+</table></div>
+<div class="pager"><span><a href="autopilot-fms.html">&larr; Autopilot, flight plan and connected devices</a></span><span><a href="companion-troubleshooting.html">The SR20 Companion and troubleshooting &rarr;</a></span></div>
+<footer>SR20 Realism Mod 1.0.0 by wazooda. Not affiliated with or endorsed by Cirrus Aircraft, Garmin, ForeFlight,
+RealSimGear, Microsoft or Asobo. For flight simulation only: not for real-world flight training or operations.</footer>
+</main></div><script src="nav.js"></script></body></html>

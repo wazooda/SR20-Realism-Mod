@@ -1,0 +1,1545 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aircraft and systems - SR20 Realism Mod manual</title>
+<meta name="description" content="Aircraft and systems: user manual of the SR20 Realism Mod for Microsoft Flight Simulator 2024.">
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
+<nav class="side"><p class="brand">SR20 Realism Mod</p><p class="ver">User manual, version 1.0.0</p>
+<input id="q" type="search" placeholder="Filter sections..." aria-label="Filter sections">
+<ul><li class="page"><a href="index.html">SR20 Realism Mod: user manual</a><ul class="secs"><li><a href="index.html#how-to-use-this-manual">How to use this manual</a></li><li><a href="index.html#what-you-need">What you need</a></li><li><a href="index.html#the-two-parts-of-the-mod">The two parts of the mod</a></li><li><a href="index.html#quick-start">Quick start</a></li><li><a href="index.html#where-things-are">Where things are</a></li><li><a href="index.html#what-this-mod-is-not">What this mod is not</a></li><li><a href="index.html#credits-and-licence">Credits and licence</a></li></ul></li><li class="page"><a href="install.html">Installing and first flight</a><ul class="secs"><li><a href="install.html#requirements">Requirements</a></li><li><a href="install.html#the-two-downloads">The two downloads</a></li><li><a href="install.html#installing-with-the-installer">Installing with the installer</a></li><li><a href="install.html#installing-by-hand">Installing by hand</a></li><li><a href="install.html#finding-the-aircraft-in-the-sim">Finding the aircraft in the sim</a></li><li><a href="install.html#first-flight-check-list">First flight check list</a></li><li><a href="install.html#upgrading">Upgrading</a></li><li><a href="install.html#uninstalling">Uninstalling</a></li><li><a href="install.html#where-things-are-installed">Where things are installed</a></li><li><a href="install.html#quick-reference">Quick reference</a></li></ul></li><li class="page cur"><a href="aircraft-systems.html">Aircraft and systems</a><ul class="secs"><li><a href="aircraft-systems.html#flight-model-and-performance">Flight model and performance</a></li><li><a href="aircraft-systems.html#engine">Engine</a></li><li><a href="aircraft-systems.html#fuel">Fuel</a></li><li><a href="aircraft-systems.html#engine-and-system-displays">Engine and system displays</a></li><li><a href="aircraft-systems.html#cas-alerts-and-messages">CAS alerts and messages</a></li><li><a href="aircraft-systems.html#electrical-system">Electrical system</a></li><li><a href="aircraft-systems.html#circuit-breaker-panel">Circuit breaker panel</a></li><li><a href="aircraft-systems.html#equipment-removed-versus-the-sr22t">Equipment removed versus the SR22T</a></li><li><a href="aircraft-systems.html#checklists">Checklists</a></li><li><a href="aircraft-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="safety-systems.html">Terrain, surface and protection systems</a><ul class="secs"><li><a href="safety-systems.html#taws-b-terrain-and-obstacle-alerting">TAWS-B terrain and obstacle alerting</a></li><li><a href="safety-systems.html#obstacles">Obstacles</a></li><li><a href="safety-systems.html#surfacewatch">SurfaceWatch</a></li><li><a href="safety-systems.html#safetaxi-airport-maps">SafeTaxi airport maps</a></li><li><a href="safety-systems.html#glide-range-ring-and-fuel-range-ring">Glide range ring and fuel range ring</a></li><li><a href="safety-systems.html#electronic-stability-and-protection-esp">Electronic Stability and Protection (ESP)</a></li><li><a href="safety-systems.html#gfc-700-speed-protection">GFC 700 speed protection</a></li><li><a href="safety-systems.html#voice-alerts">Voice alerts</a></li><li><a href="safety-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="autopilot-fms.html">Autopilot, flight plan and connected devices</a><ul class="secs"><li><a href="autopilot-fms.html#autopilot-and-g1000-behaviour">Autopilot and G1000 behaviour</a></li><li><a href="autopilot-fms.html#autopilot-disconnect">Autopilot disconnect</a></li><li><a href="autopilot-fms.html#navigraph-charts">Navigraph charts</a></li><li><a href="autopilot-fms.html#ipad-and-foreflight-link">iPad and ForeFlight link</a></li><li><a href="autopilot-fms.html#realsimgear-cirrus-yoke-force-feel">RealSimGear Cirrus yoke force feel</a></li><li><a href="autopilot-fms.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="instructor-station.html">Instructor Station</a><ul class="secs"><li><a href="instructor-station.html#opening-the-panel">Opening the panel</a></li><li><a href="instructor-station.html#failures-tab">FAILURES tab</a></li><li><a href="instructor-station.html#approach-tab">APPROACH tab</a></li><li><a href="instructor-station.html#debrief-tab">DEBRIEF tab</a></li><li><a href="instructor-station.html#scores-tab">SCORES tab</a></li><li><a href="instructor-station.html#worked-example">Worked example</a></li><li><a href="instructor-station.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="companion-troubleshooting.html">The SR20 Companion and troubleshooting</a><ul class="secs"><li><a href="companion-troubleshooting.html#what-the-companion-is">What the Companion is</a></li><li><a href="companion-troubleshooting.html#the-tray-icon-needs-the-companion">The tray icon (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#start-with-windows-needs-the-companion">Start with Windows (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#what-the-companion-does-on-your-pc-and-network-needs-the-companion">What the Companion does on your PC and network (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#troubleshooting">Troubleshooting</a></li><li><a href="companion-troubleshooting.html#known-limitations">Known limitations</a></li><li><a href="companion-troubleshooting.html#quick-reference">Quick reference</a></li></ul></li></ul></nav>
+<main><h1>Aircraft and systems</h1>
+<p>This chapter covers the aircraft itself: how the SR20 flies, the engine and its single power lever, fuel, the engine
+and system pages on the MFD, the crew alerting system (CAS), the electrical system, the circuit breaker panel, the
+equipment the SR22T has and the SR20 does not, and the checklists.</p>
+<p>The numbers come from the Cirrus SR20 G6 POH (P/N 11934-005 Reissue A, serials 2220 and 2339 and up, Perspective+).
+Section and page references in this chapter are to that POH unless they say otherwise. Where the mod had to choose
+its own value, or where the sim stops short of the real aircraft, the text says so.</p>
+<p>None of the features in this chapter need the SR20 Companion.</p>
+<h2 id="flight-model-and-performance">Flight model and performance</h2>
+<p><strong>What it does.</strong> The mod keeps the stock SR22T airframe, 3D model and cockpit, and replaces what makes it fly like an
+SR20: weights, centre of gravity limits, fuel, engine, propeller, reference speeds, stall character, nosewheel and the
+performance tables of the sim's EFB.</p>
+<h3 id="weights-and-limits">Weights and limits</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>SR20 value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum takeoff and landing weight</td>
+<td>3,150 lb</td>
+<td>POH §2 p.2-8</td>
+</tr>
+<tr>
+<td>Basic empty weight</td>
+<td>2,150 lb at FS 139.5</td>
+<td>Not from the POH (it has only a blank form). A representative G6 figure.</td>
+</tr>
+<tr>
+<td>Maximum baggage</td>
+<td>130 lb</td>
+<td>POH §2 p.2-8</td>
+</tr>
+<tr>
+<td>Seats</td>
+<td>Pilot and four passengers (two front, three rear)</td>
+<td>POH §2 p.2-18</td>
+</tr>
+<tr>
+<td>CG envelope, forward limit</td>
+<td>FS 137.8 at 2,100 lb, FS 139.1 at 2,700 lb, FS 141.1 at 3,150 lb</td>
+<td>POH §2 Figure 2-1</td>
+</tr>
+<tr>
+<td>CG envelope, aft limit</td>
+<td>FS 148.1 from 2,100 to 3,150 lb</td>
+<td>POH §2 Figure 2-1</td>
+</tr>
+<tr>
+<td>Vne</td>
+<td>201 KIAS (no altitude table)</td>
+<td>POH §2 p.2-4</td>
+</tr>
+<tr>
+<td>Vno</td>
+<td>164 KIAS</td>
+<td>POH §2 p.2-4</td>
+</tr>
+<tr>
+<td>Vfe</td>
+<td>150 KIAS flaps 50 %, 110 KIAS flaps 100 %</td>
+<td>POH §2 p.2-4</td>
+</tr>
+<tr>
+<td>Maximum operating altitude</td>
+<td>17,500 ft</td>
+<td>POH §2 p.2-18</td>
+</tr>
+<tr>
+<td>Flight into known icing</td>
+<td>Prohibited (no ice protection)</td>
+<td>POH §2 p.2-17</td>
+</tr>
+</tbody>
+</table></div>
+<p>The PFD airspeed tape shows the SR20 arcs: red below 62 KIAS, white 62 to 110, green 71 to 164, yellow 164 to 201
+and the barber pole from 201 (POH §2 p.2-5).</p>
+<h3 id="v-speed-bugs-on-the-pfd">V-speed bugs on the PFD</h3>
+<p>The reference speeds appear as bugs on the airspeed tape, with a letter beside each.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Bug</th>
+<th>Tape letter</th>
+<th>Speed</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Glide</td>
+<td>G</td>
+<td>100 KIAS</td>
+<td>Best glide, flaps up, at 3,150 lb (92 KIAS at 2,600 lb), POH §3 and §4 p.4-3</td>
+</tr>
+<tr>
+<td>Vy</td>
+<td>Y</td>
+<td>96 KIAS</td>
+<td>Best rate of climb at sea level, POH §4 p.4-3</td>
+</tr>
+<tr>
+<td>Vx</td>
+<td>X</td>
+<td>81 KIAS</td>
+<td>Best angle of climb, flaps 50 %, POH §4 p.4-3 (the POH gives no flaps-up Vx)</td>
+</tr>
+<tr>
+<td>Vr</td>
+<td>R</td>
+<td>71 KIAS</td>
+<td>Rotation, flaps 50 %, POH §4 p.4-3</td>
+</tr>
+</tbody>
+</table></div>
+<p>The glide bug is set for maximum weight. If you fly light, the best glide speed is lower: 92 KIAS at 2,600 lb.</p>
+<p><strong>Changing them.</strong> The bugs are the stock G1000 NXi references.</p>
+<ol>
+<li>On the PFD press the <strong>Tmr/Ref</strong> softkey.</li>
+<li>Turn the large <strong>FMS</strong> knob to the speed you want to change.</li>
+<li>Turn the small <strong>FMS</strong> knob to change the value, or to switch the bug on or off.</li>
+<li>Press <strong>Tmr/Ref</strong> again to close the window.</li>
+</ol>
+<h3 id="stall-behaviour">Stall behaviour</h3>
+<p>The SR22T base model broke a wing in every coordinated stall when it was flown with SR20 values. The mod moves the
+start of the stall later in the angle of attack and adds wing-tip and aileron relief, so the outer wing stalls last.</p>
+<p><strong>What you feel.</strong> A coordinated power-off stall mushes with a gentle nose drop and the wings can be held nearly level
+with coordinated aileron and rudder, as POH §4 p.4-23 describes. The stall horn sounds and the red <code>STALL</code> CAS
+warning comes on together (see <a href="#cas-alerts-and-messages">CAS alerts</a>).</p>
+<p><strong>Limits.</strong> The stall was tuned by feel against the POH description. An uncoordinated stall can still drop a wing.
+The full-flap stall has had less flight testing than the clean stall.</p>
+<h3 id="nosewheel-and-brakes">Nosewheel and brakes</h3>
+<p>The SR20 nosewheel castors freely, about 85° each side of centre, and you steer with differential braking (POH §7
+p.7-25). The stock SR22T steers the nosewheel from the rudder pedals. The mod makes it free castering, with the
+castering behaviour of the sim's DA40 NG and the 85° limit from the POH.</p>
+<p><strong>What you notice.</strong> The rudder pedals do not steer on the ground at low speed. Use the toe brakes. Toe-brake
+response is softer than stock so that a single tap does not swing the nose.</p>
+<h3 id="tuned-against-the-poh">Tuned against the POH</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What was done</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Engine power</td>
+<td>Calibrated at sea level and at 4,000 ft full throttle: 211 hp static at sea level (about 213 expected for the test conditions, 215 rated), 181 hp at 4,000 ft (POH 181). Within about 2 %.</td>
+</tr>
+<tr>
+<td>Full-throttle fuel flow</td>
+<td>20 GPH at sea level, full rich (POH §4 p.4-15)</td>
+</tr>
+<tr>
+<td>Static RPM</td>
+<td>2,700 RPM at full throttle on the ground (POH §4 p.4-15)</td>
+</tr>
+<tr>
+<td>Idle</td>
+<td>Tuned toward a real SR20's idle of about 650 to 700 RPM</td>
+</tr>
+<tr>
+<td>EGT shape</td>
+<td>Best power 100 °F rich of peak, best economy from peak to 50 °F lean of peak (POH §4 p.4-20)</td>
+</tr>
+<tr>
+<td>Percent power and target fuel flow</td>
+<td>Fitted to the POH §5 cruise tables (p.5-31 and 5-32)</td>
+</tr>
+<tr>
+<td>Cruise speed</td>
+<td>Checked against POH §5 at 4,000, 6,000 and 8,000 ft</td>
+</tr>
+<tr>
+<td>EFB performance tables</td>
+<td>The sim's EFB flight planner uses SR20 climb, cruise, takeoff and landing data from POH §5</td>
+</tr>
+<tr>
+<td>Propeller</td>
+<td>Hartzell three-blade, 74 in, constant speed (POH §1 p.1-7)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Differences from the real aircraft / limits.</strong> No sim aircraft flies exactly like the real one. Expect cruise
+speeds and climb rates a few percent off the POH tables, and the climb at altitude better than the book. The exterior, the cockpit and the placards are the stock SR22T's.</p>
+<h2 id="engine">Engine</h2>
+<p><strong>What it does.</strong> The engine is a Lycoming IO-390-C3B6: four cylinders, fuel injected, naturally aspirated, 215 hp at
+2,700 RPM (POH §1 p.1-7). The SR22T's engine computer, which drove its turbocharger and rescaled the mixture, is
+replaced by an SR20 engine computer.</p>
+<h3 id="single-power-lever-and-the-governor">Single power lever and the governor</h3>
+<p>The SR20 has one power lever. The propeller governor is cammed to it: 2,500 RPM from idle through the cruise range
+and 2,700 RPM at full power (POH §7, Powerplant Controls).</p>
+<ul>
+<li>From idle to 96 % of lever travel the governor targets 2,500 RPM.</li>
+<li>Over the last 4 % of travel the target rises to 2,700 RPM.</li>
+<li>At low power the engine cannot reach 2,500 RPM, so the RPM follows the lever until it does.</li>
+</ul>
+<p><strong>Hardware throttles.</strong> You only get 2,700 RPM with the lever fully forward. If your throttle axis does not reach
+100 %, you will see about 2,500 to 2,600 RPM at "full power". Calibrate the axis so the end of travel reads 100 %.</p>
+<h3 id="mixture-and-leaning">Mixture and leaning</h3>
+<p>The mixture lever goes straight to the engine. The SR22T's computer changed the mixture with manifold pressure; the
+SR20 computer does not.</p>
+<ul>
+<li><strong>Climb.</strong> The top of the green arc on the fuel flow gauge moves with altitude. It is the full-power target fuel
+  flow from POH §4 p.4-15: 20 GPH at sea level, 18 at 4,000 ft, 16 at 8,000 ft, 15 at 12,000 ft, 13 at 16,000 ft and
+  12 at 18,000 ft. Lean in the climb to keep the fuel flow at the top of the arc.</li>
+<li><strong>Cruise.</strong> Below 75 % power a cyan <strong>target fuel flow</strong> marker appears on the fuel flow gauge (POH §7 p.7-43). It
+  shows the fuel flow for best economy at the present power. Lean until the needle meets the marker. The marker
+  disappears above 77 % and below about 40 % power. The low-power cut-off is the mod's choice; the POH gives none.</li>
+<li><strong>Best power</strong> is about 100 °F rich of peak EGT. <strong>Best economy</strong> is from peak to 50 °F lean of peak (POH §4
+  p.4-20).</li>
+<li><strong>Lean assist.</strong> On the MFD engine page, the <strong>Assist</strong> softkey turns on the stock lean assist. As you lean, it
+  marks the peak EGT of each cylinder and shows the difference from peak (<code>Δ PEAK</code>).</li>
+</ul>
+<h3 id="percent-power">Percent power</h3>
+<p>Percent power is computed from manifold pressure, RPM, pressure altitude and outside air temperature, as on the real
+Perspective+ (POH §4 p.4-20). It does not change when you move the mixture. Below 5 % it reads 0. The value is
+smoothed over about 1.5 seconds, so it lags a quick power change slightly.</p>
+<h3 id="starting-the-engine">Starting the engine</h3>
+<p>Use the SR20 <strong>Starting Engine</strong> checklist (MFD checklists, Normal Procedures). Differences from the stock SR22T:</p>
+<ul>
+<li>The fuel pump switch has no PRIME. Forward (<strong>BOOST</strong>) is on, centre is off. If you move it aft, it springs back to
+  <strong>BOOST</strong>. See <a href="#fuel">Fuel</a>.</li>
+<li>The mixture lever is not rescaled. Full forward is full rich.</li>
+<li>The checklist sequence is: power lever open 1/4 inch, mixture cutoff, fuel pump on, mixture rich for 3 to 5
+  seconds until fuel flow is stable, mixture cutoff, then start and advance the mixture smoothly once the engine
+  runs. Retard to 1,000 RPM and turn the fuel pump off.</li>
+<li>The sim's auto-start also works.</li>
+</ul>
+<p><code>START ENGAGED</code> comes on as a caution if the starter runs longer than 15 seconds and as a warning after 30 seconds.</p>
+<p><strong>Differences from the real aircraft / limits.</strong> Absolute EGT values are estimates (peak near 1,500 °F); the shape of
+the leaning curve follows the POH, the exact temperatures are not from a real engine. Compression ratio and some
+internal engine constants are inherited from the SR22T because the POH does not give them.</p>
+<h2 id="fuel">Fuel</h2>
+<p><strong>What it does.</strong> Two wing tanks of 29.3 gal each, 58.5 gal total, of which <strong>56.0 gal are usable</strong> (POH §2 p.2-17).
+The mod shows usable fuel everywhere, as the real gauges do.</p>
+<h3 id="usable-gallons">Usable gallons</h3>
+<p>The sim counts the unusable fuel (1.25 gal per tank) in its tank quantities, and the engine stops when only that is
+left. The mod subtracts it before the G1000 sees it. So:</p>
+<ul>
+<li>An empty tank reads <strong>0.0</strong> on the gauges, not 1.25.</li>
+<li><code>FUEL LOW LEFT</code> and <code>FUEL LOW RIGHT</code> can fire (below 1 gal usable in a tank).</li>
+<li><code>FUEL LOW TOTAL</code> and <code>FUEL IMBALANCE</code> use usable fuel.</li>
+</ul>
+<h3 id="fuel-gauges">Fuel gauges</h3>
+<p>The EIS fuel quantity tapes are scaled for the SR20's 28 usable gallons per tank: red at 0, yellow from 0 to 10,
+green from 10 to 28 gal (POH §2 p.2-10). The fuel flow gauge reads 0 to 25 GPH.</p>
+<h3 id="fuel-totalizer-and-the-initial-usable-fuel-page">Fuel totalizer and the Initial Usable Fuel page</h3>
+<p>The G1000's fuel calculations (<strong>Used</strong>, <strong>Rem</strong>, <strong>Time Rem</strong>, <strong>Range</strong>, <strong>Econ</strong> on the engine page) come from a
+totalizer: fuel flow integrated from the amount you enter at the start of the flight. The <code>FUEL LOW</code> CAS alerts do not
+use the totalizer; they use the sensed tank quantities.</p>
+<p>To set the starting fuel:</p>
+<ol>
+<li>On the MFD press <strong>Engine</strong>, then <strong>Fuel-W&amp;B</strong>. The page titled <strong>Initial Usable Fuel</strong> opens, headed
+   <code>Cirrus SR20</code>.</li>
+<li>Turn the small <strong>FMS</strong> knob to change by 1 gal, the large <strong>FMS</strong> knob by 10 gal. The range is 0 to 56 gal.
+   <strong>Fuel Added</strong> shows the change.</li>
+<li>Press <strong>ENT</strong> (or the <strong>W&amp;B</strong> softkey) to save and go to the Weight and Balance page. <strong>Undo</strong> discards the change.</li>
+</ol>
+<p><strong>Do not use the Full and Tabs softkeys.</strong> They still set the SR22T's values (92 and 60 gal), which are wrong for
+the SR20. Set the amount with the knobs.</p>
+<h3 id="boost-pump">Boost pump</h3>
+<p>The SR20 has an electric boost pump with two positions, OFF and ON (POH §7 p.7-40). The SR22T's switch has three:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>SR22T switch position</th>
+<th>What it does in the SR20</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Forward (<strong>BOOST</strong>)</td>
+<td>Pump on</td>
+</tr>
+<tr>
+<td>Centre</td>
+<td>Pump off</td>
+</tr>
+<tr>
+<td>Aft (<strong>PRIME</strong>)</td>
+<td>Springs back to forward: pump on</td>
+</tr>
+</tbody>
+</table></div>
+<p>The pump is powered from MAIN BUS 2 through the <strong>FUEL PUMP</strong> breaker.</p>
+<h3 id="fuel-range-ring">Fuel range ring</h3>
+<p>The navigation maps can show a fuel range ring. It is described in
+<a href="safety-systems.html#glide-range-ring-and-fuel-range-ring">Terrain, surface and protection systems</a>.</p>
+<p><strong>Differences from the real aircraft / limits.</strong> The sim has no separate totalizer sensor; the totalizer is the stock
+G1000 NXi calculation from fuel flow.</p>
+<h2 id="engine-and-system-displays">Engine and system displays</h2>
+<h3 id="mfd-engine-page">MFD engine page</h3>
+<p><strong>Where to find it.</strong> On the MFD press <strong>Engine</strong> (the leftmost softkey). Press it again to go back to the navigation
+map.</p>
+<p><img loading="lazy" alt="The SR20 engine page on the MFD: % power, RPM, manifold pressure and fuel flow dials, oil, four-cylinder CHT and EGT, electrical, fuel and air data" src="img/engine-page.jpg" /></p>
+<p>The page, titled <strong>EIS - Engine</strong>, is laid out from photographs of a real SR20 G6:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Top row of dials</td>
+<td><strong>% Power</strong> (0 to 100), <strong>RPM x 100</strong> (0 to 30), <strong>Man "Hg</strong> (10 to 35), <strong>FFlow GPH</strong> (0 to 25), <strong>Oil</strong> (temperature in °F and pressure in PSI on one dial)</td>
+</tr>
+<tr>
+<td><strong>Engine Temperatures</strong></td>
+<td><strong>CHT °F</strong> (100 to 500) and <strong>EGT °F</strong> (1,000 to 1,600), four cylinders each, no TIT</td>
+</tr>
+<tr>
+<td><strong>Electrical</strong></td>
+<td><strong>Current (A)</strong>: <strong>Alt 1</strong>, <strong>Alt 2</strong>, <strong>Batt 1</strong>. <strong>Bus Volts (V)</strong>: <strong>Ess</strong>, <strong>M1</strong>, <strong>M2</strong> (M1 = Main Distribution Bus 1, fed by ALT 1; M2 = Main Distribution Bus 2, fed by ALT 2)</td>
+</tr>
+<tr>
+<td><strong>Fuel Qty</strong></td>
+<td>Left and right tanks in usable gallons</td>
+</tr>
+<tr>
+<td><strong>Fuel Calculation</strong></td>
+<td><strong>Used</strong>, <strong>Rem</strong>, <strong>Time Rem</strong>, <strong>Range</strong>, <strong>Econ</strong> (totalizer)</td>
+</tr>
+<tr>
+<td><strong>Air Data</strong></td>
+<td><strong>Density Alt</strong>, <strong>OAT</strong> in °F and °C, ISA deviation</td>
+</tr>
+</tbody>
+</table></div>
+<p>The SR22T's anti-ice and oxygen panels are not shown.</p>
+<p>Softkeys on the engine page:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Softkey</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Engine</strong></td>
+<td>Back to the navigation map</td>
+</tr>
+<tr>
+<td><strong>DCLTR</strong></td>
+<td>Nothing (inoperative in the stock aircraft too)</td>
+</tr>
+<tr>
+<td><strong>Assist</strong></td>
+<td>Lean assist on or off (see <a href="#mixture-and-leaning">Mixture and leaning</a>)</td>
+</tr>
+<tr>
+<td><strong>Fuel-W&amp;B</strong></td>
+<td>Opens the <strong>Initial Usable Fuel</strong> page</td>
+</tr>
+</tbody>
+</table></div>
+<p>Gauge markings follow POH §2 p.2-9 and p.2-10: CHT green 240 to 435 °F, yellow 435 to 465, red above 465; oil
+temperature green 100 to 235 °F; manifold pressure green 15 to 29.5 inHg; RPM green 500 to 2,700; volts green 24.5 to
+32.</p>
+<h3 id="eis-strip">EIS strip</h3>
+<p>On the other MFD pages the engine data is in a narrow strip on the left: percent power, RPM, manifold pressure, fuel
+flow, oil temperature and pressure, CHT and EGT, fuel quantity and the electrical values. It uses the same SR20
+ranges and the same four cylinders.</p>
+<h3 id="reversionary-mode">Reversionary mode</h3>
+<p>When the MFD fails or loses power, the PFD goes into reversionary mode and shows its own engine strip. In the mod
+that strip has four CHT and EGT columns, an <strong>EGT °F</strong> label in place of EGT/TIT, and no TIT, oxygen or anti-ice rows.</p>
+<p>You can see it by pulling both the <strong>MFD A</strong> and <strong>MFD B</strong> breakers (see <a href="#circuit-breaker-panel">Circuit breaker panel</a>).</p>
+<h3 id="weight-and-balance-page">Weight and Balance page</h3>
+<p><strong>Where to find it.</strong> The first page of the MFD <strong>Aux</strong> page group (<strong>Weight and Balance</strong>), or from the engine page:
+<strong>Fuel-W&amp;B</strong>, then <strong>W&amp;B</strong>.</p>
+<p>The page, titled <strong>Aux - Weight and Balance</strong>, uses the SR20 data:</p>
+<ul>
+<li>Basic empty weight 2,150 lb (a representative G6 figure, not from the POH).</li>
+<li>Stations <strong>Pilot</strong>, <strong>Copilot</strong>, <strong>Pass L</strong>, <strong>Pass M</strong>, <strong>Pass R</strong> and <strong>Baggage</strong> at the POH §6 p.6-6 arms
+  (front seats FS 143.5, rear seats FS 180.0, baggage FS 208.0, fuel FS 153.8). The SR22T's TKS fluid row is gone.</li>
+<li>Maximum weight 3,150 lb and the CG envelope of POH §2 Figure 2-1. CG is also shown in % MAC (LEMAC FS 133.1, MAC
+  47.7 in, POH §6 p.6-3).</li>
+<li>Fuel in usable gallons, 56 maximum.</li>
+</ul>
+<p>Softkeys: <strong>Engine</strong>, <strong>Graph</strong> (the station-versus-weight graph, with <strong>Zoom</strong> and <strong>Back</strong>), <strong>Fuel</strong>, <strong>Confirm</strong>
+(writes the weights you entered to the sim) and <strong>Checklist</strong>.</p>
+<h3 id="target-fuel-flow">Target fuel flow</h3>
+<p>The cyan target fuel flow marker on the fuel flow gauge is described under
+<a href="#mixture-and-leaning">Mixture and leaning</a>. It is shown at 75 % power and below (with some hysteresis, see above).</p>
+<h3 id="circuit-breaker-effects-on-the-displays">Circuit breaker effects on the displays</h3>
+<ul>
+<li><strong>ENGINE INSTR</strong> pulled: the engine values disappear from the EIS strip, the engine page and the reversionary strip.</li>
+<li><strong>FUEL QTY</strong> pulled: the fuel quantities disappear.</li>
+</ul>
+<p><strong>Differences from the real aircraft / limits.</strong> The basic empty weight is not your aircraft's. The <strong>DCLTR</strong> softkey
+does nothing.</p>
+<h2 id="cas-alerts-and-messages">CAS alerts and messages</h2>
+<p><strong>What it does.</strong> The crew alerting system follows the SR20 rules of POH §2 (gauge markings and their delays), §3
+and §3A. The SR22T rules for equipment the SR20 does not have are removed.</p>
+<p><strong>Where to find it.</strong> CAS messages appear in the CAS window on the PFD, to the right of the vertical speed
+indicator. Warnings are red, cautions amber, advisories white. Press the <strong>Alerts</strong> softkey on the PFD to read the
+longer text of each message in the Alerts window.</p>
+<p>Every CAS line clears by itself when its condition ends. Delays below are how long the condition must hold before the
+message appears.</p>
+<h3 id="warnings-red">Warnings (red)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>CAS text</th>
+<th>Trigger</th>
+<th>Clears when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OIL PRESS</code></td>
+<td>Oil pressure below 25 or above 115 psi</td>
+<td>Pressure back between 25 and 115 psi</td>
+</tr>
+<tr>
+<td><code>OIL TEMP</code></td>
+<td>Oil temperature above 235 °F</td>
+<td>Temperature at or below 235 °F</td>
+</tr>
+<tr>
+<td><code>CHT</code></td>
+<td>Any CHT above 465 °F</td>
+<td>All CHTs at or below 465 °F</td>
+</tr>
+<tr>
+<td><code>RPM</code></td>
+<td>Above 2,730 RPM for more than 5 s, or above 2,710 RPM for more than 10 s (POH §2 p.2-9 note a)</td>
+<td>RPM at or below 2,710</td>
+</tr>
+<tr>
+<td><code>FUEL LOW TOTAL</code></td>
+<td>Total usable fuel below 7 gal</td>
+<td>7 gal or more</td>
+</tr>
+<tr>
+<td><code>FUEL LOW LEFT</code></td>
+<td>Left tank below 1 gal usable</td>
+<td>1 gal or more</td>
+</tr>
+<tr>
+<td><code>FUEL LOW RIGHT</code></td>
+<td>Right tank below 1 gal usable</td>
+<td>1 gal or more</td>
+</tr>
+<tr>
+<td><code>FUEL IMBALANCE</code></td>
+<td>Left and right differ by more than 9.5 gal</td>
+<td>Difference 9.5 gal or less (the caution or advisory may remain)</td>
+</tr>
+<tr>
+<td><code>ESS BUS</code></td>
+<td>Essential bus at or below 24.4 V, or above 32 V</td>
+<td>Voltage above 24.4 V and not above 32 V</td>
+</tr>
+<tr>
+<td><code>M BUS 1</code></td>
+<td>Main bus 1 above 32 V</td>
+<td>32 V or less</td>
+</tr>
+<tr>
+<td><code>M BUS 2</code></td>
+<td>Main bus 2 above 32 V</td>
+<td>32 V or less</td>
+</tr>
+<tr>
+<td><code>STALL</code></td>
+<td>The stall warning is sounding and the aircraft is in the air</td>
+<td>Stall warning stops, or on the ground</td>
+</tr>
+<tr>
+<td><code>START ENGAGED</code></td>
+<td>Starter engaged for 30 s</td>
+<td>Starter released</td>
+</tr>
+<tr>
+<td><code>UNDERSPEED PROTECT ACTIVE</code></td>
+<td>Autopilot underspeed protection is acting</td>
+<td>Protection ends. See <a href="safety-systems.html#gfc-700-speed-protection">GFC 700 speed protection</a></td>
+</tr>
+<tr>
+<td><code>CAPS ACTIVATED</code></td>
+<td>The parachute has been deployed (stock)</td>
+<td>Never in that flight</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cautions-amber">Cautions (amber)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>CAS text</th>
+<th>Trigger</th>
+<th>Clears when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OIL PRESS</code></td>
+<td>Oil pressure from 25 psi up to (not including) 55 psi with the engine above 1,000 RPM (POH §2 p.2-9 note b)</td>
+<td>Pressure 55 psi or more, or RPM 1,000 or less</td>
+</tr>
+<tr>
+<td><code>OIL TEMP</code></td>
+<td>Oil temperature 235 °F or more</td>
+<td>Below 235 °F</td>
+</tr>
+<tr>
+<td><code>CHT</code></td>
+<td>Any CHT above 435 °F</td>
+<td>All CHTs at or below 435 °F</td>
+</tr>
+<tr>
+<td><code>FUEL LOW TOTAL</code></td>
+<td>Total usable fuel 10 gal or less (POH §3A p.3A-10)</td>
+<td>More than 10 gal</td>
+</tr>
+<tr>
+<td><code>FUEL IMBALANCE</code></td>
+<td>Left and right differ by more than 7.5 gal (checklist card Rev C)</td>
+<td>7.5 gal or less</td>
+</tr>
+<tr>
+<td><code>M BUS 1</code></td>
+<td>Main bus 1 at or below 24.4 V</td>
+<td>Above 24.4 V</td>
+</tr>
+<tr>
+<td><code>M BUS 2</code></td>
+<td>Main bus 2 at or below 24.4 V</td>
+<td>Above 24.4 V</td>
+</tr>
+<tr>
+<td><code>ALT 1</code></td>
+<td>ALT 1 current 0 to 1 A for 20 s (POH §2 p.2-10)</td>
+<td>Current above 1 A</td>
+</tr>
+<tr>
+<td><code>ALT 2</code></td>
+<td>ALT 2 current 0 to 1 A for 20 s</td>
+<td>Current above 1 A</td>
+</tr>
+<tr>
+<td><code>BATT 1</code></td>
+<td>Battery 1 discharging 5 to 59 A for 30 s</td>
+<td>Discharge less than 5 A</td>
+</tr>
+<tr>
+<td><code>AVIONICS OFF</code></td>
+<td>Avionics switch off, or the <strong>AVIONICS</strong> breaker pulled</td>
+<td>Avionics bus on</td>
+</tr>
+<tr>
+<td><code>START ENGAGED</code></td>
+<td>Starter engaged for 15 s</td>
+<td>Starter released</td>
+</tr>
+<tr>
+<td><code>FLAP OVERSPEED</code></td>
+<td>Flaps 50 % above 155 KIAS, or flaps 100 % above 115 KIAS, for 5 s (POH §3A p.3A-19)</td>
+<td>Speed below the limit or flaps up</td>
+</tr>
+<tr>
+<td><code>TAKEOFF FLAPS</code></td>
+<td>On the ground above 2,400 RPM with the flaps not at 50 %, for 1 s</td>
+<td>Flaps 50 %, power reduced, or airborne</td>
+</tr>
+<tr>
+<td><code>PARK BRAKE</code></td>
+<td>Parking brake set</td>
+<td>Parking brake released</td>
+</tr>
+<tr>
+<td><code>PITOT HEAT REQD</code></td>
+<td>Pitot heat off with OAT below 5 °C, for 15 s</td>
+<td>Pitot heat on, or OAT 5 °C or more</td>
+</tr>
+<tr>
+<td><code>PITOT HEAT FAIL</code></td>
+<td>Pitot heat switch on, its bus powered, but the heater circuit dead (for example the <strong>PITOT HEAT</strong> breaker pulled), for 5 s</td>
+<td>Heater powered, or switch off</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="advisories-white">Advisories (white)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>CAS text</th>
+<th>Trigger</th>
+<th>Clears when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FUEL IMBALANCE</code></td>
+<td>Left and right differ by more than 5.5 gal (POH §3A p.3A-11)</td>
+<td>5.5 gal or less</td>
+</tr>
+<tr>
+<td><code>FLAPS CLIMB</code></td>
+<td>Flaps not up, more than 1,000 ft above the ground and climbing at 200 fpm or more, for 30 s</td>
+<td>Flaps up, or not climbing</td>
+</tr>
+<tr>
+<td><code>HDG MODE</code></td>
+<td>Autopilot in HDG for 10 minutes without a heading bug change (stock NXi)</td>
+<td>Bug moved or mode changed</td>
+</tr>
+<tr>
+<td><code>ROL MODE</code></td>
+<td>Autopilot in ROL for 30 s (stock NXi)</td>
+<td>Mode changed</td>
+</tr>
+<tr>
+<td><code>PFD FAN FAIL</code></td>
+<td>PFD cooling fan unpowered (<strong>AVIONICS FAN 1</strong> breaker) with the PFD on, for 2 s</td>
+<td>Fan powered</td>
+</tr>
+<tr>
+<td><code>MFD FAN FAIL</code></td>
+<td>MFD cooling fan unpowered (<strong>AVIONICS FAN 2</strong> breaker) with the MFD on, for 2 s</td>
+<td>Fan powered</td>
+</tr>
+<tr>
+<td><code>SFC WATCH INHIB</code></td>
+<td>SurfaceWatch inhibited on the MFD (see <a href="safety-systems.html#surfacewatch-inhibit">SurfaceWatch Inhibit</a>)</td>
+<td>Inhibit off</td>
+</tr>
+<tr>
+<td><code>TAWS OBSTACLE N/A</code></td>
+<td>TAWS has no obstacle data (see <a href="safety-systems.html#taws-b-terrain-and-obstacle-alerting">TAWS-B</a>)</td>
+<td>Obstacle data back</td>
+</tr>
+<tr>
+<td><code>ALTITUDE SEL</code></td>
+<td>Autopilot on, more than 100 ft from the selected altitude and flying away from it: in VS with a selected rate of 100 fpm or more away from it for 3 s, or in PIT with 300 fpm or more away from it for 15 s. Alerts text: "Climbing away from selected altitude." or "Descending away from selected altitude."</td>
+<td>Back toward the selected altitude, or a different mode</td>
+</tr>
+<tr>
+<td><code>COURSE SELECT</code></td>
+<td>Autopilot in ROL with GPS, VOR or LOC armed, wings within 6° of level, ground speed 30 kt or more, and the present track will not intercept the selected course, for 10 s</td>
+<td>Track converges, or the mode changes</td>
+</tr>
+<tr>
+<td><code>VNAV ALT SEL</code></td>
+<td>Top of descent within 60 s, VNAV on, but the selected altitude is not at least 75 ft below the aircraft, so the path cannot arm</td>
+<td>Selected altitude set lower</td>
+</tr>
+<tr>
+<td><code>VNAV NOT ARMED</code></td>
+<td>Top of descent within 60 s and VNAV (<strong>VNV</strong>) deselected</td>
+<td><strong>VNV</strong> pressed, or the top of descent passed</td>
+</tr>
+</tbody>
+</table></div>
+<p>The texts and thresholds of <code>ALTITUDE SEL</code>, <code>COURSE SELECT</code>, <code>VNAV ALT SEL</code> and <code>VNAV NOT ARMED</code> follow the
+GFC 700 supplement (S57 p.9-10) and the Pilot's Guide appendix A. The hold times and bands are the mod's own; the
+sources give none.</p>
+<h3 id="other-messages-and-annunciations">Other messages and annunciations</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Text</th>
+<th>Where</th>
+<th>Trigger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TIMER EXPIRD</code></td>
+<td>PFD Alerts window</td>
+<td>The PFD countdown timer reaches zero. Cleared when you reset or restart the timer. A "Timer expired" voice plays.</td>
+</tr>
+<tr>
+<td><code>ESP OFF</code>, <code>ESP DEGRADE</code>, <code>ESP FAIL</code></td>
+<td>PFD Alerts window</td>
+<td>See <a href="safety-systems.html#electronic-stability-and-protection-esp">ESP advisories</a></td>
+</tr>
+<tr>
+<td><code>LOW ALT</code></td>
+<td>PFD, beside the TAWS annunciation</td>
+<td>See <a href="safety-systems.html#low-alt-annunciation">LOW ALT annunciation</a></td>
+</tr>
+</tbody>
+</table></div>
+<p><code>PITOT HEAT FAIL</code>, <code>SFC WATCH INHIB</code>, the four autopilot advisories and <code>TIMER EXPIRD</code> wait 10 seconds after the PFD
+powers up before they can appear.</p>
+<h3 id="sr22t-alerts-removed">SR22T alerts removed</h3>
+<p>These SR22T CAS messages never appear in the SR20:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>SR22T CAS text</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ANTI ICE QTY</code>, <code>ANTI ICE TEMP</code>, <code>ANTI ICE SPEED</code>, <code>FLAPS ICE</code>, <code>EXIT ICING</code></td>
+<td>No TKS ice protection</td>
+</tr>
+<tr>
+<td><code>TIT</code></td>
+<td>No turbocharger</td>
+</tr>
+<tr>
+<td><code>MAN PRESSURE</code></td>
+<td>Normally aspirated engine</td>
+</tr>
+<tr>
+<td><code>FUEL FLOW</code></td>
+<td>Not an SR20 CAS message</td>
+</tr>
+</tbody>
+</table></div>
+<p>Thresholds changed from the SR22T to the SR20 values: <code>CHT</code> (four cylinders, 435 / 465 °F), <code>OIL PRESS</code> caution,
+<code>OIL TEMP</code>, <code>RPM</code>, <code>FUEL LOW TOTAL</code> (7 / 10 gal), <code>FUEL IMBALANCE</code> (5.5 / 7.5 / 9.5 gal), <code>FLAP OVERSPEED</code>, the 20 s
+delay on <code>ALT 1</code> and <code>ALT 2</code> and the 30 s delay on <code>BATT 1</code>. <code>STALL</code> now follows the stall warning, so the CAS and
+the horn come on together (stock lit it only at the stall angle of attack).</p>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>The CAS names follow the POH (2020). The checklist card (Rev C) uses some newer names: <code>FUEL QTY</code>,
+  <code>STARTER ENGAGED</code>, <code>PITOT HEAT REQUIRED</code>, <code>FLAPS</code>. The checklists in the mod keep the card's names, so a CAS
+  checklist title can differ from the CAS text.</li>
+<li>Not modelled, although the checklist card lists them: <code>BRAKE TEMP</code>, <code>CO LVL HIGH</code>, the <code>MISCOMP</code> cautions,
+  <code>AP/PFD AHRS</code>, <code>NO ADC MODES</code>, <code>NO VERT MODES</code>, <code>HYPOXIA ALERT</code>, <code>AUTO DESCENT</code>. The sim has no sensors for them.</li>
+<li><code>HDG MODE</code> and <code>ROL MODE</code> are stock G1000 NXi advisories. They are in neither the POH nor the card.</li>
+</ul>
+<h2 id="electrical-system">Electrical system</h2>
+<p><strong>What it does.</strong> The stock SR22T has five buses with no diodes: every source feeds everything, so ALT 1 and ALT 2
+look the same and a battery failure changes little. The mod rewires the aircraft to the SR20 design of POH §7
+pp.7-46 to 7-53: twelve buses, the real split between the two alternators, BAT 2 on ESS BUS 1, and modelled bus
+voltages.</p>
+<h3 id="switches">Switches</h3>
+<p>The master switches are the stock cockpit switches.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Switch</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>BAT 1</strong></td>
+<td>Connects battery 1 to the main distribution buses and the starter. ALT 1 needs BAT 1 for field power: with BAT 1 off, ALT 1 drops off line, even with the engine running.</td>
+</tr>
+<tr>
+<td><strong>BAT 2</strong></td>
+<td>Connects battery 2 to ESS BUS 1 only. With BAT 2 alone: PFD, COM 1, GPS/NAV 1 and the ESS buses come on; the MFD and the main buses stay off (POH §7 p.7-52).</td>
+</tr>
+<tr>
+<td><strong>ALT 1</strong></td>
+<td>Alternator 1 on line (needs BAT 1 on to start)</td>
+</tr>
+<tr>
+<td><strong>ALT 2</strong></td>
+<td>Alternator 2 on line (needs BAT 1 or BAT 2 on to start)</td>
+</tr>
+<tr>
+<td><strong>AVIONICS</strong></td>
+<td>Powers the AVIONICS bus: transponder, audio panel, data link. Off gives <code>AVIONICS OFF</code>.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="sources-and-what-they-feed">Sources and what they feed</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Rating</th>
+<th>Normally feeds</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ALT 1</td>
+<td>100 A, regulated 27.7 V</td>
+<td>Main Distribution Bus 1: MAIN BUS 3 (MFD A, 12 V and USB power), the A/C buses and the landing, taxi and wing lights. Charges BAT 1.</td>
+</tr>
+<tr>
+<td>ALT 2</td>
+<td>70 A, regulated 28.7 V</td>
+<td>Main Distribution Bus 2: MAIN BUS 1, MAIN BUS 2, NON-ESSENTIAL BUS and the AVIONICS bus, and through the Essential Distribution Bus ESS BUS 1 and ESS BUS 2. Charges BAT 2.</td>
+</tr>
+<tr>
+<td>BAT 1</td>
+<td>24 V, 10 Ah</td>
+<td>Main Distribution Bus 1 and the starter. Takes over ALT 1's loads if ALT 1 fails.</td>
+</tr>
+<tr>
+<td>BAT 2</td>
+<td>2 × 12 V, 7 Ah</td>
+<td>ESS BUS 1, and ESS BUS 2 through the <strong>ESSENTIAL POWER</strong> breaker</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ratings from POH §7 p.7-46. The Main Distribution Bus 1 to Bus 2 interconnect has a diode: ALT 2 cannot feed Main
+Distribution Bus 1. The mod emulates the diodes by opening and closing bus links.</p>
+<h3 id="buses">Buses</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Bus</th>
+<th>Loads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESS BUS 1</td>
+<td>BAT 2, ESSENTIAL POWER, GPS NAV GIA 1, COM 1, ADAHRS 1, STDBY ATTD A, PFD A</td>
+</tr>
+<tr>
+<td>ESS BUS 2</td>
+<td>ALT 2 field, ENGINE INSTR, STALL WARNING, ROLL TRIM, PITCH TRIM</td>
+</tr>
+<tr>
+<td>MAIN BUS 1</td>
+<td>AVIONICS (feeds the AVIONICS bus), ICE LIGHTS, STDBY ATTD B, MFD B, CABIN LIGHTS, FUEL QTY, AP SERVOS, KEYPADS/AP CTRL, CABIN AIR CONTROL</td>
+</tr>
+<tr>
+<td>MAIN BUS 2</td>
+<td>AVIONICS FAN 2, GPS NAV GIA 2, COM 2, ADAHRS 2, FUEL PUMP, PFD B</td>
+</tr>
+<tr>
+<td>MAIN BUS 3</td>
+<td>LANDING LIGHTS, 12V &amp; USB POWER, MFD A (EVS CAMERA not installed)</td>
+</tr>
+<tr>
+<td>NON-ESSENTIAL BUS</td>
+<td>STARTER, AVIONICS FAN 1, NAV LIGHTS, STROBE LIGHTS, PITOT HEAT, FLAPS</td>
+</tr>
+<tr>
+<td>A/C BUS 1 and 2</td>
+<td>A/C COND, ALT 1 field, A/C COMPR, CABIN FAN</td>
+</tr>
+<tr>
+<td>AVIONICS</td>
+<td>AUDIO PANEL, DATA LINK/WEATHER, XPONDER, TRAFFIC (DME / ADF not installed)</td>
+</tr>
+<tr>
+<td>CONV</td>
+<td>CONV LIGHTS (no sim circuit)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The PFD, the MFD and the standby attitude indicator each have two feeds (A and B). Either feed keeps them on.</p>
+<h3 id="what-you-should-see">What you should see</h3>
+<p>On the engine page, <strong>Electrical</strong> panel. The battery current is negative while it discharges.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>State</th>
+<th>Alt 1</th>
+<th>Alt 2</th>
+<th>Batt 1</th>
+<th>Ess / M1 / M2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Engine running, both alternators on, no A/C</td>
+<td>Low single digits, a few amps more with the landing light</td>
+<td>Carries most of the load, about 25 to 30 A</td>
+<td>Near 0</td>
+<td>27.7 / 27.7 / 28.7 V</td>
+</tr>
+<tr>
+<td>Same, pitot heat on</td>
+<td>Unchanged</td>
+<td>About 3 A more</td>
+<td>Near 0</td>
+<td>Unchanged</td>
+</tr>
+<tr>
+<td>On batteries before engine start, avionics on</td>
+<td>0</td>
+<td>0</td>
+<td>Discharging</td>
+<td>All about 23 to 24 V</td>
+</tr>
+<tr>
+<td>BAT 2 alone</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>ESS only, at battery voltage; MFD dark</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>On batteries before engine start</strong> the bus voltages are below 24.4 V, so <code>M BUS 1</code>, <code>M BUS 2</code> and <code>ESS BUS</code> come on
+within a few seconds, <code>ALT 1</code> and <code>ALT 2</code> after 20 s and <code>BATT 1</code> after 30 s. They clear once the alternators are on
+line. This is how the mod models the batteries under load; see the limits below.</p>
+<h3 id="alternator-and-battery-failures">Alternator and battery failures</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>What fails</th>
+<th>What happens</th>
+<th>What you see</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ALT 1</td>
+<td>BAT 1 carries Main Distribution Bus 1 (MAIN BUS 3, A/C, landing light). ALT 2 cannot help through the diode. M1 drops to battery voltage at once. MFD stays on through MFD B.</td>
+<td><code>M BUS 1</code> at once, <code>ALT 1</code> after 20 s, <code>BATT 1</code> after 30 s if the discharge is 5 A or more</td>
+</tr>
+<tr>
+<td>ALT 2</td>
+<td>ALT 1 carries every bus. No battery discharge. M2 reads about 1 V below M1.</td>
+<td><code>ALT 2</code> after 20 s</td>
+</tr>
+<tr>
+<td>Both alternators</td>
+<td>BAT 1 carries the main buses. BAT 2 is isolated on ESS BUS 1 and 2, as the real diodes isolate it.</td>
+<td><code>M BUS 1</code>, <code>M BUS 2</code> and <code>ESS BUS</code> within seconds, <code>ALT 1</code> and <code>ALT 2</code> after 20 s, <code>BATT 1</code> after 30 s</td>
+</tr>
+<tr>
+<td>Both alternators, then BAT 1 flat</td>
+<td>Main buses and MFD go dark. The PFD stays on BAT 2 through PFD A, with COM 1 and GPS/NAV 1.</td>
+<td>PFD only</td>
+</tr>
+<tr>
+<td>BAT 1 switched off in flight</td>
+<td>ALT 1 loses field power and drops off line. Main Distribution Bus 1 goes dark; the MFD stays on through MFD B.</td>
+<td><code>ALT 1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Load shedding (landing light off) reduces the BAT 1 discharge and moves the <code>BATT 1</code> reading.</p>
+<h3 id="air-conditioning">Air conditioning</h3>
+<p>The A/C load (about 20 A on ALT 1, the reason a real SR20 shows ALT 1 near 25 A with the A/C on) is modelled, and the
+<strong>A/C COND</strong> and <strong>A/C COMPR</strong> breakers cut it. In version 1.0.0 nothing in the cockpit switches it on, so ALT 1
+always shows the low no-A/C value.</p>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>Bus voltages are modelled from regulator setpoints, a 1 V diode drop and battery sag under load. They have not yet
+  been compared with readings from a real aircraft.</li>
+<li>Battery endurance is not calibrated. BAT 2 alone lasts longer than the POH's figure.</li>
+<li>The battery relay that opens on a flat battery (and stops an alternator restart) is not modelled.</li>
+<li>External power is not supported.</li>
+<li>Loss of an alternator's field bus (A/C BUS 1 for ALT 1, ESS BUS 2 for ALT 2) is not modelled, except through the
+  ALT 1 and ALT 2 breakers.</li>
+<li>For a few seconds after a flight loads, before the PFD starts, the buses behave like the stock SR22T.</li>
+</ul>
+<h2 id="circuit-breaker-panel">Circuit breaker panel</h2>
+<p><strong>What it does.</strong> A toolbar panel with the full SR20 breaker panel of POH §7 Figure 7-11, in the real layout. Pulling a
+breaker acts on the real circuit in the sim: the equipment loses power, the displays react and CAS messages appear.</p>
+<p><strong>Where to find it.</strong> With the SR20 loaded, move the mouse to the top of the screen to show the sim's toolbar and
+click the <strong>SR20 Breakers</strong> icon. The panel opens as a toolbar window titled <strong>SR20 Breakers</strong>. Drag and resize it
+like any toolbar window; the face scales to fit. The <strong>✕</strong> in the corner closes it.</p>
+<p><img loading="lazy" alt="The SR20 Breakers panel beside the PFD, with COM 1 and XPONDER pulled" src="img/breakers.jpg" /></p>
+<h3 id="layout">Layout</h3>
+<p>Four columns, each divided into bus groups with the bus name above them, as on the real panel. The number on each cap
+is its rating in amps; caps without a number have a rating the mod has not confirmed.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Bus groups, top to bottom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CONV, A/C BUS 1, A/C BUS 2, NON-ESSENTIAL BUS</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MAIN BUS 3, MAIN BUS 2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ESSENTIAL BUS 2, ESSENTIAL BUS 1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>MAIN BUS 1, AVIONICS</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="pulling-and-resetting-a-breaker">Pulling and resetting a breaker</h3>
+<ol>
+<li>Click a breaker cap. It pulls out and shows its white collar.</li>
+<li>Click it again to reset it.</li>
+</ol>
+<ul>
+<li>A pull takes effect within about a second. Breakers that serve several circuits switch them one after another:
+  <strong>LANDING LIGHTS</strong> takes about 1 s, <strong>CABIN LIGHTS</strong> about 2 s.</li>
+<li>Breakers never trip by themselves. Only you pull them (or an Instructor Station failure).</li>
+<li>A flight restart resets every breaker.</li>
+<li><strong>EVS CAMERA</strong> and <strong>DME / ADF</strong> cannot be pulled (not installed). <strong>YAW SERVO</strong> is an empty position.</li>
+<li>If the electrical controller stops working, a red dot shows beside each breaker and a line at the bottom of the
+  panel reads <code>controller FAULT - breakers not actuated</code> or <code>controller disabled - breakers not actuated</code>. Restart the
+  flight.</li>
+</ul>
+<h3 id="what-each-breaker-does">What each breaker does</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Breaker</th>
+<th>Bus</th>
+<th>Amps</th>
+<th>Effect when pulled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONV LIGHTS</td>
+<td>CONV</td>
+<td>5</td>
+<td>None (not modelled)</td>
+</tr>
+<tr>
+<td>A/C COND</td>
+<td>A/C BUS 1</td>
+<td>15</td>
+<td>Cuts the A/C load (see <a href="#air-conditioning">Air conditioning</a>)</td>
+</tr>
+<tr>
+<td>ALT 1</td>
+<td>A/C BUS 1</td>
+<td>5</td>
+<td>ALT 1 off line, as an ALT 1 failure</td>
+</tr>
+<tr>
+<td>A/C COMPR</td>
+<td>A/C BUS 2</td>
+<td>5</td>
+<td>Cuts the A/C load</td>
+</tr>
+<tr>
+<td>CABIN FAN</td>
+<td>A/C BUS 2</td>
+<td>15</td>
+<td>Cuts the cabin fan load (the fan is normally off; no visible effect)</td>
+</tr>
+<tr>
+<td>STARTER</td>
+<td>NON-ESSENTIAL</td>
+<td>2</td>
+<td>Starter does not crank</td>
+</tr>
+<tr>
+<td>AVIONICS FAN 1</td>
+<td>NON-ESSENTIAL</td>
+<td>5</td>
+<td><code>PFD FAN FAIL</code> advisory</td>
+</tr>
+<tr>
+<td>NAV LIGHTS</td>
+<td>NON-ESSENTIAL</td>
+<td></td>
+<td>Navigation lights off</td>
+</tr>
+<tr>
+<td>STROBE LIGHTS</td>
+<td>NON-ESSENTIAL</td>
+<td></td>
+<td>Strobe lights off</td>
+</tr>
+<tr>
+<td>PITOT HEAT</td>
+<td>NON-ESSENTIAL</td>
+<td>7.5</td>
+<td>Pitot heat off; <code>PITOT HEAT FAIL</code> if the switch is on</td>
+</tr>
+<tr>
+<td>FLAPS</td>
+<td>NON-ESSENTIAL</td>
+<td>10</td>
+<td>Flaps do not move</td>
+</tr>
+<tr>
+<td>LANDING LIGHTS</td>
+<td>MAIN BUS 3</td>
+<td></td>
+<td>Landing, taxi and wing lights off</td>
+</tr>
+<tr>
+<td>EVS CAMERA</td>
+<td>MAIN BUS 3</td>
+<td>5</td>
+<td>Not installed</td>
+</tr>
+<tr>
+<td>12V &amp; USB POWER</td>
+<td>MAIN BUS 3</td>
+<td>5</td>
+<td>Cuts that load (ALT 1 current drops)</td>
+</tr>
+<tr>
+<td>MFD A</td>
+<td>MAIN BUS 3</td>
+<td>5</td>
+<td>One MFD feed. Alone: no effect. With MFD B: MFD dark, PFD in reversionary mode.</td>
+</tr>
+<tr>
+<td>AVIONICS FAN 2</td>
+<td>MAIN BUS 2</td>
+<td>5</td>
+<td><code>MFD FAN FAIL</code> advisory</td>
+</tr>
+<tr>
+<td>GPS NAV GIA 2</td>
+<td>MAIN BUS 2</td>
+<td>5</td>
+<td>NAV 2 and GPS 2 fail</td>
+</tr>
+<tr>
+<td>COM 2</td>
+<td>MAIN BUS 2</td>
+<td>7.5</td>
+<td>COM 2 fails</td>
+</tr>
+<tr>
+<td>ADAHRS 2</td>
+<td>MAIN BUS 2</td>
+<td>5</td>
+<td>Alone: no effect. With ADAHRS 1: attitude, heading and air data fail on both displays (red X)</td>
+</tr>
+<tr>
+<td>FUEL PUMP</td>
+<td>MAIN BUS 2</td>
+<td>5</td>
+<td>Boost pump unpowered</td>
+</tr>
+<tr>
+<td>PFD B</td>
+<td>MAIN BUS 2</td>
+<td>5</td>
+<td>One PFD feed. Alone: no effect. With PFD A: PFD dark.</td>
+</tr>
+<tr>
+<td>ALT 2</td>
+<td>ESSENTIAL BUS 2</td>
+<td>5</td>
+<td>ALT 2 off line, as an ALT 2 failure</td>
+</tr>
+<tr>
+<td>ENGINE INSTR</td>
+<td>ESSENTIAL BUS 2</td>
+<td>3</td>
+<td>Engine values blank on the EIS strip, engine page and reversionary strip</td>
+</tr>
+<tr>
+<td>STALL WARNING</td>
+<td>ESSENTIAL BUS 2</td>
+<td>2</td>
+<td>None: the stall horn keeps working (not modelled)</td>
+</tr>
+<tr>
+<td>ROLL TRIM</td>
+<td>ESSENTIAL BUS 2</td>
+<td>2</td>
+<td>None (not modelled)</td>
+</tr>
+<tr>
+<td>PITCH TRIM</td>
+<td>ESSENTIAL BUS 2</td>
+<td>2</td>
+<td>None (not modelled)</td>
+</tr>
+<tr>
+<td>ESSENTIAL POWER</td>
+<td>ESSENTIAL BUS 1</td>
+<td></td>
+<td>ESS BUS 1 is fed by BAT 2 alone, which discharges. On BAT 2 alone it also cuts ESS BUS 2 and ALT 2's field.</td>
+</tr>
+<tr>
+<td>BAT 2</td>
+<td>ESSENTIAL BUS 1</td>
+<td>20</td>
+<td>Battery 2 disconnected</td>
+</tr>
+<tr>
+<td>GPS NAV GIA 1</td>
+<td>ESSENTIAL BUS 1</td>
+<td>5</td>
+<td>NAV 1 and GPS 1 fail</td>
+</tr>
+<tr>
+<td>COM 1</td>
+<td>ESSENTIAL BUS 1</td>
+<td>7.5</td>
+<td>COM 1 fails</td>
+</tr>
+<tr>
+<td>ADAHRS 1</td>
+<td>ESSENTIAL BUS 1</td>
+<td>5</td>
+<td>Alone: no effect. With ADAHRS 2: attitude, heading and air data fail. ESP reports <code>ESP FAIL</code>.</td>
+</tr>
+<tr>
+<td>STDBY ATTD A</td>
+<td>ESSENTIAL BUS 1</td>
+<td>5</td>
+<td>One standby attitude feed. With STDBY ATTD B: standby attitude circuit off.</td>
+</tr>
+<tr>
+<td>PFD A</td>
+<td>ESSENTIAL BUS 1</td>
+<td>5</td>
+<td>One PFD feed. With PFD B: PFD dark. On BAT 2 alone, PFD A alone darkens the PFD.</td>
+</tr>
+<tr>
+<td>AVIONICS</td>
+<td>MAIN BUS 1</td>
+<td>10</td>
+<td>AVIONICS bus dead: transponder, audio panel, data link. <code>AVIONICS OFF</code>.</td>
+</tr>
+<tr>
+<td>ICE LIGHTS</td>
+<td>MAIN BUS 1</td>
+<td></td>
+<td>Wing inspection light off</td>
+</tr>
+<tr>
+<td>STDBY ATTD B</td>
+<td>MAIN BUS 1</td>
+<td>5</td>
+<td>The other standby attitude feed</td>
+</tr>
+<tr>
+<td>MFD B</td>
+<td>MAIN BUS 1</td>
+<td>5</td>
+<td>The other MFD feed</td>
+</tr>
+<tr>
+<td>CABIN LIGHTS</td>
+<td>MAIN BUS 1</td>
+<td>5</td>
+<td>Panel, flood, cabin, pedestal and dome lights off</td>
+</tr>
+<tr>
+<td>FUEL QTY</td>
+<td>MAIN BUS 1</td>
+<td>5</td>
+<td>Fuel quantity readouts blank</td>
+</tr>
+<tr>
+<td>AP SERVOS</td>
+<td>MAIN BUS 1</td>
+<td></td>
+<td>Cuts the sim's autopilot circuit</td>
+</tr>
+<tr>
+<td>KEYPADS/AP CTRL</td>
+<td>MAIN BUS 1</td>
+<td>5</td>
+<td>None (not modelled)</td>
+</tr>
+<tr>
+<td>CABIN AIR CONTROL</td>
+<td>MAIN BUS 1</td>
+<td>2</td>
+<td>None (not modelled)</td>
+</tr>
+<tr>
+<td>DME / ADF</td>
+<td>AVIONICS</td>
+<td>3</td>
+<td>Not installed</td>
+</tr>
+<tr>
+<td>AUDIO PANEL</td>
+<td>AVIONICS</td>
+<td>5</td>
+<td>Audio panel and marker beacon off</td>
+</tr>
+<tr>
+<td>DATA LINK/WEATHER</td>
+<td>AVIONICS</td>
+<td>5</td>
+<td>Cuts the data link circuit</td>
+</tr>
+<tr>
+<td>XPONDER</td>
+<td>AVIONICS</td>
+<td>2</td>
+<td>Transponder fails</td>
+</tr>
+<tr>
+<td>TRAFFIC</td>
+<td>AVIONICS</td>
+<td>5</td>
+<td>None (not modelled)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>Breakers marked "not modelled" can be pulled and reset but change nothing: the sim has no circuit for those loads.</li>
+<li>With both feeds of the PFD, MFD or standby attitude live, pulling one feed shows nothing until the other bus fails,
+  as in the aircraft.</li>
+<li>The fuses in the master control unit (100, 80, 50, 30, 7.5 and 5 A) are not on the panel, as in the aircraft.</li>
+<li>Some cap ratings (NAV LIGHTS, STROBE LIGHTS, LANDING LIGHTS, ESSENTIAL POWER, ICE LIGHTS, AP SERVOS) are left blank
+  because the POH text does not give them.</li>
+</ul>
+<h2 id="equipment-removed-versus-the-sr22t">Equipment removed versus the SR22T</h2>
+<p><strong>What it does.</strong> The mod takes out the SR22T equipment that an SR20 G6 (Perspective+, non-FIKI, no oxygen) does not
+have, and hides its controls on the displays.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Equipment</th>
+<th>What the mod does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yaw damper</td>
+<td>Removed. The autopilot never engages it: if anything turns it on, including a <strong>YD</strong> button on the autopilot panel or on hardware, it is switched straight back off. <code>YD</code> does not appear in the autopilot status bar. Autopilot turns need rudder as in the aircraft.</td>
+</tr>
+<tr>
+<td>ADF</td>
+<td>Removed. The <strong>ADF/DME</strong> softkey on the PFD is gone. The bearing pointers cycle NAV 1, NAV 2, GPS, off, with no ADF.</td>
+</tr>
+<tr>
+<td>DME</td>
+<td>Removed. The <strong>DME</strong> softkey under <strong>PFD Opt</strong> is gone.</td>
+</tr>
+<tr>
+<td>Weather radar</td>
+<td>The Weather Radar page is gone from the MFD Map page group.</td>
+</tr>
+<tr>
+<td>Anti-ice (TKS)</td>
+<td>No ice protection: the engine page anti-ice panel, the <strong>Anti-Ice</strong> softkey on the engine page, the TKS fluid row on the Weight and Balance page and every anti-ice CAS message are gone.</td>
+</tr>
+<tr>
+<td>Oxygen</td>
+<td>The oxygen panel on the engine page and the oxygen row on the reversionary strip are gone.</td>
+</tr>
+<tr>
+<td>Turbocharger</td>
+<td>TIT is gone from the engine page, the EIS and the reversionary strip; <code>TIT</code> and <code>MAN PRESSURE</code> CAS are gone.</td>
+</tr>
+<tr>
+<td>Wind option 3</td>
+<td>Removed from the PFD wind settings. A saved Option 3 falls back to Off.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="what-the-cockpit-still-shows-that-does-nothing">What the cockpit still shows that does nothing</h3>
+<p>The 3D cockpit and exterior are the stock SR22T's. These parts are still visible:</p>
+<ul>
+<li>The TKS anti-ice switches and panel. They have no effect.</li>
+<li>Oxygen controls and placards.</li>
+<li>The SR22T badges and placards, including the "22T" badge.</li>
+<li>The <strong>YD</strong> button on the autopilot panel: pressing it turns the yaw damper on for an instant before the mod turns it
+  off again.</li>
+<li>The <strong>PRIME</strong> (aft) position of the fuel pump switch, which springs back to <strong>BOOST</strong>.</li>
+<li>The empty <strong>YAW SERVO</strong>, <strong>EVS CAMERA</strong> and <strong>DME / ADF</strong> positions on the breaker panel.</li>
+</ul>
+<h2 id="checklists">Checklists</h2>
+<p><strong>What it does.</strong> The MFD checklists are the Cirrus SR20 checklist, P/N 38412-102 Rev C, in full.</p>
+<p><strong>Where to find it.</strong> On the MFD press <strong>Checklist</strong> (the rightmost softkey on the navigation map). The softkeys on the
+checklist page are:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Softkey</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Engine</strong></td>
+<td>Engine page</td>
+</tr>
+<tr>
+<td><strong>Group</strong></td>
+<td>Choose a group</td>
+</tr>
+<tr>
+<td><strong>Checklist</strong></td>
+<td>Choose a checklist in the group</td>
+</tr>
+<tr>
+<td><strong>Action</strong></td>
+<td>Check the selected item</td>
+</tr>
+<tr>
+<td><strong>Exit</strong></td>
+<td>Back to the previous page</td>
+</tr>
+<tr>
+<td><strong>EMER</strong></td>
+<td>Emergency Procedures group</td>
+</tr>
+</tbody>
+</table></div>
+<p>The <strong>MENU</strong> key on the checklist page offers <strong>Show Checklist Dropdown</strong>, <strong>Show Group Dropdown</strong> and <strong>Show
+Incomplete Checklists</strong>.</p>
+<h3 id="groups">Groups</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Checklists</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emergency Procedures</td>
+<td>37</td>
+<td>Engine Failure In Flight, Maximum Glide, Engine Partial Power Loss, Low Fuel Quantity, High or Low Voltage on Essential Bus, CAPS Deployment</td>
+</tr>
+<tr>
+<td>Abnormal Procedures</td>
+<td>11</td>
+<td>Inadvertent IMC Encounter, Door Open In Flight, Pitot Static Malfunction, Electric Trim/Autopilot Failure, Communications Failure</td>
+</tr>
+<tr>
+<td>Normal Procedures</td>
+<td>20</td>
+<td>Before Starting Engine, Starting Engine, Before Takeoff, Cruise, Before Landing, Balked Landing/Go-Around, Shutdown, Lead Reduction Before Shut Down</td>
+</tr>
+<tr>
+<td>Crew Alerting System Annunciations</td>
+<td>41</td>
+<td>One per CAS message: OIL PRESS Warning, ALT 1 Caution, M BUS 1 Caution and so on</td>
+</tr>
+<tr>
+<td>Performance Data</td>
+<td>6</td>
+<td>Takeoff Distance - 3150 LB, Takeoff Distance - 2600 LB, Cruise Performance, Landing Distance - 3150 LB - Flaps 100 % / 50 % / 0 %</td>
+</tr>
+<tr>
+<td>Checklist Identification</td>
+<td>1</td>
+<td>Part Identification</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Differences from the real aircraft / limits.</strong> The CAS group uses the card's message names, some of which differ from
+the CAS text the mod shows (see <a href="#cas-alerts-and-messages">CAS alerts</a>). It also lists messages the mod does not
+produce, such as <code>BRAKE TEMP</code> and <code>HYPOXIA ALERT</code>.</p>
+<h2 id="quick-reference">Quick reference</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Where</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tmr/Ref</strong></td>
+<td>PFD softkey</td>
+<td>Set or hide the Glide, Vr, Vx and Vy bugs</td>
+</tr>
+<tr>
+<td>Power lever</td>
+<td>Cockpit</td>
+<td>Power and RPM: 2,500 RPM to 96 % travel, 2,700 at full</td>
+</tr>
+<tr>
+<td>Mixture lever</td>
+<td>Cockpit</td>
+<td>Mixture, passed straight to the engine</td>
+</tr>
+<tr>
+<td>Fuel pump switch</td>
+<td>Cockpit</td>
+<td>Forward BOOST = on, centre = off, aft springs back to BOOST</td>
+</tr>
+<tr>
+<td><strong>Engine</strong></td>
+<td>MFD softkey (leftmost)</td>
+<td>Engine page on and off</td>
+</tr>
+<tr>
+<td><strong>Assist</strong></td>
+<td>MFD engine page softkey</td>
+<td>Lean assist</td>
+</tr>
+<tr>
+<td><strong>Fuel-W&amp;B</strong></td>
+<td>MFD engine page softkey</td>
+<td>Initial Usable Fuel page (set with the FMS knobs, not Full or Tabs)</td>
+</tr>
+<tr>
+<td><strong>Weight and Balance</strong></td>
+<td>MFD Aux page group, first page</td>
+<td>SR20 weight and balance</td>
+</tr>
+<tr>
+<td><strong>Alerts</strong></td>
+<td>PFD softkey</td>
+<td>Longer text of CAS lines and messages</td>
+</tr>
+<tr>
+<td>BAT 1, BAT 2, ALT 1, ALT 2, AVIONICS</td>
+<td>Cockpit master switches</td>
+<td>SR20 electrical system; BAT 2 alone powers only the ESS buses</td>
+</tr>
+<tr>
+<td>Engine page <strong>Electrical</strong> panel</td>
+<td>MFD engine page</td>
+<td>Alt 1, Alt 2, Batt 1 amps; Ess, M1, M2 volts</td>
+</tr>
+<tr>
+<td><strong>SR20 Breakers</strong></td>
+<td>Sim toolbar</td>
+<td>Circuit breaker panel; click a cap to pull or reset</td>
+</tr>
+<tr>
+<td><strong>Checklist</strong></td>
+<td>MFD softkey (rightmost)</td>
+<td>SR20 checklists, six groups</td>
+</tr>
+<tr>
+<td><strong>EMER</strong></td>
+<td>MFD checklist softkey</td>
+<td>Emergency Procedures</td>
+</tr>
+</tbody>
+</table></div>
+<div class="pager"><span><a href="install.html">&larr; Installing and first flight</a></span><span><a href="safety-systems.html">Terrain, surface and protection systems &rarr;</a></span></div>
+<footer>SR20 Realism Mod 1.0.0 by wazooda. Not affiliated with or endorsed by Cirrus Aircraft, Garmin, ForeFlight,
+RealSimGear, Microsoft or Asobo. For flight simulation only: not for real-world flight training or operations.</footer>
+</main></div><script src="nav.js"></script></body></html>

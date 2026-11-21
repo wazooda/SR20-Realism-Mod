@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Autopilot, flight plan and connected devices - SR20 Realism Mod manual</title>
+<meta name="description" content="Autopilot, flight plan and connected devices: user manual of the SR20 Realism Mod for Microsoft Flight Simulator 2024.">
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
+<nav class="side"><p class="brand">SR20 Realism Mod</p><p class="ver">User manual, version 1.0.0</p>
+<input id="q" type="search" placeholder="Filter sections..." aria-label="Filter sections">
+<ul><li class="page"><a href="index.html">SR20 Realism Mod: user manual</a><ul class="secs"><li><a href="index.html#how-to-use-this-manual">How to use this manual</a></li><li><a href="index.html#what-you-need">What you need</a></li><li><a href="index.html#the-two-parts-of-the-mod">The two parts of the mod</a></li><li><a href="index.html#quick-start">Quick start</a></li><li><a href="index.html#where-things-are">Where things are</a></li><li><a href="index.html#what-this-mod-is-not">What this mod is not</a></li><li><a href="index.html#credits-and-licence">Credits and licence</a></li></ul></li><li class="page"><a href="install.html">Installing and first flight</a><ul class="secs"><li><a href="install.html#requirements">Requirements</a></li><li><a href="install.html#the-two-downloads">The two downloads</a></li><li><a href="install.html#installing-with-the-installer">Installing with the installer</a></li><li><a href="install.html#installing-by-hand">Installing by hand</a></li><li><a href="install.html#finding-the-aircraft-in-the-sim">Finding the aircraft in the sim</a></li><li><a href="install.html#first-flight-check-list">First flight check list</a></li><li><a href="install.html#upgrading">Upgrading</a></li><li><a href="install.html#uninstalling">Uninstalling</a></li><li><a href="install.html#where-things-are-installed">Where things are installed</a></li><li><a href="install.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="aircraft-systems.html">Aircraft and systems</a><ul class="secs"><li><a href="aircraft-systems.html#flight-model-and-performance">Flight model and performance</a></li><li><a href="aircraft-systems.html#engine">Engine</a></li><li><a href="aircraft-systems.html#fuel">Fuel</a></li><li><a href="aircraft-systems.html#engine-and-system-displays">Engine and system displays</a></li><li><a href="aircraft-systems.html#cas-alerts-and-messages">CAS alerts and messages</a></li><li><a href="aircraft-systems.html#electrical-system">Electrical system</a></li><li><a href="aircraft-systems.html#circuit-breaker-panel">Circuit breaker panel</a></li><li><a href="aircraft-systems.html#equipment-removed-versus-the-sr22t">Equipment removed versus the SR22T</a></li><li><a href="aircraft-systems.html#checklists">Checklists</a></li><li><a href="aircraft-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="safety-systems.html">Terrain, surface and protection systems</a><ul class="secs"><li><a href="safety-systems.html#taws-b-terrain-and-obstacle-alerting">TAWS-B terrain and obstacle alerting</a></li><li><a href="safety-systems.html#obstacles">Obstacles</a></li><li><a href="safety-systems.html#surfacewatch">SurfaceWatch</a></li><li><a href="safety-systems.html#safetaxi-airport-maps">SafeTaxi airport maps</a></li><li><a href="safety-systems.html#glide-range-ring-and-fuel-range-ring">Glide range ring and fuel range ring</a></li><li><a href="safety-systems.html#electronic-stability-and-protection-esp">Electronic Stability and Protection (ESP)</a></li><li><a href="safety-systems.html#gfc-700-speed-protection">GFC 700 speed protection</a></li><li><a href="safety-systems.html#voice-alerts">Voice alerts</a></li><li><a href="safety-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page cur"><a href="autopilot-fms.html">Autopilot, flight plan and connected devices</a><ul class="secs"><li><a href="autopilot-fms.html#autopilot-and-g1000-behaviour">Autopilot and G1000 behaviour</a></li><li><a href="autopilot-fms.html#autopilot-disconnect">Autopilot disconnect</a></li><li><a href="autopilot-fms.html#navigraph-charts">Navigraph charts</a></li><li><a href="autopilot-fms.html#ipad-and-foreflight-link">iPad and ForeFlight link</a></li><li><a href="autopilot-fms.html#realsimgear-cirrus-yoke-force-feel">RealSimGear Cirrus yoke force feel</a></li><li><a href="autopilot-fms.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="instructor-station.html">Instructor Station</a><ul class="secs"><li><a href="instructor-station.html#opening-the-panel">Opening the panel</a></li><li><a href="instructor-station.html#failures-tab">FAILURES tab</a></li><li><a href="instructor-station.html#approach-tab">APPROACH tab</a></li><li><a href="instructor-station.html#debrief-tab">DEBRIEF tab</a></li><li><a href="instructor-station.html#scores-tab">SCORES tab</a></li><li><a href="instructor-station.html#worked-example">Worked example</a></li><li><a href="instructor-station.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="companion-troubleshooting.html">The SR20 Companion and troubleshooting</a><ul class="secs"><li><a href="companion-troubleshooting.html#what-the-companion-is">What the Companion is</a></li><li><a href="companion-troubleshooting.html#the-tray-icon-needs-the-companion">The tray icon (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#start-with-windows-needs-the-companion">Start with Windows (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#what-the-companion-does-on-your-pc-and-network-needs-the-companion">What the Companion does on your PC and network (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#troubleshooting">Troubleshooting</a></li><li><a href="companion-troubleshooting.html#known-limitations">Known limitations</a></li><li><a href="companion-troubleshooting.html#quick-reference">Quick reference</a></li></ul></li></ul></nav>
+<main><h1>Autopilot, flight plan and connected devices</h1>
+<p>This chapter covers what the mod changes in the GFC 700 autopilot and the G1000 flight plan functions compared with
+the stock sim SR22T, how an autopilot disconnect is shown, the Navigraph chart softkey, the iPad and ForeFlight link,
+and the force feel on the RealSimGear Cirrus yoke.</p>
+<p>The numbers and behaviours come from the Garmin Perspective+ Pilot's Guide (190-02183-03) and the GFC 700 AFM
+supplement for the SR20 (11934-S57).</p>
+<h2 id="autopilot-and-g1000-behaviour">Autopilot and G1000 behaviour</h2>
+<p><strong>What it does.</strong> The stock sim SR22T differs from a real Perspective+ in a number of autopilot and flight plan
+details. The mod corrects the ones below. All of them are always on. There is nothing to switch.</p>
+<h3 id="go-around-to-ga">Go-around (TO/GA)</h3>
+<p><strong>What it does.</strong> In the stock sim, pressing TO/GA in the air switches the autopilot off, commands 7.5° nose up and
+presses NAV for you. In the mod the autopilot stays engaged, the go-around pitch is 7°, and NAV is left to you, as in
+the aircraft.</p>
+<p><strong>What you do and see.</strong></p>
+<ol>
+<li>On the approach, at the missed approach point or when you decide to go around, press <strong>TO/GA</strong>.
+   TO/GA is the go-around button on the throttle lever. If you have no hardware button for it, assign a key or
+   button to the sim's takeoff / go-around control (the sim event is <code>AUTO_THROTTLE_TO_GA</code>) in the sim's controls
+   settings.</li>
+<li>The flight director goes to go-around mode: wings level, 7° nose up. The autopilot stays on and follows it.
+   Add power and clean up as usual.</li>
+<li>With an approach in the flight plan, the missed approach is activated and the CDI goes to GPS. Waypoint
+   sequencing continues into the missed approach legs.</li>
+<li>Press <strong>NAV</strong> once. The autopilot engages GPS and flies the missed approach course.</li>
+<li>Select a climb mode (for example <strong>FLC</strong> or <strong>VS</strong>) and set the Selected Altitude for the missed approach altitude.</li>
+</ol>
+<p>A second <strong>TO/GA</strong> press cancels go-around mode.</p>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>Takeoff mode (TO/GA on the ground) is unchanged from the stock sim.</li>
+<li>The autopilot does not fly the missed approach laterally by itself. Until you press <strong>NAV</strong> it stays wings level.</li>
+</ul>
+<h3 id="lvl-key">LVL key</h3>
+<p><strong>What it does.</strong> In the stock sim the LVL key only puts the flight director in lateral level mode and leaves the
+autopilot off. In the mod it does what the Pilot's Guide describes: it engages the autopilot if it is off, selects
+level mode laterally and vertically (wings level, zero vertical speed), and cancels every armed mode.</p>
+<p><strong>Where to find it.</strong> The <strong>LVL</strong> key on the autopilot controller. A hardware LVL button (for example on a RealSimGear
+GFC 500) works the same way.</p>
+<p><strong>What you see.</strong> Green <code>AP</code>, with <code>LVL</code> as the active lateral and vertical mode. Armed modes such as an approach or
+VPTH disappear. The same action is used by ESP when it levels the aircraft by itself (see
+<a href="safety-systems.html#electronic-stability-and-protection-esp">Terrain, surface and protection systems</a>).</p>
+<h3 id="direct-to-from-present-position">Direct-To from present position</h3>
+<p><strong>What it does.</strong> A Direct-To now draws and flies a straight great-circle line from where you are to the waypoint,
+and the CDI is referenced to that line. In the stock sim the leg starts on your current heading and curves toward the
+waypoint first.</p>
+<p><strong>What you do.</strong> Press <strong>Direct-To</strong>, choose the waypoint, <strong>ENT</strong>, <strong>ENT</strong>. A Direct-To with a course that you enter
+yourself is unchanged.</p>
+<h3 id="activate-missed-approach-past-the-faf">Activate Missed Approach past the FAF</h3>
+<p><strong>What it does.</strong> In the stock sim the <strong>Activate Missed Approach</strong> item on the PROC page stays grey with current
+navigation data. The mod makes it selectable when these are all true:</p>
+<ul>
+<li>the CDI source is GPS,</li>
+<li>the active leg is in an approach that has missed approach legs,</li>
+<li>you are at or past the final approach fix,</li>
+<li>the missed approach is not already active and you are not on a Direct-To to a waypoint outside the plan.</li>
+</ul>
+<p><strong>What you do.</strong> Press <strong>PROC</strong>, select <strong>Activate Missed Approach</strong>, <strong>ENT</strong>.</p>
+<p><strong>Limits.</strong> With LOC or VOR as the nav source the item stays grey. Use <strong>TO/GA</strong>, which activates the missed approach
+as well.</p>
+<h3 id="approach-load-with-an-empty-or-direct-to-only-plan">Approach "Load?" with an empty or Direct-To-only plan</h3>
+<p><strong>What it does.</strong> The stock sim only offers <strong>Activate?</strong> when you pick an approach with fewer than two legs in the
+flight plan. The mod also offers <strong>Load?</strong>, as the Pilot's Guide describes: no waypoints are needed in the active
+flight plan to load a procedure.</p>
+<p><strong>What you do.</strong> Press <strong>PROC</strong>, select the approach, choose the airport, approach and transition, then <strong>Load?</strong> to
+put it in the plan without flying it yet, or <strong>Activate?</strong> to fly it now.</p>
+<p><strong>Limits.</strong> <strong>Load?</strong> is not offered while the active leg is already inside an approach. On a plan that holds only a
+destination, loading one approach makes its leg active, so a second approach pick then offers <strong>Activate?</strong> only.</p>
+<h3 id="heading-bug-sync-mode">Heading bug sync mode</h3>
+<p><strong>What it does.</strong> Pushing the HDG knob normally moves the heading bug to the current heading once. With sync mode,
+pushed while the autopilot is flying a coupled NAV or approach course, the bug keeps following your heading. When you
+later switch to HDG mode, the aircraft does not turn away.</p>
+<p><strong>What you do.</strong></p>
+<ul>
+<li>In a coupled NAV, GPS or approach mode: push the <strong>HDG</strong> knob. The bug follows the heading until the mode
+  uncouples, you push the knob again, or you turn it.</li>
+<li>In HDG mode while banked: push the <strong>HDG</strong> knob. The bug syncs briefly so the aircraft rolls out cleanly.</li>
+</ul>
+<p><strong>Differences from the real aircraft / limits.</strong> There is no annunciation on the PFD while sync mode is active.
+This function has not yet been fully flight-tested.</p>
+<h3 id="vpth-acknowledgement-before-descent">VPTH acknowledgement before descent</h3>
+<p><strong>What it does.</strong> In the stock sim, an armed VNAV path captures at the top of descent with no action from you. In the
+aircraft, when you are in Altitude Hold, the descent only captures if you acknowledge it. The mod adds that rule.</p>
+<p><strong>What you do and see.</strong></p>
+<ol>
+<li>You are level in <code>ALT</code> with <code>VPTH</code> armed (white) and the Selected Altitude set at least 75 ft below your altitude.</li>
+<li>Within 5 minutes of the top of descent, acknowledge the descent in one of two ways:
+   - turn the <strong>ALT SEL</strong> knob to change the Selected Altitude, or
+   - press the <strong>VNV</strong> key on the autopilot controller, or the <strong>Cncl VNV</strong> softkey on the MFD flight plan page.
+     During this window the key acknowledges. It does not cancel VNAV.</li>
+<li>From 1 minute before the top of descent, the white <code>VPTH</code> flashes on the PFD until you acknowledge.</li>
+<li>Acknowledged: the path captures at the top of descent and <code>VPTH</code> goes green.</li>
+<li>Not acknowledged: the aircraft stays in <code>ALT</code>, <code>VPTH</code> stays armed and this descent is not captured.</li>
+</ol>
+<p>From PIT, VS or FLC the path captures by itself, as in the aircraft.</p>
+<p><strong>Related messages.</strong> <code>TOD within 1 minute</code> appears on the PFD with the "Vertical track" voice (see the next
+feature). The advisories VNAV ALT SEL and VNAV NOT ARMED are described in
+<a href="aircraft-systems.html#advisories-white">Aircraft and systems</a>.</p>
+<p><strong>Limits.</strong> Outside the 5 minute window the <strong>VNV</strong> key works as usual: it switches VNAV on and off.</p>
+<h3 id="pfd-navigation-status-messages">PFD navigation status messages</h3>
+<p><strong>What it does.</strong> The stock sim shows only "Next DTK" five seconds before a waypoint. The mod shows the full set of
+flight plan annunciations in the navigation status box at the top of the PFD, starting 10 seconds ahead.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Turn left to 021° in 8 seconds</code> / <code>Turn right to 021° in 8 seconds</code></td>
+<td>A turn at the next waypoint, counting down. The text flashes.</td>
+</tr>
+<tr>
+<td><code>Turn left to 021° now</code> / <code>Turn right to 021° now</code></td>
+<td>Time to start the turn.</td>
+</tr>
+<tr>
+<td><code>Next DTK 021° in 8 seconds</code></td>
+<td>A small course change at the next waypoint, counting down. The text flashes.</td>
+</tr>
+<tr>
+<td><code>Next DTK 021° now</code></td>
+<td>The new desired track applies now.</td>
+</tr>
+<tr>
+<td><code>Hold direct</code> / <code>Hold parallel</code> / <code>Hold teardrop</code></td>
+<td>Approaching a holding fix: the entry to fly.</td>
+</tr>
+<tr>
+<td><code>Arriving at waypoint</code></td>
+<td>Approaching the last waypoint.</td>
+</tr>
+<tr>
+<td><code>TOD within 1 minute</code></td>
+<td>One minute before the top of descent. Shown for 10 seconds in the DIS / BRG field, with the "Vertical track" voice.</td>
+</tr>
+<tr>
+<td><code>BOD within 1 minute</code>, <code>TOC within 1 minute</code>, <code>BOC within 1 minute</code></td>
+<td>The same for bottom of descent, top of climb and bottom of climb. Shown for 10 seconds, no voice.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Courses are magnetic. The four vertical messages appear only with GPS as the nav source.</p>
+<h3 id="altitude-alerting">Altitude alerting</h3>
+<p><strong>What it does.</strong> The stock sim gives no sound when you approach or leave the Selected Altitude. The mod adds both
+sounds from the Pilot's Guide.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>You</th>
+<th>You hear</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Climb or descend to within 200 ft of the Selected Altitude</td>
+<td>A single chime</td>
+</tr>
+<tr>
+<td>Have captured the Selected Altitude, then drift more than 200 ft from it</td>
+<td>The voice "Altitude"</td>
+</tr>
+</tbody>
+</table></div>
+<p>The visual altitude alerting on the PFD is the stock one.</p>
+<p><strong>Limits.</strong> The sounds are about flying into or out of the band. They are held back for 3 seconds after you change
+the Selected Altitude, for 10 seconds after the aircraft is repositioned (for example by the Instructor Station's
+approach setup), and for 10 seconds after the PFD starts. They are silent while the PFD has no power.</p>
+<h3 id="keypad-entered-minimums">Keypad-entered minimums</h3>
+<p><strong>What it does.</strong> In the stock sim, minimums typed with the number keys show on the display but never reach the
+system: only a value set with the FMS knob works. The mod fixes this, so typed minimums arm the minimums alert and
+the "Minimums" voice.</p>
+<p><strong>What you do.</strong></p>
+<ol>
+<li>Open the minimums field: PFD <strong>TMR/REF</strong> window, or the approach selection on the MFD PROC page.</li>
+<li>Type the altitude with the keypad.</li>
+<li>Press <strong>ENT</strong>, or move the cursor off the field. The value is rounded to the nearest 10 ft and takes effect.</li>
+</ol>
+<p><strong>Limits.</strong> Barometric minimums only. The aircraft has no radar altimeter.</p>
+<h3 id="mfd-home-key">MFD HOME key</h3>
+<p><strong>What it does.</strong> The <strong>HOME</strong> key on the MFD keypad always returns to the Navigation Map page, whatever is open. In
+the stock sim it does nothing while a page menu or most pop-up windows are open.</p>
+<h3 id="stabilized-approach-alerts">Stabilized Approach alerts</h3>
+<p><strong>What it does.</strong> The stock SR22T shows the Stabilized Approach annunciations to the right of the altitude tape with
+no voice, and some of them stay on or appear when they should not. The mod adds the voices and fixes these cases:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Alert</th>
+<th>Voice</th>
+<th>Changed behaviour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>COURSE</code></td>
+<td>"Course, course"</td>
+<td>Not given on the ground (the stock one appears on the taxiway after landing). Cleared when the navigation signal is lost.</td>
+</tr>
+<tr>
+<td><code>GLIDEPATH</code></td>
+<td>"Glidepath, glidepath"</td>
+<td>Not given on the ground or below 200 ft AGL. Cleared when the nav source changes or VNAV takes over.</td>
+</tr>
+<tr>
+<td><code>GLIDESLOPE</code></td>
+<td>"Glideslope, glideslope"</td>
+<td>Same as GLIDEPATH.</td>
+</tr>
+<tr>
+<td><code>FLAPS</code></td>
+<td>"Flaps"</td>
+<td>Voice added.</td>
+</tr>
+<tr>
+<td><code>TAILWIND</code></td>
+<td>"Tailwind"</td>
+<td>Voice added.</td>
+</tr>
+<tr>
+<td><code>CROSSWIND</code></td>
+<td>"Crosswind"</td>
+<td>Voice added.</td>
+</tr>
+<tr>
+<td><code>BARO</code></td>
+<td>"Baro, baro"</td>
+<td>Voice added.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each voice plays once when its annunciation appears, or when the text changes while one is shown.</p>
+<p><strong>Limits.</strong> The 200 ft floor for GLIDEPATH and GLIDESLOPE is the mod's choice. The Pilot's Guide gives no number. It
+stops the false alert in a normal flare, where the angular deviation grows quickly close to the antenna.</p>
+<h3 id="no-yaw-damper">No yaw damper</h3>
+<p><strong>What it does.</strong> The SR20 has no yaw damper. The stock SR22T engages one with the autopilot and above 200 ft AGL.
+The mod removes it:</p>
+<ul>
+<li><code>YD</code> never shows in the AFCS status box.</li>
+<li>If a hardware <strong>YD</strong> button or a key binding turns the sim's yaw damper on, the mod turns it off again at once.</li>
+</ul>
+<p><strong>What it means for you.</strong> Keep the ball centred with rudder in climbs and in autopilot turns, as in the aircraft.</p>
+<h2 id="autopilot-disconnect">Autopilot disconnect</h2>
+<p><strong>What it does.</strong> The mod tells a disconnect you made from one the system made, and shows each the way the
+Perspective+ does. It also makes the electric pitch trim switch disconnect the autopilot, which the stock sim does
+not do.</p>
+<h3 id="manual-and-automatic-disconnects">Manual and automatic disconnects</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>Manual disconnect</th>
+<th>Automatic disconnect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Caused by</td>
+<td><strong>AP DISC</strong>, the <strong>AP</strong> key, the pitch trim switch (MEPT), pulling the AP SERVOS breaker by hand, overpowering the yoke (see <a href="#realsimgear-cirrus-yoke-force-feel">the yoke section</a>)</td>
+<td>An autopilot or sensor failure, a failure armed on the Instructor Station, ESP or underspeed protection dropping the autopilot, anything else the system does by itself</td>
+</tr>
+<tr>
+<td><code>AP</code> annunciation</td>
+<td>Flashes yellow for 5 seconds, then goes out</td>
+<td>Flashes red and white until you acknowledge it</td>
+</tr>
+<tr>
+<td>Sound</td>
+<td>The sim's autopilot disconnect tone</td>
+<td>The sim's autopilot disconnect tone</td>
+</tr>
+<tr>
+<td>To acknowledge</td>
+<td>Nothing needed</td>
+<td>Press <strong>AP DISC</strong> or the pitch trim switch</td>
+</tr>
+</tbody>
+</table></div>
+<p>The tone is the sim's own. The mod does not add a second one.</p>
+<p>A mod function that moves the aircraft and has to drop the autopilot, such as the Instructor Station's approach
+setup, does it silently: no flash.</p>
+<h3 id="mept-switch">MEPT switch</h3>
+<p><strong>What it does.</strong> With the autopilot engaged, any electric pitch trim input disconnects it. This is a manual
+disconnect: yellow flashing <code>AP</code>.</p>
+<p><strong>Where to find it.</strong> In the sim this is whatever you have bound to the sim's elevator trim up and trim down
+commands, typically the trim hat on your yoke or stick.</p>
+<h3 id="how-to-acknowledge-an-automatic-disconnect">How to acknowledge an automatic disconnect</h3>
+<ol>
+<li>Fly the aircraft by hand.</li>
+<li>Press <strong>AP DISC</strong> once, or press the pitch trim switch once. It has to be a new press made after the alert
+   started. Holding the trim switch from before does not count.</li>
+<li>The red and white <code>AP</code> goes out.</li>
+</ol>
+<p>Re-engaging the autopilot also ends the alert.</p>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>The mod plays no disconnect tone of its own. The tone you hear is the sim's.</li>
+<li>If your <strong>AP DISC</strong> button is bound to the sim's "toggle autopilot disengage" command and the Companion's yoke
+  helper is running, the helper releases the sim's disengage latch for you, so the <strong>AP</strong> key works again without a
+  second <strong>AP DISC</strong> press.</li>
+</ul>
+<h2 id="navigraph-charts">Navigraph charts</h2>
+<p>Navigraph's own G1000 plugin shows charts on the MFD. The mod does not include charts and does not replace that
+plugin. It repairs one thing in it.</p>
+<p><strong>What it does.</strong> The Navigraph plugin has a <strong>Full SCN</strong> softkey in its chart options menu that does nothing. The
+mod gives it a function: the chart takes the whole MFD page and the airport and procedure list on the right is
+hidden, as on a Perspective+.</p>
+<p><strong>Requirements.</strong> Your own install of the Navigraph avionics plugin for the MSFS 2024 G1000 and a Navigraph
+subscription. Without the plugin the softkey does not exist and nothing else changes.</p>
+<p><strong>Turning it on and off.</strong></p>
+<ol>
+<li>Open a chart on the MFD with the Navigraph plugin.</li>
+<li>Open the chart options softkeys and press <strong>Full SCN</strong>. The chart fills the page and refits to the width.</li>
+<li>Press <strong>Full SCN</strong> again to return to the normal layout. Switching the chart page back to the map also returns to
+   normal.</li>
+</ol>
+<p><strong>Limits.</strong> The function was written against Navigraph plugin version 2.2.0. If a Navigraph update renames its
+parts, the softkey goes back to doing nothing. Nothing else is affected.</p>
+<h2 id="ipad-and-foreflight-link">iPad and ForeFlight link</h2>
+<p>The iPad link (needs the Companion) connects ForeFlight on an iPad to the sim over your home Wi-Fi, the way a
+FlightStream does in the aircraft.</p>
+<p><strong>What it does.</strong></p>
+<ul>
+<li><strong>Flight plan to the G1000.</strong> You build a route in ForeFlight and send it. It appears on the MFD as a pending
+  flight plan that you preview and activate.</li>
+<li><strong>Moving map.</strong> ForeFlight shows the sim aircraft's position, track, speed and attitude as its own position.</li>
+</ul>
+<p>Nothing goes from the G1000 back to ForeFlight.</p>
+<p><strong>Requirements.</strong></p>
+<ul>
+<li>The SR20 Companion running on the sim PC.</li>
+<li>The iPad and the PC on the same home Wi-Fi or home network. Guest networks keep devices apart and do not work.</li>
+<li>ForeFlight on the iPad. For sending plans, the Shortcuts app, which is part of iPadOS.</li>
+<li>No account, no extra app, nothing to type.</li>
+</ul>
+<h3 id="one-time-setup">One-time setup</h3>
+<p>Do this once on each iPad. It takes about a minute.</p>
+<ol>
+<li>On the PC, open the setup page: right-click the Companion's tray icon and choose <strong>iPad setup…</strong>, or use the
+   <strong>SR20 iPad setup</strong> shortcut in the Start menu, or open <code>http://127.0.0.1:47822/setup</code> in a browser. The page is
+   titled "Send flight plans from your iPad" and shows two QR codes.</li>
+<li>On the iPad, open the <strong>Camera</strong> app and point it at code <strong>1</strong> (Add the Shortcut). Tap the link that appears,
+   then tap <strong>Add Shortcut</strong>. This installs a Shortcut named <strong>Send to SR20</strong>.</li>
+<li>Point the Camera at code <strong>2</strong> (Connect it to this PC). Tap the link. A page titled "Connect this iPad" opens.</li>
+<li>Tap <strong>Connect</strong>. When the iPad asks, open it in Shortcuts and tap <strong>Allow</strong>.</li>
+<li>The iPad shows <strong>SR20 is set up</strong>.</li>
+</ol>
+<p>Code 2 gives the Shortcut this PC's send address. If the PC's network address changes later, for example after a
+router change, scan code 2 again.</p>
+<p>If the setup page cannot be opened because the Companion is not running, the browser shows "Start the SR20 Companion
+first". Start <strong>SR20Companion.exe</strong>, wait a few seconds and open the setup page again.</p>
+<h3 id="sending-a-flight-plan">Sending a flight plan</h3>
+<ol>
+<li>In ForeFlight, open your route and tap the share button, then <strong>Share FPL File</strong>.</li>
+<li>Tap <strong>Send to SR20</strong>. If it is not in the list, see the troubleshooting table.</li>
+<li>The iPad answers, for example:
+   - <code>Flight plan received: KSNA SLI KLGB. Press ENT on the MFD.</code>
+   - <code>Flight plan received: KSNA SLI KLGB. It will appear on the MFD once the sim is running.</code></li>
+</ol>
+<p>You can send a plan before the sim is started. It waits for up to an hour. A newer plan replaces one that has not
+been answered.</p>
+<h3 id="on-the-mfd">On the MFD</h3>
+<p><strong>The pending-plan pop-up.</strong> A window titled <strong>1 PENDING FLIGHT PLAN</strong> appears at the lower right of the MFD, with
+the lines <code>Press "ENT" to preview</code> and <code>Press "CLR" to ignore</code>. If another window or menu is open on the MFD, the
+pop-up waits until you close it.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ENT</strong> or the <strong>Preview</strong> softkey</td>
+<td>Opens the preview page</td>
+</tr>
+<tr>
+<td><strong>CLR</strong> or the <strong>Ignore</strong> softkey</td>
+<td>Ignores the plan. It is gone: send it again if you want it.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The preview page.</strong> The page is titled <strong>FPL - Preview Flight Plan</strong>. The map is on the left. On the right:</p>
+<ul>
+<li><strong>Preview Flight Plan</strong>, the plan number <code>1</code>, the plan name as origin / destination (for example <code>KSNA / KLGB</code>)
+  and <strong>Pending</strong>.</li>
+<li>The waypoints under the headings <strong>Origin</strong>, <strong>Enroute</strong> and <strong>Destination</strong>, with <strong>DTK</strong> and <strong>DIS</strong>. The
+  <strong>ALT</strong> column is blank.</li>
+<li>A waypoint made as a user waypoint is marked <code>USER</code>. A waypoint that could not be found is marked <code>NOT FOUND</code>.</li>
+<li>If something was left out, a line such as <code>Not loaded: procedure fixes ... . Load procedures on PROC.</code></li>
+<li>At the bottom, <strong>Store?</strong> or <strong>Activate?</strong>. <strong>Store?</strong> is grey.</li>
+</ul>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ENT</strong>, or the <strong>Activate</strong> softkey</td>
+<td>Asks <strong>Activate Flight Plan?</strong> with <strong>OK</strong> or <strong>Cancel</strong></td>
+</tr>
+<tr>
+<td><strong>FMS</strong> knob in the question</td>
+<td>Moves between <strong>OK</strong> and <strong>Cancel</strong></td>
+</tr>
+<tr>
+<td><strong>ENT</strong> in the question</td>
+<td>Chooses the highlighted answer</td>
+</tr>
+<tr>
+<td><strong>CLR</strong> in the question</td>
+<td>Cancels the question</td>
+</tr>
+<tr>
+<td><strong>Delete</strong> softkey</td>
+<td>Asks <strong>Delete Flight Plan ...?</strong> OK removes the pending plan.</td>
+</tr>
+<tr>
+<td><strong>CLR</strong> on the page</td>
+<td>Goes back to the page you were on. The pending plan is discarded.</td>
+</tr>
+<tr>
+<td><strong>Store</strong> softkey</td>
+<td>Not available</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Activating.</strong></p>
+<ol>
+<li>Wait for <code>Checking waypoints...</code> to clear.</li>
+<li>Press <strong>ENT</strong> (or <strong>Activate</strong>), then <strong>ENT</strong> on <strong>OK</strong>.</li>
+<li><code>Activating...</code> shows briefly. The plan becomes the active flight plan and the MFD opens the flight plan page.</li>
+</ol>
+<p>On the ground the first leg is active. In the air the leg nearest to the aircraft becomes active.</p>
+<p><strong>If the load fails.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>What you see</th>
+<th>Meaning</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Cannot activate: not found: ...</code></td>
+<td>A waypoint is not in the G1000 database and the file gave no position for it</td>
+<td>Fix the route in ForeFlight and send it again</td>
+</tr>
+<tr>
+<td><code>Not activated: an approach is active. Previous plan kept.</code></td>
+<td>You are airborne and flying an approach. Activation is refused.</td>
+<td>Finish or leave the approach, then press <strong>ENT</strong> again</td>
+</tr>
+<tr>
+<td><code>Not activated: ... . Previous plan kept.</code></td>
+<td>A step of building the plan failed. Your previous flight plan has been put back.</td>
+<td>Press <strong>ENT</strong> to try again, or <strong>CLR</strong> to leave</td>
+</tr>
+<tr>
+<td>Pop-up <strong>FLIGHT PLAN NOT READ</strong> with a reason and <code>Press "CLR" to dismiss</code></td>
+<td>A file in the Downloads folder could not be read as a flight plan</td>
+<td>Press <strong>CLR</strong>. Share the plan again from ForeFlight.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="what-a-route-can-contain">What a route can contain</h3>
+<p>The link carries the enroute route: airports, VORs, NDBs, intersections and user waypoints, at least two points.</p>
+<ul>
+<li>Each waypoint is looked up in the G1000 database by name and type. The one nearest to ForeFlight's position for
+  it is used, if it is within 2 NM.</li>
+<li>A point the database does not have becomes a user waypoint at ForeFlight's position. If you already have a user
+  waypoint of that name, the new one gets a number on the end.</li>
+</ul>
+<p>Not carried:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Approaches, departures and arrivals</td>
+<td>ForeFlight writes them fix by fix. Those fixes, runway points and hold points are left out, and the preview page says which. Load procedures on the <strong>PROC</strong> page, as in the aircraft.</td>
+</tr>
+<tr>
+<td>Airways</td>
+<td>ForeFlight's file has the waypoints only</td>
+</tr>
+<tr>
+<td>Altitudes</td>
+<td>Not loaded</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="moving-map-on-foreflight">Moving map on ForeFlight</h3>
+<p><strong>Turning it on.</strong> Nothing to do on the PC. Open ForeFlight on the iPad while the sim is running. The Companion
+hears ForeFlight on the network and sends it the sim's position. In ForeFlight it appears under More &gt; Devices as
+<strong>SR20 Sim</strong>. If the device has an <strong>Enabled</strong> switch, turn it on once.</p>
+<p><strong>Good to know.</strong></p>
+<ul>
+<li>ForeFlight has to be in the foreground now and then for the PC to hear it. The PC keeps sending to an iPad for 10
+  minutes after it last heard it.</li>
+<li>When the GPS is failed on the Instructor Station, no position is sent, as in the aircraft.</li>
+<li>The setup page's Status section shows "ForeFlight's moving map is getting the sim's position" with the iPad's
+  address when it is working.</li>
+</ul>
+<p><strong>Turning it off.</strong> Create the file <code>%LOCALAPPDATA%\SR20Companion\data\efb\efb.json</code> containing <code>{"map": false}</code>
+and restart the Companion (tray icon &gt; <strong>Restart all</strong>).</p>
+<h3 id="forgetting-ipads-and-new-codes">Forgetting iPads and new codes</h3>
+<ul>
+<li><strong>Lost or sold an iPad.</strong> On the setup page, under <strong>More</strong>, click <strong>Disconnect all iPads</strong>, then click again when
+  the button reads "Click again to disconnect all iPads". Every iPad then needs code 2 scanned again before it can
+  send.</li>
+<li><strong>Code for the Safari page.</strong> The code under "Send without the Shortcut (Safari)" works for 30 minutes. The page
+  says how many minutes are left. <strong>Make a new one</strong> replaces it at once.</li>
+<li>Codes 1 and 2 do not expire. Code 2 changes after <strong>Disconnect all iPads</strong>.</li>
+</ul>
+<h3 id="sending-without-the-shortcut">Sending without the Shortcut</h3>
+<p>Two other routes work.</p>
+<p><strong>Safari upload page.</strong></p>
+<ol>
+<li>On the setup page, open <strong>More</strong> &gt; <strong>Send without the Shortcut (Safari)</strong>.</li>
+<li>Point the iPad's Camera at the small code and open the page. It is titled "Send to SR20" and shows <code>Ready.</code></li>
+<li>In ForeFlight: Share FPL File &gt; <strong>Save to Files</strong>.</li>
+<li>On the page, choose that file and tap <strong>Send</strong>.</li>
+</ol>
+<p><strong>The Downloads folder.</strong> The Companion watches the PC's Downloads folder for files named <code>ForeFlight*.fpl</code>. Any way
+of getting ForeFlight's shared file into that folder works: a cloud drive, a file-sharing tool, email. A new file is
+picked up within a few seconds and offered on the MFD like a sent plan.</p>
+<h3 id="windows-firewall">Windows firewall</h3>
+<p>The iPad link is the only part of the mod that listens on your home network. It uses TCP port 47823 for flight plans
+and UDP port 63093 to hear ForeFlight for the moving map. It answers only devices with home-network addresses.</p>
+<p><strong>The Windows prompt.</strong> The first time the Companion runs, Windows may ask "Allow public and private networks to
+access this app?". Click <strong>Show more</strong>, leave only <strong>Private networks</strong> ticked (untick Public), then <strong>Allow</strong>.</p>
+<p><strong>The setup page's firewall check.</strong> The <strong>Windows firewall</strong> section of the setup page checks the network type and
+the firewall rules and shows one of these:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OK: Windows lets the SR20 Companion receive on your home network.</code></td>
+<td>Nothing</td>
+</tr>
+<tr>
+<td><code>Windows hasn't been told to allow the SR20 Companion yet. If your iPad can't connect, use the button below.</code></td>
+<td>Click the button if the iPad cannot connect</td>
+</tr>
+<tr>
+<td><code>A Windows Firewall rule is blocking the SR20 Companion. Use the button below to allow it on your home network only.</code></td>
+<td>Click the button</td>
+</tr>
+<tr>
+<td><code>Windows treats this network ("name") as a Public network, which blocks the iPad. To fix it: Windows Settings &gt; Network &amp; internet &gt; open this network &gt; choose Private network.</code></td>
+<td>Change the network to Private in Windows Settings</td>
+</tr>
+<tr>
+<td><code>This PC is on a work (Domain) network. Ask whoever manages it to allow the SR20 Companion.</code></td>
+<td>Ask your network administrator</td>
+</tr>
+<tr>
+<td><code>Couldn't read the firewall.</code> or <code>Could not read the firewall.</code></td>
+<td>If the iPad cannot connect, use the button</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The one-click fix.</strong> The button <strong>Let the SR20 Companion receive on my home network</strong> shows while Windows has no
+rule or a blocking rule. Click it and answer the Windows administrator prompt. It adds two inbound rules for the
+Companion, for Private networks and your local subnet only: "SR20 Companion - iPad flight plans (TCP 47823)" and
+"SR20 Companion - ForeFlight discovery (UDP 63093)". The page then reports:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Result</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Done: the SR20 Companion may now receive from your home network.</code></td>
+<td>Fixed</td>
+</tr>
+<tr>
+<td><code>Not changed (the Windows prompt was cancelled).</code></td>
+<td>You cancelled the administrator prompt</td>
+</tr>
+<tr>
+<td><code>Windows refused one of the rules. Try again, or allow it in Windows Security.</code></td>
+<td>A rule could not be added</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p><strong>The setup page's Status section.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ready to receive flight plans from your iPad.</code></td>
+<td>The network listener is running</td>
+</tr>
+<tr>
+<td><code>Can't receive flight plans: ... . Restart the SR20 Companion.</code></td>
+<td>The listener did not start. The reason is in the line. Tray icon &gt; <strong>Restart all</strong>.</td>
+</tr>
+<tr>
+<td><code>Last flight plan received at 3:42 PM: KSNA SLI KLGB.</code></td>
+<td>The last plan an iPad sent</td>
+</tr>
+<tr>
+<td><code>No flight plan received yet.</code></td>
+<td>Nothing has arrived since the Companion started</td>
+</tr>
+<tr>
+<td><code>The sim is running and the MFD is ready.</code></td>
+<td>The MFD is asking for plans</td>
+</tr>
+<tr>
+<td><code>The sim isn't running. Plans you send will wait and pop up once it is.</code></td>
+<td>Start the sim and load the SR20</td>
+</tr>
+<tr>
+<td><code>This PC isn't on a network. Connect it to your home Wi-Fi or router, then reload this page.</code></td>
+<td>Shown in place of code 2</td>
+</tr>
+<tr>
+<td><code>Something went wrong. Restart the SR20 Companion, then reload this page.</code></td>
+<td>Shown in place of code 2</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Messages on the iPad.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>Meaning and fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>The request timed out</code></td>
+<td>The iPad cannot reach the PC. Check that the Companion is running and that both are on the same Wi-Fi. If you changed routers, the PC may have a new address: scan code 2 again. Check the firewall section.</td>
+</tr>
+<tr>
+<td><code>This iPad isn't connected to this PC. On the PC, open SR20 iPad setup and scan code 2 again.</code></td>
+<td>The iPad's send address is not known to this PC, for example after <strong>Disconnect all iPads</strong>. Scan code 2 again.</td>
+</tr>
+<tr>
+<td><code>That code has expired. On the PC, reload SR20 iPad setup and scan the new code.</code></td>
+<td>The Safari page's code is older than 30 minutes</td>
+</tr>
+<tr>
+<td><code>Not set up yet: on the PC, open SR20 iPad setup and point this iPad's camera at the code.</code></td>
+<td>The Safari upload page was opened without its code</td>
+</tr>
+<tr>
+<td><code>This link is incomplete. Scan code 2 on the PC's SR20 iPad setup page again.</code></td>
+<td>The Connect page was opened without its key</td>
+</tr>
+<tr>
+<td><code>That file couldn't be read as a flight plan (...).</code></td>
+<td>The file is not a ForeFlight FPL file, or the route has fewer than two usable points. The reason is in the brackets.</td>
+</tr>
+<tr>
+<td><code>That file is too large to be a flight plan.</code></td>
+<td>Send the FPL file, not another document</td>
+</tr>
+<tr>
+<td><code>Only devices on your home network can send to the SR20.</code></td>
+<td>The request came from an address outside your home network</td>
+</tr>
+<tr>
+<td><code>Use the PC's address, as the setup page shows it.</code></td>
+<td>The page was opened by a name. Use the code on the setup page.</td>
+</tr>
+<tr>
+<td><code>Too many tries. Wait n seconds and try again.</code></td>
+<td>Several wrong codes or addresses in a row from this iPad. Wait, then scan code 2 again.</td>
+</tr>
+<tr>
+<td><code>This PC couldn't save the setup. Try again; if it keeps failing, restart the SR20 Companion.</code></td>
+<td>The PC could not write its pairing file</td>
+</tr>
+<tr>
+<td><code>Choose the flight plan file first.</code> / <code>Not sent: ...</code></td>
+<td>Safari upload page: no file chosen, or the upload failed</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Other problems.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Send to SR20</strong> is not in ForeFlight's share list</td>
+<td>Scroll the list of apps to the end, tap <strong>More</strong>, and turn on Send to SR20. Or scan code 1 again.</td>
+</tr>
+<tr>
+<td>Nothing pops up on the MFD</td>
+<td>The plan waits until the sim is running. If a window or menu is open on the MFD, the pop-up appears when you close it.</td>
+</tr>
+<tr>
+<td>The setup page lists other network addresses</td>
+<td>The PC has more than one network (VPN, virtual networks). The codes use the first home-network address. The iPad must be on that network.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>There is no flight plan catalog. <strong>Store</strong> is not available, and an ignored or deleted plan is gone.</li>
+<li>There is no Connext annunciation on the MFD.</li>
+<li>Flight plans go from the iPad to the panel only.</li>
+<li>Works with ForeFlight. The mod is not affiliated with ForeFlight or Garmin.</li>
+</ul>
+<h2 id="realsimgear-cirrus-yoke-force-feel">RealSimGear Cirrus yoke force feel</h2>
+<p>The yoke force feel (needs the Companion and the RealSimGear Cirrus yoke) drives the motorised yoke from the sim so
+that it behaves like the side yoke in the aircraft.</p>
+<p><strong>What it does.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Function</th>
+<th>What you feel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trim-following centring</td>
+<td>The yoke's spring centre moves with the aircraft's pitch and roll trim. When you trim, the yoke moves to the trimmed position and stays there hands-off.</td>
+</tr>
+<tr>
+<td>Feel with the autopilot</td>
+<td>Loose springs when you fly by hand. Stiff springs while the autopilot is engaged, like servos holding the controls.</td>
+</tr>
+<tr>
+<td>Override break-out</td>
+<td>With the autopilot on, push or roll the yoke past the break-out point and hold it there for a moment. The autopilot disconnects, the yoke goes loose, and your input is blended in over about one second so the aircraft does not jump.</td>
+</tr>
+<tr>
+<td>ESP push</td>
+<td>When ESP is correcting bank, pitch or speed, the yoke's centre moves in the direction of the correction and the springs go stiff, so you feel it pushing back toward the normal envelope. The push builds up and lets go gradually. The stiff feel stays for 3 seconds after the push ends.</td>
+</tr>
+<tr>
+<td>Motor temperature watch</td>
+<td>The Companion reads the yoke motor's temperature and writes it to its log, with a note when the motor is warm (50 °C) and when it reaches the range where the yoke's own firmware reduces force (60 to 70 °C).</td>
+</tr>
+<tr>
+<td>Freeze detection</td>
+<td>If the yoke stops responding for 6 seconds, the Companion pauses the sim when you are airborne, shows a warning window, and keeps trying to wake the yoke.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="the-override-break-out-in-detail">The override break-out in detail</h3>
+<ul>
+<li>While the autopilot is engaged, your pitch and roll inputs do not move the control surfaces. The autopilot has
+  them.</li>
+<li>The break-out point is 45 % of the yoke's travel from centre, in pitch or in roll, held for 0.3 seconds.</li>
+<li>The break-out arms once the yoke has been near centre for a moment after the autopilot engaged. If you engage the
+  autopilot while holding a large deflection, relax the yoke first.</li>
+<li>A break-out counts as a manual disconnect: yellow flashing <code>AP</code> for 5 seconds. See
+  <a href="#autopilot-disconnect">Autopilot disconnect</a>.</li>
+</ul>
+<h3 id="if-the-yoke-freezes">If the yoke freezes</h3>
+<p>The warning window is titled "SR20 yoke helper" and reads: "The RealSimGear yoke has stopped responding (its
+firmware went silent)." When you were airborne it adds "The sim has been PAUSED."</p>
+<ol>
+<li>Wait about 30 seconds. The Companion reopens the yoke's port every few seconds, which often wakes it.</li>
+<li>If the controls do not come back, power-cycle the yoke: unplug its power or USB for a few seconds.</li>
+<li>Unpause the sim.</li>
+</ol>
+<h3 id="turning-it-on-and-off">Turning it on and off</h3>
+<p><strong>In the installer.</strong> The component <strong>RealSimGear Cirrus yoke force feel (only matters with that yoke)</strong> is ticked
+by default under the SR20 Companion. Untick it to install without the force feel.</p>
+<p><strong>Afterwards.</strong></p>
+<ol>
+<li>Open or create the file <code>%LOCALAPPDATA%\SR20Companion\settings.json</code>.</li>
+<li>To turn the force feel off, it must contain <code>"yoke_feel": false</code>. For example: <code>{"yoke_feel": false}</code>. To turn it
+   on, change the value to <code>true</code>. If the file has other entries, keep them.</li>
+<li>Restart the Companion: tray icon &gt; <strong>Quit SR20 Companion</strong>, then start it again.</li>
+</ol>
+<p>Running the installer again and changing the component does the same.</p>
+<p><strong>Checking the state.</strong> Right-click the Companion's tray icon. The line <strong>RealSimGear yoke feel</strong> shows a tick when
+it is working, "(no yoke connected)" when the yoke is not found, "(starting)" while it starts, and "(off)" when you
+turned it off.</p>
+<p><strong>Start order matters.</strong> The Companion has to take the yoke's connection before the sim starts the RealSimGear
+Device Interface. Leave <strong>Start with Windows</strong> ticked in the tray menu, or start the Companion before the sim. If
+the sim was started first, quit the sim, check the tray line, and start the sim again. Your other RealSimGear panels
+keep working through RealSimGear's own software.</p>
+<p><strong>When the Companion stops.</strong> On Quit, or when the sim is not running, the yoke is left loose with its centre held
+where it was.</p>
+<p><strong>Adjusting the feel.</strong> The spring settings are in <code>%LOCALAPPDATA%\SR20Companion\data\yoke_feel.json</code>: a force
+preset (1 to 3) and two spring scalings (0.8 to 1.5) for <code>loose</code> and for <code>stiff</code>. The file is read again whenever it
+changes, so no restart is needed. As shipped, loose is preset 1 with 0.8 / 0.8 and stiff is preset 3 with 1.2 / 1.5.</p>
+<h3 id="if-you-do-not-have-this-yoke">If you do not have this yoke</h3>
+<ul>
+<li>The force feel does nothing without the yoke. The tray line reads "RealSimGear yoke feel (no yoke connected)" and
+  the tray icon stays green. You can leave the option on or turn it off.</li>
+<li>The override break-out is part of the aircraft, not of the Companion, so it works with any yoke or joystick. With
+  the autopilot engaged, your pitch and roll inputs are held back, and holding the control past 45 % of its travel
+  for 0.3 seconds disconnects the autopilot. To override the autopilot on purpose, do that, or press <strong>AP DISC</strong>.</li>
+<li>A controller that does not rest near its centre can therefore disconnect the autopilot by itself. Check its
+  calibration and dead zone if the autopilot drops out with a yellow flashing <code>AP</code> and you did not touch anything.</li>
+</ul>
+<p><strong>Differences from the real aircraft / limits.</strong></p>
+<ul>
+<li>The forces are tuned by feel against a real SR20 G6. They are not measured values.</li>
+<li>The yoke has no stall shaker in the mod. The SR20 has a stall horn.</li>
+<li>ESP itself, with its limits and settings, is described in
+  <a href="safety-systems.html">Terrain, surface and protection systems</a>.</li>
+</ul>
+<h2 id="quick-reference">Quick reference</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Where</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TO/GA</strong> in the air</td>
+<td>Cockpit TO/GA button or your binding</td>
+<td>Go-around mode, 7° nose up, wings level. Autopilot stays on. Activates the missed approach.</td>
+</tr>
+<tr>
+<td><strong>NAV</strong> after TO/GA</td>
+<td>Autopilot controller</td>
+<td>One press engages GPS to fly the missed approach</td>
+</tr>
+<tr>
+<td><strong>LVL</strong></td>
+<td>Autopilot controller</td>
+<td>Autopilot on, level laterally and vertically, armed modes cleared</td>
+</tr>
+<tr>
+<td><strong>Direct-To</strong></td>
+<td>PFD / MFD / keypad</td>
+<td>Straight great-circle line from present position</td>
+</tr>
+<tr>
+<td><strong>PROC</strong> &gt; <strong>Activate Missed Approach</strong></td>
+<td>PFD / MFD</td>
+<td>Selectable at or past the FAF with GPS as nav source</td>
+</tr>
+<tr>
+<td><strong>PROC</strong> &gt; approach &gt; <strong>Load?</strong></td>
+<td>PFD / MFD</td>
+<td>Offered with an empty or Direct-To-only plan</td>
+</tr>
+<tr>
+<td><strong>HDG</strong> knob push</td>
+<td>Autopilot controller / PFD</td>
+<td>In a coupled NAV or approach mode: heading bug follows the heading until pushed again or turned</td>
+</tr>
+<tr>
+<td><strong>ALT SEL</strong> knob or <strong>VNV</strong> key near top of descent</td>
+<td>Autopilot controller</td>
+<td>Acknowledges the VPTH descent when in ALT (within 5 minutes of TOD; <code>VPTH</code> flashes from 1 minute)</td>
+</tr>
+<tr>
+<td>Navigation status box</td>
+<td>Top of the PFD</td>
+<td>Turn, Next DTK, hold entry, arriving and TOD / BOD / TOC / BOC messages</td>
+</tr>
+<tr>
+<td>Selected Altitude</td>
+<td>PFD</td>
+<td>Chime within 200 ft; "Altitude" voice more than 200 ft off after capture</td>
+</tr>
+<tr>
+<td>Minimums by keypad</td>
+<td>PFD <strong>TMR/REF</strong>, MFD PROC page</td>
+<td>Typed value takes effect on <strong>ENT</strong> or when leaving the field, rounded to 10 ft</td>
+</tr>
+<tr>
+<td><strong>HOME</strong></td>
+<td>MFD keypad</td>
+<td>Always opens the Navigation Map</td>
+</tr>
+<tr>
+<td>Stabilized Approach annunciation</td>
+<td>PFD, right of the altitude tape</td>
+<td>COURSE, GLIDEPATH, GLIDESLOPE, FLAPS, TAILWIND, CROSSWIND, BARO, each with a voice</td>
+</tr>
+<tr>
+<td><strong>AP DISC</strong></td>
+<td>Your binding</td>
+<td>Manual disconnect (yellow <code>AP</code>, 5 s). Acknowledges an automatic disconnect (red and white <code>AP</code>).</td>
+</tr>
+<tr>
+<td>Pitch trim switch (MEPT)</td>
+<td>Your trim up / down binding</td>
+<td>Disconnects the autopilot. Acknowledges an automatic disconnect.</td>
+</tr>
+<tr>
+<td><strong>Full SCN</strong></td>
+<td>MFD, Navigraph chart options softkeys</td>
+<td>Chart full screen on and off (needs the Navigraph plugin)</td>
+</tr>
+<tr>
+<td><strong>iPad setup…</strong></td>
+<td>Companion tray icon, or <code>http://127.0.0.1:47822/setup</code></td>
+<td>Setup page: QR codes 1 and 2, status, firewall check and fix, Disconnect all iPads</td>
+</tr>
+<tr>
+<td>Share FPL File &gt; <strong>Send to SR20</strong></td>
+<td>ForeFlight on the iPad</td>
+<td>Sends the route to the MFD</td>
+</tr>
+<tr>
+<td><strong>1 PENDING FLIGHT PLAN</strong> pop-up</td>
+<td>MFD, lower right</td>
+<td><strong>ENT</strong> / <strong>Preview</strong> to preview, <strong>CLR</strong> / <strong>Ignore</strong> to ignore</td>
+</tr>
+<tr>
+<td><strong>FPL - Preview Flight Plan</strong> page</td>
+<td>MFD</td>
+<td><strong>ENT</strong> / <strong>Activate</strong> then <strong>OK</strong> to activate, <strong>Delete</strong> to delete, <strong>CLR</strong> to leave</td>
+</tr>
+<tr>
+<td><code>ForeFlight*.fpl</code> in Downloads</td>
+<td>PC</td>
+<td>Offered on the MFD like a sent plan</td>
+</tr>
+<tr>
+<td><strong>RealSimGear yoke feel</strong> line</td>
+<td>Companion tray menu</td>
+<td>Status of the yoke force feel</td>
+</tr>
+<tr>
+<td><code>"yoke_feel": false</code></td>
+<td><code>%LOCALAPPDATA%\SR20Companion\settings.json</code></td>
+<td>Turns the yoke force feel off (restart the Companion)</td>
+</tr>
+<tr>
+<td>Yoke past 45 % travel for 0.3 s with the autopilot on</td>
+<td>Yoke or joystick</td>
+<td>Override break-out: autopilot disconnects</td>
+</tr>
+</tbody>
+</table></div>
+<div class="pager"><span><a href="safety-systems.html">&larr; Terrain, surface and protection systems</a></span><span><a href="instructor-station.html">Instructor Station &rarr;</a></span></div>
+<footer>SR20 Realism Mod 1.0.0 by wazooda. Not affiliated with or endorsed by Cirrus Aircraft, Garmin, ForeFlight,
+RealSimGear, Microsoft or Asobo. For flight simulation only: not for real-world flight training or operations.</footer>
+</main></div><script src="nav.js"></script></body></html>

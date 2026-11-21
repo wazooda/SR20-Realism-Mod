@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Installing and first flight - SR20 Realism Mod manual</title>
+<meta name="description" content="Installing and first flight: user manual of the SR20 Realism Mod for Microsoft Flight Simulator 2024.">
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
+<nav class="side"><p class="brand">SR20 Realism Mod</p><p class="ver">User manual, version 1.0.0</p>
+<input id="q" type="search" placeholder="Filter sections..." aria-label="Filter sections">
+<ul><li class="page"><a href="index.html">SR20 Realism Mod: user manual</a><ul class="secs"><li><a href="index.html#how-to-use-this-manual">How to use this manual</a></li><li><a href="index.html#what-you-need">What you need</a></li><li><a href="index.html#the-two-parts-of-the-mod">The two parts of the mod</a></li><li><a href="index.html#quick-start">Quick start</a></li><li><a href="index.html#where-things-are">Where things are</a></li><li><a href="index.html#what-this-mod-is-not">What this mod is not</a></li><li><a href="index.html#credits-and-licence">Credits and licence</a></li></ul></li><li class="page cur"><a href="install.html">Installing and first flight</a><ul class="secs"><li><a href="install.html#requirements">Requirements</a></li><li><a href="install.html#the-two-downloads">The two downloads</a></li><li><a href="install.html#installing-with-the-installer">Installing with the installer</a></li><li><a href="install.html#installing-by-hand">Installing by hand</a></li><li><a href="install.html#finding-the-aircraft-in-the-sim">Finding the aircraft in the sim</a></li><li><a href="install.html#first-flight-check-list">First flight check list</a></li><li><a href="install.html#upgrading">Upgrading</a></li><li><a href="install.html#uninstalling">Uninstalling</a></li><li><a href="install.html#where-things-are-installed">Where things are installed</a></li><li><a href="install.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="aircraft-systems.html">Aircraft and systems</a><ul class="secs"><li><a href="aircraft-systems.html#flight-model-and-performance">Flight model and performance</a></li><li><a href="aircraft-systems.html#engine">Engine</a></li><li><a href="aircraft-systems.html#fuel">Fuel</a></li><li><a href="aircraft-systems.html#engine-and-system-displays">Engine and system displays</a></li><li><a href="aircraft-systems.html#cas-alerts-and-messages">CAS alerts and messages</a></li><li><a href="aircraft-systems.html#electrical-system">Electrical system</a></li><li><a href="aircraft-systems.html#circuit-breaker-panel">Circuit breaker panel</a></li><li><a href="aircraft-systems.html#equipment-removed-versus-the-sr22t">Equipment removed versus the SR22T</a></li><li><a href="aircraft-systems.html#checklists">Checklists</a></li><li><a href="aircraft-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="safety-systems.html">Terrain, surface and protection systems</a><ul class="secs"><li><a href="safety-systems.html#taws-b-terrain-and-obstacle-alerting">TAWS-B terrain and obstacle alerting</a></li><li><a href="safety-systems.html#obstacles">Obstacles</a></li><li><a href="safety-systems.html#surfacewatch">SurfaceWatch</a></li><li><a href="safety-systems.html#safetaxi-airport-maps">SafeTaxi airport maps</a></li><li><a href="safety-systems.html#glide-range-ring-and-fuel-range-ring">Glide range ring and fuel range ring</a></li><li><a href="safety-systems.html#electronic-stability-and-protection-esp">Electronic Stability and Protection (ESP)</a></li><li><a href="safety-systems.html#gfc-700-speed-protection">GFC 700 speed protection</a></li><li><a href="safety-systems.html#voice-alerts">Voice alerts</a></li><li><a href="safety-systems.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="autopilot-fms.html">Autopilot, flight plan and connected devices</a><ul class="secs"><li><a href="autopilot-fms.html#autopilot-and-g1000-behaviour">Autopilot and G1000 behaviour</a></li><li><a href="autopilot-fms.html#autopilot-disconnect">Autopilot disconnect</a></li><li><a href="autopilot-fms.html#navigraph-charts">Navigraph charts</a></li><li><a href="autopilot-fms.html#ipad-and-foreflight-link">iPad and ForeFlight link</a></li><li><a href="autopilot-fms.html#realsimgear-cirrus-yoke-force-feel">RealSimGear Cirrus yoke force feel</a></li><li><a href="autopilot-fms.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="instructor-station.html">Instructor Station</a><ul class="secs"><li><a href="instructor-station.html#opening-the-panel">Opening the panel</a></li><li><a href="instructor-station.html#failures-tab">FAILURES tab</a></li><li><a href="instructor-station.html#approach-tab">APPROACH tab</a></li><li><a href="instructor-station.html#debrief-tab">DEBRIEF tab</a></li><li><a href="instructor-station.html#scores-tab">SCORES tab</a></li><li><a href="instructor-station.html#worked-example">Worked example</a></li><li><a href="instructor-station.html#quick-reference">Quick reference</a></li></ul></li><li class="page"><a href="companion-troubleshooting.html">The SR20 Companion and troubleshooting</a><ul class="secs"><li><a href="companion-troubleshooting.html#what-the-companion-is">What the Companion is</a></li><li><a href="companion-troubleshooting.html#the-tray-icon-needs-the-companion">The tray icon (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#start-with-windows-needs-the-companion">Start with Windows (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#what-the-companion-does-on-your-pc-and-network-needs-the-companion">What the Companion does on your PC and network (needs the Companion)</a></li><li><a href="companion-troubleshooting.html#troubleshooting">Troubleshooting</a></li><li><a href="companion-troubleshooting.html#known-limitations">Known limitations</a></li><li><a href="companion-troubleshooting.html#quick-reference">Quick reference</a></li></ul></li></ul></nav>
+<main><h1>Installing and first flight</h1>
+<p>This section takes you from the download to a first flight in the SR20: what you need, how to install with the installer or by hand, what Windows will ask you, how to check that everything works, and how to upgrade or remove the mod.</p>
+<h2 id="requirements">Requirements</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>You need</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microsoft Flight Simulator 2024 with the stock Cirrus SR22T</td>
+<td>The SR20 is built on top of the sim's own SR22T and uses its 3D model, cockpit and G1000 NXi. Without the SR22T installed the SR20 cannot load.</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>Only for the SR20 Companion, the small background program that comes with the mod. The Companion is optional but recommended.</td>
+</tr>
+<tr>
+<td>An internet connection (for the Companion)</td>
+<td>The first time you fly somewhere new, the Companion downloads terrain for that area, and it fetches taxiway names for airport maps it makes on demand.</td>
+</tr>
+<tr>
+<td>Navigraph charts (optional)</td>
+<td>Their own install and subscription. The mod does not need them.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Tested version.</strong> The mod was tested on the Steam version of MSFS 2024, sim version 1.9.24.0. The Microsoft Store version should work, and the installer looks for its folder, but it has not been tested.</p>
+<p><strong>No administrator rights.</strong> Everything installs for your Windows user only.</p>
+<h2 id="the-two-downloads">The two downloads</h2>
+<p>The download page offers two zip files. You need only one of them.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>File</th>
+<th>What is in it</th>
+<th>Use it when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SR20RealismMod-1.0.0-installer.zip</code></td>
+<td>The installer <code>SR20RealismMod-Setup-1.0.0.exe</code>, the read-me <code>README.txt</code> and the licences</td>
+<td>Recommended. Setup finds the sim's folder, copies everything and makes the shortcuts.</td>
+</tr>
+<tr>
+<td><code>SR20RealismMod-1.0.0-manual.zip</code></td>
+<td>The same files as plain folders: <code>Community2024\paulw-aircraft-sr20</code> (the aircraft), <code>SR20Companion</code> (the program), the read-me <code>README.txt</code> and the licences</td>
+<td>You want to install by hand, or Windows will not let the installer run.</td>
+</tr>
+</tbody>
+</table></div>
+<p>"Manual" here means <strong>installing by hand</strong>: you copy two folders yourself. It is not a user manual and it contains no extra documentation. Both zips have the same read-me and licences. The installer also copies them to the program folder and puts <strong>Read me</strong> in the Start menu.</p>
+<h2 id="installing-with-the-installer">Installing with the installer</h2>
+<h3 id="before-you-start">Before you start</h3>
+<ol>
+<li>Close Microsoft Flight Simulator 2024. Setup will not run while the sim is open.</li>
+<li>Unzip <code>SR20RealismMod-1.0.0-installer.zip</code> anywhere.</li>
+<li>Run <strong>SR20RealismMod-Setup-1.0.0.exe</strong>.</li>
+</ol>
+<p>If the sim is still running, Setup shows this and waits:</p>
+<blockquote>
+<p>Microsoft Flight Simulator 2024 is running. Close the sim first, then press Retry.</p>
+</blockquote>
+<p>Close the sim and click <strong>Retry</strong>, or click <strong>Cancel</strong> to leave Setup.</p>
+<h3 id="the-windows-smartscreen-warning">The Windows SmartScreen warning</h3>
+<p>The installer is not code-signed, so Windows SmartScreen may stop it with a blue box that says <strong>"Windows protected your PC"</strong>.</p>
+<ol>
+<li>Click <strong>More info</strong>.</li>
+<li>Click <strong>Run anyway</strong>.</li>
+</ol>
+<p>If Smart App Control or a company policy blocks the installer outright, there is no <strong>Run anyway</strong> button. Use the manual-install zip instead (see <a href="#installing-by-hand">Installing by hand</a>), or install on a PC without that block.</p>
+<h3 id="setup-page-by-page">Setup, page by page</h3>
+<p>Setup is a standard Windows installer with <strong>Back</strong>, <strong>Next</strong> and <strong>Cancel</strong> buttons. There is no welcome page. The page titles below are Setup's own English titles.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Page</th>
+<th>What it shows</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. License Agreement</td>
+<td>The licences: the aircraft package is CC BY-NC 4.0 (free, non-commercial), the Companion is AGPL-3.0.</td>
+<td>Choose <strong>I accept the agreement</strong>, then <strong>Next</strong>.</td>
+</tr>
+<tr>
+<td>2. Information</td>
+<td>"SR20 Realism Mod - before you install": a short list of what Setup does and what Windows may ask.</td>
+<td>Read it, then <strong>Next</strong>.</td>
+</tr>
+<tr>
+<td>3. Select Components</td>
+<td>What to install. See <a href="#page-3-components">Page 3</a>.</td>
+<td>Leave the default unless you do not want the Companion. <strong>Next</strong>.</td>
+</tr>
+<tr>
+<td>4. Where is MSFS 2024?</td>
+<td>The Community2024 folder Setup found.</td>
+<td>Normally just <strong>Next</strong>. See <a href="#page-4-where-is-msfs-2024">Page 4</a>.</td>
+</tr>
+<tr>
+<td>5. Select Additional Tasks</td>
+<td>Three options for the Companion. This page is skipped if you chose not to install the Companion.</td>
+<td>Leave the defaults. <strong>Next</strong>.</td>
+</tr>
+<tr>
+<td>6. Ready to Install</td>
+<td>A summary of your choices.</td>
+<td><strong>Install</strong>.</td>
+</tr>
+<tr>
+<td>7. Completing the SR20 Realism Mod Setup Wizard</td>
+<td>Setup is done.</td>
+<td><strong>Finish</strong>.</td>
+</tr>
+</tbody>
+</table></div>
+<p>There is no page asking where to put the program, and no Start-menu folder page. The Companion always goes into your user's Programs folder (see <a href="#where-things-are-installed">Where things are installed</a>).</p>
+<h3 id="page-3-components">Page 3: components</h3>
+<p>The drop-down at the top has three choices:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Choice</th>
+<th>Installs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Aircraft and SR20 Companion (recommended)</strong></td>
+<td>Everything. This is the default.</td>
+</tr>
+<tr>
+<td><strong>Aircraft only</strong></td>
+<td>Only the aircraft. No Companion.</td>
+</tr>
+<tr>
+<td><strong>Custom</strong></td>
+<td>What you tick below. Setup switches to this choice by itself when you change a tick.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The components:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Default</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SR20 aircraft (required)</strong></td>
+<td>On, cannot be unticked</td>
+<td>The aircraft package for the Community2024 folder.</td>
+</tr>
+<tr>
+<td><strong>SR20 Companion: terrain alerts (TAWS), glide ring, airport maps, iPad link</strong></td>
+<td>On</td>
+<td>The background program. Without it the aircraft still flies. See <a href="companion-troubleshooting.html">The SR20 Companion and troubleshooting</a> for what you lose.</td>
+</tr>
+<tr>
+<td><strong>RealSimGear Cirrus yoke force feel (only matters with that yoke)</strong></td>
+<td>On</td>
+<td>A part of the Companion, listed under it. Without that yoke it does nothing, so it is safe to leave on. Untick it if you have the yoke and do not want the Companion to drive its forces.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="page-4-where-is-msfs-2024">Page 4: Where is MSFS 2024?</h3>
+<p>The page reads:</p>
+<blockquote>
+<p><strong>Where is MSFS 2024?</strong>
+The SR20 goes into the sim's Community2024 folder.</p>
+<p>Setup found this folder. Change it only if you keep your sim packages somewhere else. It must be Community2024, not Community (the sim treats Community as MSFS 2020 add-ons and ignores the SR20 there).</p>
+</blockquote>
+<p>The box is labelled <strong>Community2024 folder:</strong>. Setup fills it in like this:</p>
+<ol>
+<li>If you installed the mod before, it proposes the folder you used last time.</li>
+<li>Otherwise it reads the sim's own settings file (<code>UserCfg.opt</code>, the line <code>InstalledPackagesPath</code>), first for the Steam version, then for the Microsoft Store version, and proposes the <code>Community2024</code> folder under that path.</li>
+<li>If neither settings file is there, it proposes the default Steam folder if the sim's <code>Packages</code> folder exists, then the default Store folder.</li>
+</ol>
+<p>If you have both the Steam and the Store version, Setup proposes the Steam folder. Use <strong>Browse</strong> if you want the other one, or if you keep your packages somewhere else.</p>
+<p>Setup checks the folder when you click <strong>Next</strong>. These are the messages you can get:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>Meaning</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Setup could not find MSFS 2024. Browse to your Community2024 folder."</td>
+<td>The box is empty. Setup did not find the sim.</td>
+<td>Click <strong>Browse</strong> and choose your Community2024 folder. The two usual places are listed under <a href="#installing-by-hand">Installing by hand</a>.</td>
+</tr>
+<tr>
+<td>"That is the Community folder, which the sim uses for MSFS 2020 add-ons. Choose Community2024 (next to it)."</td>
+<td>You chose the old <strong>Community</strong> folder. The sim would ignore the SR20 there.</td>
+<td>Choose the <strong>Community2024</strong> folder beside it.</td>
+</tr>
+<tr>
+<td>"Community2024\paulw-aircraft-sr20 is a link to another folder (a development copy). Remove the link first."</td>
+<td>The aircraft folder in Community2024 is a link (junction or symbolic link) to another folder. Setup will not install through a link.</td>
+<td>Normal users never see this. If you do, delete the link, then run Setup again.</td>
+</tr>
+<tr>
+<td>"The folder above it (...) does not exist. Is the sim installed?"</td>
+<td>The folder that should contain Community2024 (normally <code>Packages</code>) does not exist on this PC.</td>
+<td>Check the path. If the sim has never run on this Windows account, start it once, close it, and run Setup again.</td>
+</tr>
+<tr>
+<td>"The folder is not named Community2024. Install there anyway?"</td>
+<td>The folder has another name.</td>
+<td>Click <strong>No</strong> and correct it, unless you really keep your MSFS 2024 community packages in a folder with another name.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="page-5-options">Page 5: options</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Start the SR20 Companion with Windows</strong></td>
+<td>On</td>
+<td>Puts a shortcut named "SR20 Companion" in your Startup folder so the Companion starts quietly when you log on. Recommended, and needed for the RealSimGear yoke feel (the Companion must be running before the sim starts). You can change it later with <strong>Start with Windows</strong> in the Companion's tray menu. If you untick it, Setup removes a Startup shortcut left from an earlier install.</td>
+</tr>
+<tr>
+<td><strong>Start the SR20 Companion now</strong></td>
+<td>On</td>
+<td>Starts the Companion as soon as the files are copied.</td>
+</tr>
+<tr>
+<td><strong>Open the iPad setup page when setup finishes</strong></td>
+<td>Off</td>
+<td>Adds a ticked box <strong>Open the iPad setup page</strong> to the last Setup page. The page opens in your browser when you click <strong>Finish</strong>. You can open it any time later from the tray icon.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="while-setup-installs">While Setup installs</h3>
+<p>Setup checks once more that the sim is closed and stops a running Companion by itself. If something is in the way, Setup stops on a "Preparing to Install" page or shows a message box. Messages you can get at this point:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Microsoft Flight Simulator 2024 is running. Close it and run setup again."</td>
+<td>Close the sim and run Setup again.</td>
+</tr>
+<tr>
+<td>"The SR20 Companion is still running. Right-click its icon by the clock, choose Quit SR20 Companion, then run setup again."</td>
+<td>Do as it says. Setup could not stop the Companion itself.</td>
+</tr>
+<tr>
+<td>"...\paulw-aircraft-sr20 is a link to another folder (a development copy). Remove the link first."</td>
+<td>Normal users never see this. Delete the link, then run Setup again.</td>
+</tr>
+<tr>
+<td>"Setup could not move the old ... aside (is a file in it open?). Nothing was changed."</td>
+<td>An older copy of the aircraft is in use. Close any program or Explorer window that has a file from that folder open, then run Setup again.</td>
+</tr>
+<tr>
+<td>"Setup could not save ...\settings.json. Nothing was changed."</td>
+<td>Setup could not write the Companion's settings file in <code>%LOCALAPPDATA%\SR20Companion</code>. Check that the folder is not read-only, then run Setup again.</td>
+</tr>
+<tr>
+<td>"Setup found an old backup at ... and could not restore it. Nothing was changed." or "Setup could not remove the old backup ... Nothing was changed."</td>
+<td>An earlier Setup was interrupted and left a <code>paulw-aircraft-sr20.sr20-backup</code> folder. Close anything that uses it and run Setup again.</td>
+</tr>
+<tr>
+<td>"The SR20 is installed, but setup could not delete the old copy at ... Delete that folder yourself (the sim ignores it meanwhile)."</td>
+<td>The install worked. Delete the named <code>paulw-aircraft-sr20.sr20-backup</code> folder when you can.</td>
+</tr>
+<tr>
+<td>"Setup did not finish and could not put the previous SR20 back. It is in ...: rename that folder to paulw-aircraft-sr20 (and manifest.json.sr20-backup inside it to manifest.json)."</td>
+<td>Setup was cancelled or failed during an upgrade. Either rename as it says to keep the old version, or run Setup again.</td>
+</tr>
+</tbody>
+</table></div>
+<p>When you upgrade, Setup moves the old aircraft folder aside first. If Setup fails or you cancel, it puts the old one back.</p>
+<h3 id="the-windows-firewall-prompt">The Windows firewall prompt</h3>
+<p>The first time the Companion starts (with <strong>Start the SR20 Companion now</strong> ticked, that is right at the end of Setup), Windows may ask:</p>
+<blockquote>
+<p><strong>Allow public and private networks to access this app?</strong></p>
+</blockquote>
+<ol>
+<li>Click <strong>Show more</strong>.</li>
+<li>Leave only <strong>Private networks</strong> ticked. Untick <strong>Public networks</strong>.</li>
+<li>Click <strong>Allow</strong>.</li>
+</ol>
+<p>Only the iPad / ForeFlight link uses the network, and only on your home network. If you click <strong>Cancel</strong>, everything except the iPad link still works, and you can fix it later from the iPad setup page (tray icon &gt; <strong>iPad setup…</strong>), which checks the Windows firewall and offers a one-click repair.</p>
+<h2 id="installing-by-hand">Installing by hand</h2>
+<p>Use <code>SR20RealismMod-1.0.0-manual.zip</code>.</p>
+<ol>
+<li>Close the sim.</li>
+<li>Unzip the file anywhere.</li>
+<li>Copy the folder <code>paulw-aircraft-sr20</code> from the zip's <code>Community2024</code> folder into your sim's <strong>Community2024</strong> folder:</li>
+</ol>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Sim version</th>
+<th>Community2024 folder</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Steam</td>
+<td><code>%APPDATA%\Microsoft Flight Simulator 2024\Packages\Community2024</code></td>
+</tr>
+<tr>
+<td>Microsoft Store</td>
+<td><code>%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalCache\Packages\Community2024</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>You can paste these paths into the address bar of File Explorer. If you moved your packages to another drive, open <code>UserCfg.opt</code> (in the folder one level above <code>Packages</code>, at the same two places), find the line <code>InstalledPackagesPath</code>, and use the <code>Community2024</code> folder under that path.</p>
+<p>Do not use the folder named <strong>Community</strong>. The sim treats packages there as MSFS 2020 add-ons and ignores the SR20.</p>
+<ol start="4">
+<li>Copy the <code>SR20Companion</code> folder anywhere you like, for example <code>C:\Games\SR20Companion</code>.</li>
+<li>Run <code>SR20Companion.exe</code> from that folder before you start the sim. If SmartScreen warns about an unknown program, click <strong>More info</strong>, then <strong>Run anyway</strong>. Answer the firewall prompt as described above.</li>
+<li>To start the Companion with Windows, right-click its icon by the clock and tick <strong>Start with Windows</strong>. You can also press <strong>Win+R</strong>, type <code>shell:startup</code>, and put a shortcut to <code>SR20Companion.exe</code> there.</li>
+<li>Start the sim and select the SR20.</li>
+</ol>
+<p>The Companion finds the aircraft by itself in the same places Setup looks: the <code>UserCfg.opt</code> path, then the default Steam and Store folders.</p>
+<p><strong>No RealSimGear yoke force feel wanted?</strong> Create the file <code>%LOCALAPPDATA%\SR20Companion\settings.json</code> with this content, then quit and restart the Companion:</p>
+<pre><code>{&quot;yoke_feel&quot;: false}
+</code></pre>
+<p>The installer does this for you when you untick the yoke component.</p>
+<h2 id="finding-the-aircraft-in-the-sim">Finding the aircraft in the sim</h2>
+<ol>
+<li>Start Microsoft Flight Simulator 2024. If it was running during the install, restart it: the sim reads the Community2024 folder only when it starts.</li>
+<li>Open the aircraft selection and look for <strong>Cirrus SR20 G6 (SR20 Realism Mod)</strong>. Its manufacturer is <strong>Cirrus</strong> and its type <strong>SR20 G6</strong>. The information line reads "SR20 Realism Mod 1.0.0 by wazooda".</li>
+<li>The stock SR22T stays in the list unchanged. The mod adds the SR20 beside it and does not modify any of the sim's own files.</li>
+</ol>
+<p>If you can't spot it, type <strong>SR20</strong> into the search box of the aircraft selection.</p>
+<p>If the SR20 is not in the list, see <a href="companion-troubleshooting.html#troubleshooting">Troubleshooting</a>.</p>
+<h2 id="first-flight-check-list">First flight check list</h2>
+<p>Use this once after installing to confirm that every part is working. Items marked (needs the Companion) only work with the SR20 Companion running.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Check</th>
+<th>What you should see</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The Companion's icon by the clock (it may be under the <strong>^</strong> arrow)</td>
+<td>A cyan disc with a white aircraft and a <strong>green</strong> dot. The tooltip reads "SR20 Companion: everything is working", with "(sim not running)" added while the sim is closed. Amber means it is still starting. Red means something needs attention.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The aircraft</td>
+<td><strong>Cirrus SR20 G6 (SR20 Realism Mod)</strong> loads with the SR22T's cockpit.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The sim's toolbar</td>
+<td>Two new panels: <strong>Instructor Station</strong> and <strong>SR20 Breakers</strong> (the circuit breaker panel).</td>
+</tr>
+<tr>
+<td>4</td>
+<td>The MFD engine page</td>
+<td>An SR20 page: four cylinders for CHT and EGT, no TIT, no oxygen or anti-ice items.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>TAWS self-test at avionics power-up (needs the Companion)</td>
+<td>The <strong>TAWS TEST</strong> annunciation on the PFD, left of the selected-altitude box, for about 15 seconds. Then a chime, and the annunciation clears. It must not stay on <strong>TAWS FAIL</strong> or <strong>TAWS N/A</strong>.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SafeTaxi on the ground</td>
+<td>On the MFD navigation map, zoomed in to 1.5 NM or less at the airport: taxiways with their names and hold-short lines. 50 airports are included. Any other airport is made on demand (needs the Companion); the MFD then shows "SurfaceWatch: loading ... airport map..." and "SurfaceWatch: ... airport map ready".</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SurfaceWatch on the runway</td>
+<td>The Information Box on the PFD with the runway you are on.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Glide range ring in flight (needs the Companion)</td>
+<td>A cyan ring around the aircraft on the MFD navigation map, the MFD flight plan page map and the PFD inset map, once you are above 1,050 ft AGL. It is not shown on the ground, and it goes away again below 1,000 ft AGL.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>iPad link (optional, needs the Companion)</td>
+<td>Tray icon &gt; <strong>iPad setup…</strong> opens the setup page "Send flight plans from your iPad" with two QR codes.</td>
+</tr>
+</tbody>
+</table></div>
+<p><img loading="lazy" alt="The circuit breaker panel beside the PFD" src="img/breakers.jpg" /></p>
+<p>Good to know on the first flight:</p>
+<ul>
+<li>The first time you fly in a new area, the Companion downloads the terrain for it. This needs an internet connection and takes a moment. Until the terrain is there, TAWS can show <strong>TAWS N/A</strong> and the glide ring is not drawn.</li>
+<li>The glide range ring is on by default, and the sim remembers your last choice. Its switch is in the MFD Map Settings, <strong>Map</strong> group, <strong>Glide Range Ring</strong>. The <strong>Fuel Range Ring</strong> in the same group is off by default.</li>
+<li>Do not reload the PFD or MFD in flight with the developer tools. It can break the CDI or drop autopilot modes. Restart the flight instead.</li>
+</ul>
+<h2 id="upgrading">Upgrading</h2>
+<p><strong>With the installer:</strong></p>
+<ol>
+<li>Close the sim.</li>
+<li>Run the new installer over the old one. You do not need to uninstall first, and you do not need to quit the Companion: Setup stops it and, with <strong>Start the SR20 Companion now</strong> ticked, starts the new one.</li>
+<li>Setup proposes the Community2024 folder you used last time. If you choose another folder, the copy in the old folder is removed so the sim does not list the SR20 twice.</li>
+</ol>
+<p>What is kept: the terrain cache, the iPad pairing, the logs and your Companion settings. What is not kept: airport maps the Companion made for airports outside the included 50. The new package starts clean, and those maps are made again the next time you fly there.</p>
+<p><strong>By hand:</strong></p>
+<ol>
+<li>Close the sim.</li>
+<li>Quit the Companion: right-click its tray icon &gt; <strong>Quit SR20 Companion</strong>.</li>
+<li>Replace both folders (<code>paulw-aircraft-sr20</code> in Community2024, and your <code>SR20Companion</code> folder) with the new ones. Delete the old folders first, do not merge.</li>
+<li>Start the Companion, then the sim.</li>
+</ol>
+<p>A change to the aircraft never shows in a sim that is already running. Restart the sim after every install or upgrade.</p>
+<h2 id="uninstalling">Uninstalling</h2>
+<p><strong>Installed with the installer:</strong></p>
+<ol>
+<li>Close the sim.</li>
+<li>Open Windows <strong>Settings &gt; Apps &gt; Installed apps &gt; SR20 Realism Mod &gt; Uninstall</strong>. The Start menu also has <strong>SR20 Realism Mod &gt; Uninstall SR20 Realism Mod</strong>.</li>
+<li>Confirm. The uninstaller stops the Companion by itself and then removes:
+   - the aircraft folder <code>paulw-aircraft-sr20</code> from the Community2024 folder you installed into, including any airport maps the Companion added to it, and a leftover <code>paulw-aircraft-sr20.sr20-backup</code> folder
+   - the program folder <code>%LOCALAPPDATA%\Programs\SR20 Companion</code>
+   - the Start-menu shortcuts and the Startup shortcut</li>
+<li>At the end it asks:</li>
+</ol>
+<blockquote>
+<p>Also delete the SR20 Companion's saved data (terrain cache, logs, iPad pairing, settings)?</p>
+</blockquote>
+<p>followed by the two data folders, <code>%LOCALAPPDATA%\SR20Companion</code> and <code>%LOCALAPPDATA%\SR20Glide</code>. The default answer is <strong>No</strong>. Click <strong>Yes</strong> to remove everything, or <strong>No</strong> to keep the data for a later re-install. The question does not appear if neither folder exists.</p>
+<p>Messages that stop the uninstaller:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Message</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Microsoft Flight Simulator 2024 is running. Close the sim, then uninstall again."</td>
+<td>Close the sim and uninstall again.</td>
+</tr>
+<tr>
+<td>"The SR20 Companion is still running. Right-click its icon by the clock, choose Quit SR20 Companion, then uninstall again."</td>
+<td>Quit the Companion from its tray icon and uninstall again.</td>
+</tr>
+<tr>
+<td>"... is now a link to another folder (a development copy). Remove the link, then uninstall."</td>
+<td>Normal users never see this. Delete the link, then uninstall.</td>
+</tr>
+<tr>
+<td>"The SR20 aircraft was not removed: ... Afterwards delete ... yourself."</td>
+<td>The sim or the Companion was started while the uninstaller was waiting for your confirmation. The rest was removed. Close the sim or the Companion, then delete the named aircraft folder by hand.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The firewall entry Windows keeps.</strong> If you answered the firewall prompt, Windows made its own entry for the Companion. A per-user uninstall cannot remove it. It is harmless once the program is gone. To remove it: <strong>Windows Security &gt; Firewall &amp; network protection &gt; Allow an app through firewall</strong>, click <strong>Change settings</strong> (this asks for administrator rights), select <strong>sr20companion</strong>, then <strong>Remove</strong>. If you used the iPad setup page's firewall repair, it also made two rules named "SR20 Companion - iPad flight plans (TCP 47823)" and "SR20 Companion - ForeFlight discovery (UDP 63093)". Remove those in <strong>Windows Defender Firewall with Advanced Security &gt; Inbound Rules</strong> (administrator rights needed).</p>
+<p><strong>Installed by hand:</strong></p>
+<ol>
+<li>Close the sim.</li>
+<li>Quit the Companion: tray icon &gt; <strong>Quit SR20 Companion</strong>.</li>
+<li>Delete <code>paulw-aircraft-sr20</code> from Community2024 and delete your <code>SR20Companion</code> folder.</li>
+<li>Delete the Startup shortcut if you made one (<strong>Win+R</strong>, <code>shell:startup</code>), or untick <strong>Start with Windows</strong> in the tray menu before you quit.</li>
+<li>To remove the saved data too, delete <code>%LOCALAPPDATA%\SR20Companion</code> and <code>%LOCALAPPDATA%\SR20Glide</code>.</li>
+<li>Remove the firewall entry as described above if you want.</li>
+</ol>
+<h2 id="where-things-are-installed">Where things are installed</h2>
+<p>Everything is per user. Nothing is written to <code>Program Files</code>, and the sim's own files are never changed.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The aircraft</td>
+<td><code>&lt;Community2024&gt;\paulw-aircraft-sr20</code></td>
+<td>Steam: <code>%APPDATA%\Microsoft Flight Simulator 2024\Packages\Community2024</code>. Microsoft Store: <code>%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalCache\Packages\Community2024</code>. The Companion adds on-demand airport maps to this folder.</td>
+</tr>
+<tr>
+<td>The Companion program</td>
+<td><code>%LOCALAPPDATA%\Programs\SR20 Companion</code></td>
+<td><code>SR20Companion.exe</code>, plus a <code>docs</code> folder with the read-me and licences. With a hand install: wherever you copied the <code>SR20Companion</code> folder.</td>
+</tr>
+<tr>
+<td>Companion settings, logs, iPad pairing, taxiway-name cache</td>
+<td><code>%LOCALAPPDATA%\SR20Companion</code></td>
+<td><code>settings.json</code>, <code>logs\</code>, <code>data\</code>. Kept on upgrade.</td>
+</tr>
+<tr>
+<td>Terrain cache</td>
+<td><code>%LOCALAPPDATA%\SR20Glide\tiles</code></td>
+<td>Downloaded terrain tiles, at most 2 GB. Kept on upgrade. Safe to delete: tiles come back on demand.</td>
+</tr>
+<tr>
+<td>Start menu</td>
+<td><strong>SR20 Realism Mod</strong></td>
+<td><strong>SR20 Companion</strong>, <strong>SR20 iPad setup</strong>, <strong>Read me</strong>, <strong>Uninstall SR20 Realism Mod</strong>. With <strong>Aircraft only</strong>: <strong>Read me</strong> and <strong>Uninstall SR20 Realism Mod</strong>.</td>
+</tr>
+<tr>
+<td>Startup shortcut</td>
+<td>Your Startup folder (<code>shell:startup</code>), "SR20 Companion"</td>
+<td>Only with <strong>Start with Windows</strong> on.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="quick-reference">Quick reference</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Where</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Install</td>
+<td><code>SR20RealismMod-Setup-1.0.0.exe</code></td>
+<td>Close the sim, run it, keep the defaults.</td>
+</tr>
+<tr>
+<td>SmartScreen "Windows protected your PC"</td>
+<td>Windows</td>
+<td><strong>More info</strong>, then <strong>Run anyway</strong>.</td>
+</tr>
+<tr>
+<td>Installer blocked outright (Smart App Control)</td>
+<td>Manual-install zip</td>
+<td>Install by hand.</td>
+</tr>
+<tr>
+<td>Choose the sim folder</td>
+<td>Setup page "Where is MSFS 2024?"</td>
+<td><strong>Community2024</strong>, never Community. <strong>Browse</strong> to change it.</td>
+</tr>
+<tr>
+<td>Firewall prompt "Allow public and private networks to access this app?"</td>
+<td>Windows</td>
+<td><strong>Show more</strong>, leave only <strong>Private networks</strong> ticked, <strong>Allow</strong>.</td>
+</tr>
+<tr>
+<td>Install by hand</td>
+<td>Manual-install zip</td>
+<td>Copy <code>paulw-aircraft-sr20</code> into <strong>Community2024</strong> (not Community), copy <code>SR20Companion</code> anywhere, run <code>SR20Companion.exe</code>.</td>
+</tr>
+<tr>
+<td>Turn off the yoke feel (hand install)</td>
+<td><code>%LOCALAPPDATA%\SR20Companion\settings.json</code></td>
+<td><code>{"yoke_feel": false}</code>, then restart the Companion.</td>
+</tr>
+<tr>
+<td>Find the aircraft</td>
+<td>Sim aircraft selection</td>
+<td><strong>Cirrus SR20 G6 (SR20 Realism Mod)</strong>. Restart the sim after installing.</td>
+</tr>
+<tr>
+<td>Check the Companion</td>
+<td>Icon by the clock</td>
+<td>Green dot: working. Amber: starting. Red: needs attention.</td>
+</tr>
+<tr>
+<td>Check the panels</td>
+<td>Sim toolbar</td>
+<td><strong>Instructor Station</strong> and <strong>SR20 Breakers</strong>.</td>
+</tr>
+<tr>
+<td>Upgrade</td>
+<td>New installer</td>
+<td>Close the sim and run it over the old install.</td>
+</tr>
+<tr>
+<td>Uninstall</td>
+<td>Windows Settings &gt; Apps &gt; Installed apps &gt; SR20 Realism Mod</td>
+<td><strong>Uninstall</strong>. Answer the question about saved data.</td>
+</tr>
+<tr>
+<td>Remove the firewall entry</td>
+<td>Windows Security &gt; Firewall &amp; network protection &gt; Allow an app through firewall</td>
+<td><strong>Change settings</strong>, select <strong>sr20companion</strong>, <strong>Remove</strong>.</td>
+</tr>
+<tr>
+<td>Read-me and licences</td>
+<td>Start menu &gt; SR20 Realism Mod &gt; <strong>Read me</strong></td>
+<td>Opens <code>README.txt</code>.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="pager"><span><a href="index.html">&larr; SR20 Realism Mod: user manual</a></span><span><a href="aircraft-systems.html">Aircraft and systems &rarr;</a></span></div>
+<footer>SR20 Realism Mod 1.0.0 by wazooda. Not affiliated with or endorsed by Cirrus Aircraft, Garmin, ForeFlight,
+RealSimGear, Microsoft or Asobo. For flight simulation only: not for real-world flight training or operations.</footer>
+</main></div><script src="nav.js"></script></body></html>

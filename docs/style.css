@@ -1,0 +1,51 @@
+
+:root{--bg:#f7f8fa;--panel:#fff;--ink:#1b2430;--muted:#5b6777;--line:#dfe3ea;--accent:#0b6fb8;--accent-ink:#fff;
+--code:#eef1f5;--warn:#fff6dd;--warn-line:#e2b93b;--th:#eef2f7;--nav:#fbfcfd}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161c;--panel:#181d25;--ink:#e4e9f0;
+--muted:#9aa6b6;--line:#2a323e;--accent:#5fb6f2;--accent-ink:#06121c;--code:#222a35;--warn:#2e2814;
+--warn-line:#a8842a;--th:#1f2630;--nav:#151a21}}
+:root[data-theme="dark"]{--bg:#12161c;--panel:#181d25;--ink:#e4e9f0;--muted:#9aa6b6;--line:#2a323e;--accent:#5fb6f2;
+--accent-ink:#06121c;--code:#222a35;--warn:#2e2814;--warn-line:#a8842a;--th:#1f2630;--nav:#151a21}
+*{box-sizing:border-box}
+html{scroll-padding-top:16px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif}
+a{color:var(--accent)}
+.wrap{display:flex;min-height:100vh}
+nav.side{width:300px;flex:0 0 300px;background:var(--nav);border-right:1px solid var(--line);padding:20px 16px;
+position:sticky;top:0;height:100vh;overflow:auto}
+nav.side .brand{font-weight:700;font-size:18px;margin:0 0 2px}
+nav.side .ver{color:var(--muted);font-size:13px;margin:0 0 14px}
+nav.side input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);
+color:var(--ink);font:inherit;font-size:14px;margin-bottom:12px}
+nav.side ul{list-style:none;margin:0;padding:0}
+nav.side li.page>a{display:block;padding:6px 8px;border-radius:6px;text-decoration:none;color:var(--ink);font-weight:600}
+nav.side li.page.cur>a{background:var(--accent);color:var(--accent-ink)}
+nav.side ul.secs{margin:2px 0 8px 10px;border-left:2px solid var(--line)}
+nav.side ul.secs a{display:block;padding:3px 10px;text-decoration:none;color:var(--muted);font-size:14px}
+nav.side ul.secs a:hover,nav.side li.page>a:hover{color:var(--accent)}
+nav.side li.page.cur>a:hover{color:var(--accent-ink)}
+nav.side .hide{display:none}
+main{flex:1;min-width:0;padding:28px 40px 60px;max-width:1000px;overflow-wrap:break-word}
+main p,main li,main td{overflow-wrap:anywhere}
+main h1{font-size:32px;line-height:1.2;margin:0 0 12px}
+main h2{font-size:24px;margin:44px 0 10px;padding-top:14px;border-top:1px solid var(--line)}
+main h3{font-size:18px;margin:26px 0 6px}
+main h4{font-size:16px;margin:18px 0 4px}
+main img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:6px;display:block;margin:14px 0}
+main code{background:var(--code);padding:1px 5px;border-radius:4px;font:14px Consolas,"Cascadia Mono",monospace}
+main pre{background:var(--code);padding:12px 14px;border-radius:6px;overflow:auto}
+main pre code{padding:0;background:none}
+.tw{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:15px;background:var(--panel)}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--th)}
+blockquote{margin:14px 0;padding:10px 14px;background:var(--warn);border-left:4px solid var(--warn-line);border-radius:4px}
+blockquote p{margin:4px 0}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.pager a{text-decoration:none;font-weight:600}
+footer{color:var(--muted);font-size:13px;margin-top:28px}
+.top{display:none}
+@media (max-width:860px){.wrap{display:block}nav.side{position:static;width:auto;height:auto;border-right:0;
+border-bottom:1px solid var(--line);padding:12px 16px}nav.side ul.secs{display:none}main{padding:18px 16px 48px}
+main h1{font-size:26px}}
+@media print{nav.side,.pager{display:none}main{max-width:none;padding:0}}
