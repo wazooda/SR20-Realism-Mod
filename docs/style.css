@@ -41,6 +41,11 @@ th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-ali
 th{background:var(--th)}
 blockquote{margin:14px 0;padding:10px 14px;background:var(--warn);border-left:4px solid var(--warn-line);border-radius:4px}
 blockquote p{margin:4px 0}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin:14px 0 18px}
+.shots figure{margin:0}
+.shots img{margin:0;width:100%;cursor:zoom-in}
+.shots figcaption{font-size:13px;color:var(--muted);line-height:1.4;margin-top:5px}
+.shots.wide{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
 .pager{display:flex;justify-content:space-between;gap:12px;margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 .pager a{text-decoration:none;font-weight:600}
 footer{color:var(--muted);font-size:13px;margin-top:28px}
